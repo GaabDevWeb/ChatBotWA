@@ -1,0 +1,48 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Arquivos de sessão do WhatsApp
+tokens/
+*.session
+
+# Autenticação Baileys
+auth_info_baileys/
+*.creds.json
+
+# Logs
+logs/
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de ambiente (CRÍTICO - NUNCA COMMITAR)
+.env
+.env.*
+!.env.example
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de backup (exceto logs de backup)
+database/backups/*/
+!database/backups/backup_log.json
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Arquivos sensíveis
+*.key
+*.pem
+*.p12
+config/secrets.json
