@@ -19,7 +19,6 @@ const performanceMonitor = require('./performance');
 const messageQueue = require('./queue');
 const logger = require('./logger');
 const backupManager = require('./backup');
-const { aiConfigManager } = require('./aiConfig');
 const { pluginSystem } = require('./pluginSystem');
 const commandBus = require('./commands/commandBus');
 const aiAdmin = require('./commands/admin/ai');
@@ -37,7 +36,6 @@ function isAdmin(number) {
 
 // Registra comandos de administrador no Command Bus
 aiAdmin.register(commandBus, {
-    aiConfigManager,
     pluginSystem,
     getSystemStats: require('./openai').getSystemStats,
     clearCache: require('./openai').clearCache

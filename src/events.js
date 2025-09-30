@@ -79,7 +79,27 @@ class BaileysEventManager extends EventEmitter {
             const { messages, type } = messageUpdate;
             
             for (const message of messages) {
-                // Emite evento compatível com venom-bot
+                // Verificar se é mensagem de grupo e ignorar
+                const isGroupMsg = message.key.remoteJid?.includes('@g.us') || false;
+                
+                if (isGroupMsg) {
+                    logger.debug('Mensagem de grupo ignorada', { 
+                        from: message.key.remoteJid,
+                        type: type 
+                    });
+                    continue; // Pula para próxima mensagem sem processar
+                }
+
+                // Verificar se é mensagem do próprio bot e ignorar
+                if (message.key.fromMe) {
+                    logger.debug('Mensagem do próprio bot ignorada', { 
+                        from: message.key.remoteJid,
+                        type: type 
+                    });
+                    continue; // Pula para próxima mensagem sem processar
+                }
+
+                // Emite evento compatível com venom-bot apenas para mensagens privadas
                 this.emit('message', {
                     id: message.key.id,
                     from: message.key.remoteJid,
@@ -89,7 +109,7 @@ class BaileysEventManager extends EventEmitter {
                     type: type,
                     timestamp: message.messageTimestamp,
                     fromMe: message.key.fromMe,
-                    isGroupMsg: message.key.remoteJid?.includes('@g.us') || false,
+                    isGroupMsg: false, // Sempre false aqui pois grupos são filtrados acima
                     author: message.key.participant || message.key.remoteJid,
                     quotedMsg: message.message?.extendedTextMessage?.contextInfo?.quotedMessage,
                     mentionedJidList: message.message?.extendedTextMessage?.contextInfo?.mentionedJid || [],
@@ -161,10 +181,8 @@ class BaileysEventManager extends EventEmitter {
      */
     handleGroupsUpdate(groups) {
         try {
-            for (const group of groups) {
-                this.emit('group.update', group);
-            }
-            logger.debug('Evento de grupos processado', { count: groups.length });
+            // Apenas registra o evento sem emitir para o bot
+            logger.debug('Evento de grupos ignorado', { count: groups.length });
         } catch (error) {
             logger.error('Erro ao processar evento de grupos', { error: error.message });
         }
@@ -176,8 +194,8 @@ class BaileysEventManager extends EventEmitter {
      */
     handleGroupParticipantsUpdate(participants) {
         try {
-            this.emit('group.participants.update', participants);
-            logger.debug('Evento de participantes de grupo processado', { 
+            // Apenas registra o evento sem emitir para o bot
+            logger.debug('Evento de participantes de grupo ignorado', { 
                 group: participants.id,
                 action: participants.action 
             });

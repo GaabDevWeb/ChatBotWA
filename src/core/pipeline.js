@@ -17,11 +17,11 @@ const clientsRepo = require('../repositories/clientsRepo');
 async function run(userNumber, rawText) {
   const text = typeof rawText === 'string' ? rawText : (rawText?.type === 'Buffer' ? Buffer.from(rawText.data).toString('utf-8') : String(rawText ?? ''));
 
-  // Busca cliente e histórico em paralelo
-  const [cliente, historico] = await Promise.all([
-    clientsRepo.getOrCreate(userNumber),
-    historyRepo.getRecent(userNumber, 50),
-  ]);
+  // Garante que o cliente existe primeiro
+  const cliente = await clientsRepo.getOrCreate(userNumber);
+  
+  // Depois busca o histórico
+  const historico = await historyRepo.getRecent(userNumber, 50);
 
   // Gera resposta usando motor de IA existente (com hooks internos)
   const resposta = await handleMessage(historico, text, cliente?.id || null);

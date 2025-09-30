@@ -11,7 +11,7 @@ class MessageQueue extends EventEmitter {
 
         // Buffer por cliente: { messages: string[], timer: NodeJS.Timeout, lastAt: number }
         this.buffers = new Map(); // key: from, value: bufferEntry
-        this.BUFFER_MS = 15000; // 15 segundos
+        this.BUFFER_MS = 5000; // 5 segundos
     }
 
     // Enfileira um item pronto para processamento imediato (já combinado)

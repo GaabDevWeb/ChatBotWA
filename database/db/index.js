@@ -75,7 +75,9 @@ function adicionarMensagem(clienteId, mensagem, role) {
 
 function _resolveClienteId(identifier, cb) {
   if (typeof identifier === 'number') return cb(null, identifier);
-  if (typeof identifier === 'string' && /^\d+@c\.us$/.test(identifier)) {
+  
+  // Aceita formato @c.us (venom-bot) e @s.whatsapp.net (baileys)
+  if (typeof identifier === 'string' && /^\d+@(c\.us|s\.whatsapp\.net)$/.test(identifier)) {
     db.get('SELECT id FROM clientes WHERE numero = ?', [identifier], (err, row) => {
       if (err) return cb(err);
       if (!row) return cb(new Error('Cliente não encontrado'));

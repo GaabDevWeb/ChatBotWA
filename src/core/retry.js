@@ -29,7 +29,18 @@ async function execute(operation, options = {}) {
       if (options.onError) options.onError(err, attempt);
       const tryAgain = attempt < retries - 1 && shouldRetry(err, attempt);
       if (tryAgain) {
-        const delay = Math.pow(factor, attempt) * baseDelayMs;
+        // Backoff especial para rate limiting (429)
+        const isRateLimit = err?.response?.status === 429;
+        let delay;
+        
+        if (isRateLimit) {
+          // Para rate limiting, usar backoff mais agressivo
+          delay = Math.pow(factor, attempt + 1) * baseDelayMs * 2.5;
+        } else {
+          // Backoff normal para outros erros
+          delay = Math.pow(factor, attempt) * baseDelayMs;
+        }
+        
         await sleep(delay);
       }
     }

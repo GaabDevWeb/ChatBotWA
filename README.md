@@ -17,7 +17,7 @@ Um bot de WhatsApp inteligente, robusto e otimizado, que utiliza IA para respond
 
 - [Node.js](https://nodejs.org/) (versão 18 ou superior)
 - NPM ou Yarn
-- Conta no [OpenRouter](https://openrouter.ai) para acessar a API de IA
+- Conta no [Google AI Studio](https://aistudio.google.com) para acessar a API do Gemini
 
 ## Instalação
 
@@ -35,9 +35,9 @@ npm install
 
 3. Configure suas chaves de API:
 
-**No arquivo `src/openai.js`:**
-```javascript
-const OPENROUTER_API_KEY = 'sua-chave-openrouter-aqui';
+**No arquivo `.env`:**
+```env
+GEMINI_API_KEY=sua-chave-gemini-aqui
 ```
 
 ## Migração do Venom-Bot para Baileys
@@ -63,7 +63,7 @@ Este projeto foi migrado do `venom-bot` para `@whiskeysockets/baileys` para melh
 ## Funcionalidades Principais
 
 ### **IA e Respostas**
-- **Respostas inteligentes com IA** (DeepSeek Chat via OpenRouter)
+- **Respostas inteligentes com IA** (Google Gemini 2.0 Flash)
 - **Simulação de digitação humana otimizada** (respostas mais naturais e rápidas)
 - **Personalização de respostas baseada no contexto da conversa**
 
@@ -176,7 +176,7 @@ OrbitBot/
 │   ├── backup.js                # Sistema de backup avançado
 │   ├── bot.js                   # Lógica principal do bot
 │   ├── humanizer.js             # Simulação de digitação humana
-│   ├── openai.js                # Integração com IA (OpenRouter)
+│   ├── openai.js                # Integração com IA (Google Gemini)
 │   ├── performance.js           # Monitoramento e métricas
 │   ├── queue.js                 # Sistema de filas para mensagens
 │   ├── logger.js                # Sistema de logs otimizado
