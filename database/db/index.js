@@ -91,16 +91,18 @@ function adicionarMensagem(clienteId, mensagem, role) {
 function _resolveClienteId(identifier, cb) {
   if (typeof identifier === 'number') return cb(null, identifier);
   
-  // Aceita formato @c.us (venom-bot) e @s.whatsapp.net (baileys)
-  if (typeof identifier === 'string' && /^\d+@(c\.us|s\.whatsapp\.net)$/.test(identifier)) {
+  // Identificadores como string: aceita IDs numéricos ou procura pelo campo numero
+  if (typeof identifier === 'string') {
+    if (/^\d+$/.test(identifier)) {
+      // string numérica simples -> interpreta como ID
+      return cb(null, parseInt(identifier, 10));
+    }
+    // Qualquer outra string: procurar pelo campo numero
     db.get('SELECT id FROM clientes WHERE numero = ?', [identifier], (err, row) => {
       if (err) return cb(err);
       if (!row) return cb(new Error('Cliente não encontrado'));
       cb(null, row.id);
     });
-  } else if (typeof identifier === 'string' && /^\d+$/.test(identifier)) {
-    // string numérica simples -> interpreta como ID
-    return cb(null, parseInt(identifier, 10));
   } else {
     return cb(new Error('Identificador de cliente inválido'));
   }

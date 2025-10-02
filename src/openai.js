@@ -75,18 +75,9 @@ async function handleMessage(historico, userMessage, userId = null) {
                 if (apenasDigitos.length >= 3) {
                     tentativa = roteamentoService.resolverPorCEP(apenasDigitos);
                 }
-                // Se não encontrou por CEP, tenta por cidade/cidades atendidas presentes no texto
+                // Se não encontrou por CEP, tenta resolver por cidade/frase
                 if (!tentativa) {
-                    const textoNorm = roteamentoService.normalizarCidade(texto);
-                    for (const f of roteamentoService.listarFiliais()) {
-                        const nomesCidades = [f.cidade, ...(Array.isArray(f.cidades_atendidas) ? f.cidades_atendidas : [])]
-                            .filter(Boolean)
-                            .map((c) => roteamentoService.normalizarCidade(c));
-                        if (nomesCidades.some((nome) => textoNorm.includes(nome))) {
-                            tentativa = f;
-                            break;
-                        }
-                    }
+                    tentativa = roteamentoService.resolverPorCidade(texto);
                 }
                 if (tentativa) {
                     filialAtual = tentativa;
@@ -94,7 +85,14 @@ async function handleMessage(historico, userMessage, userId = null) {
                         await clientsRepo.atualizarFilial(userId, tentativa);
                         logger.info('Filial associada ao cliente via mensagem (SQLite)', { userId, filial: tentativa?.nome || tentativa?.cidade });
                     } catch (err2) {
-                        logger.error('Falha ao salvar filial no SQLite', { error: err2.message, userId });
+                        // Fallback: cria cliente e tenta novamente
+                        try {
+                            await clientsRepo.getOrCreate(userId);
+                            await clientsRepo.atualizarFilial(userId, tentativa);
+                            logger.info('Filial salva após criar cliente (SQLite)', { userId, filial: tentativa?.nome || tentativa?.cidade });
+                        } catch (err3) {
+                            logger.error('Falha ao salvar filial no SQLite mesmo após criar cliente', { error: err3.message, userId });
+                        }
                     }
                 }
             }

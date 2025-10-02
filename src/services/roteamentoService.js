@@ -24,12 +24,23 @@ class RoteamentoService {
     return this.filiais;
   }
 
+  // Normaliza termos removendo acentos, pontuação e espaços extras
   normalizarCidade(texto) {
     return String(texto || '')
       .normalize('NFD')
       .replace(/\p{Diacritic}/gu, '')
       .toLowerCase()
+      .replace(/[^\p{L}\p{N}\s]/gu, ' ') // remove pontuação, barras, hífens etc.
+      .replace(/\s+/g, ' ')
       .trim();
+  }
+
+  // Remove siglas de UF quando estiverem presentes como tokens separados
+  removerUF(textoNorm) {
+    const ufs = ['ac','al','ap','am','ba','ce','df','es','go','ma','mt','ms','mg','pa','pb','pr','pe','pi','rj','rn','rs','ro','rr','sc','sp','se','to'];
+    const tokens = String(textoNorm || '').split(' ').filter(Boolean);
+    const filtrados = tokens.filter(t => !ufs.includes(t));
+    return filtrados.join(' ').trim();
   }
 
   // Extrai prefixo de CEP (primeiros 3 dígitos) para mapear por área
@@ -39,18 +50,35 @@ class RoteamentoService {
     return apenasDigitos.slice(0, 3);
   }
 
-  resolverPorCidade(cidade) {
-    const nCidade = this.normalizarCidade(cidade);
-    if (!nCidade) return null;
+  resolverPorCidade(cidadeOuFrase) {
+    // Normaliza texto do usuário e remove UF se houver
+    const textoNorm = this.normalizarCidade(cidadeOuFrase);
+    if (!textoNorm) return null;
+    const nCidade = this.removerUF(textoNorm);
 
-    // Procura em campo cidade e na lista de cidades atendidas
+    // Procura primeiro por igualdade exata com cidade da filial ou cidades atendidas
     for (const f of this.filiais) {
-      const cidadeFilial = this.normalizarCidade(f.cidade);
-      const atende = Array.isArray(f.cidades_atendidas) ? f.cidades_atendidas.map(c => this.normalizarCidade(c)) : [];
-      if (cidadeFilial === nCidade || atende.includes(nCidade)) {
+      const cidadeFilial = this.removerUF(this.normalizarCidade(f.cidade));
+      const atendidasNorm = Array.isArray(f.cidades_atendidas)
+        ? f.cidades_atendidas.map(c => this.removerUF(this.normalizarCidade(c)))
+        : [];
+
+      if (cidadeFilial === nCidade || atendidasNorm.includes(nCidade)) {
         return f;
       }
     }
+
+    // Se não achou por igualdade, tenta encontrar cidade presente dentro da frase do usuário
+    for (const f of this.filiais) {
+      const candidatos = [f.cidade, ...(Array.isArray(f.cidades_atendidas) ? f.cidades_atendidas : [])]
+        .filter(Boolean)
+        .map(c => this.removerUF(this.normalizarCidade(c)))
+        .filter(Boolean);
+      if (candidatos.some(nome => nCidade.includes(nome))) {
+        return f;
+      }
+    }
+
     return null;
   }
 
