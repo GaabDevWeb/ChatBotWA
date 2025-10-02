@@ -1,0 +1,7085 @@
+[
+  {
+    "nome": "Ampére",
+    "cidade": "Ampére",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: Davi Capellari 114, Bairro: Rude Jose Spanhol",
+    "cidades_atendidas": [
+      "Ampére / PR",
+      "Bela Vista da Caroba / PR",
+      "Bom Jesus do Sul / PR",
+      "Capanema / PR",
+      "Capitão Leônidas Marques / PR",
+      "Pérola d'Oeste / PR",
+      "Pinhal de São Bento / PR",
+      "Planalto / PR",
+      "Pranchita / PR",
+      "Realeza / PR",
+      "Santa Izabel do Oeste / PR",
+      "Santa Lúcia / PR",
+      "Santo Antônio do Sudoeste / PR"
+    ],
+    "telefones": [
+      "(46) 3547-3445"
+    ],
+    "email": "ampere@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Apucarana",
+    "cidade": "Apucarana",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Minas Gerais, n° 3943, Bairro Adriana Correa",
+    "cidades_atendidas": [
+      "Apucarana / PR",
+      "Arapuã / PR",
+      "Ariranha do Ivaí / PR",
+      "Bom Sucesso / PR",
+      "Borrazópolis / PR",
+      "Califórnia / PR",
+      "Cambira / PR",
+      "Cruzmaltina / PR",
+      "Faxinal / PR",
+      "Godoy Moreira / PR",
+      "Grandes Rios / PR",
+      "Ivaiporã / PR",
+      "Jandaia do Sul / PR",
+      "Jardim Alegre / PR",
+      "Kaloré / PR",
+      "Lidianópolis / PR",
+      "Lunardelli / PR",
+      "Mandaguari / PR",
+      "Marilândia do Sul / PR",
+      "Marumbi / PR",
+      "Mauá da Serra / PR",
+      "Novo Itacolomi / PR",
+      "Rio Bom / PR",
+      "Rio Branco do Ivaí / PR",
+      "Rosário do Ivaí / PR",
+      "São João do Ivaí / PR",
+      "São Pedro do Ivaí / PR"
+    ],
+    "telefones": [
+      "(43) 3422-3363"
+    ],
+    "email": "apucarana@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Arapongas",
+    "cidade": "Arapongas",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: faisão 1057, Bairro: vila Sampaio",
+    "cidades_atendidas": [
+      "Arapongas / PR",
+      "Astorga / PR",
+      "Pitangueiras / PR",
+      "Sabáudia / PR"
+    ],
+    "telefones": [
+      "(43) 3252-7599"
+    ],
+    "email": "arapongas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Campo Mourão",
+    "cidade": "Campo Mourão",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Estefano Domanski, 3777 - B. Jardim Santa Cruz",
+    "cidades_atendidas": [
+      "Araruna / PR",
+      "Barbosa Ferraz / PR",
+      "Boa Esperança / PR",
+      "Campo Mourão / PR",
+      "Corumbataí do Sul / PR",
+      "Engenheiro Beltrão / PR",
+      "Farol / PR",
+      "Fênix / PR",
+      "Goioerê / PR",
+      "Iretama / PR",
+      "Janiópolis / PR",
+      "Juranda / PR",
+      "Luiziana / PR",
+      "Mamborê / PR",
+      "Nova Tebas / PR",
+      "Peabiru / PR",
+      "Quarto Centenário / PR",
+      "Quinta do Sol / PR",
+      "Rancho Alegre d'Oeste / PR",
+      "Roncador / PR"
+    ],
+    "telefones": [
+      "(44) 99924-0072"
+    ],
+    "email": "campomourao@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Cascavel",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av.: Araci tanaka biazetto, 9930, Bairro: Parque São Paulo",
+    "cidades_atendidas": [
+      "Altamira do Paraná / PR",
+      "Anahy / PR",
+      "Braganey / PR",
+      "Cafelândia / PR",
+      "Campina da Lagoa / PR",
+      "Cascavel / PR",
+      "Corbélia / PR",
+      "Iguatu / PR",
+      "Lindoeste / PR",
+      "Nova Aurora / PR",
+      "Nova Cantu / PR",
+      "Santa Tereza do Oeste / PR",
+      "Ubiratã / PR"
+    ],
+    "telefones": [
+      "(45) 3228-1071"
+    ],
+    "email": "cascavel@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Curitiba",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR-116, Km 15, 26929, B. Campo do Santana",
+    "cidades_atendidas": [
+      "Adrianópolis / PR",
+      "Almirante Tamandaré / PR",
+      "Antonina / PR",
+      "Araucária / PR",
+      "Balsa Nova / PR",
+      "Bocaiúva do Sul / PR",
+      "Campina Grande do Sul / PR",
+      "Campo do Tenente / PR",
+      "Campo Largo / PR",
+      "Campo Magro / PR",
+      "Cerro Azul / PR",
+      "Colombo / PR",
+      "Contenda / PR",
+      "Curitiba / PR",
+      "Doutor Ulysses / PR",
+      "Fazenda Rio Grande / PR",
+      "Guaratuba / PR",
+      "Itaperuçu / PR",
+      "Lapa / PR",
+      "Mandirituba / PR",
+      "Matinhos / PR",
+      "Morretes / PR",
+      "Paranaguá / PR",
+      "Pinhais / PR",
+      "Piraquara / PR",
+      "Pontal do Paraná / PR",
+      "Quatro Barras / PR",
+      "Quitandinha / PR",
+      "Rio Branco do Sul / PR",
+      "Rio Negro / PR",
+      "São José Dos Pinhais / PR",
+      "Tunas do Paraná / PR",
+      "Bela Vista do Toldo / SC",
+      "Canoinhas / SC",
+      "Itaiópolis / SC",
+      "Mafra / SC",
+      "Major Vieira / SC",
+      "Monte Castelo / SC",
+      "Papanduva / SC",
+      "Três Barras / SC"
+    ],
+    "telefones": [
+      "(41) 3268-7932"
+    ],
+    "email": "curitiba@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "cidade": "Dois Vizinhos",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: Ivanir Araldi 305, Bairro: Pq. Industrial Araldi",
+    "cidades_atendidas": [
+      "Boa Esperança do Iguaçu / PR",
+      "Cruzeiro do Iguaçu / PR",
+      "Dois Vizinhos / PR",
+      "Nova Prata do Iguaçu / PR",
+      "Salto do Lontra / PR",
+      "São Jorge D'Oeste / PR",
+      "Verê / PR"
+    ],
+    "telefones": [
+      "(46) 3010-1479"
+    ],
+    "email": "doisvizinhos@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. Ranieri Mazilli, 418 B. Parque Presidente",
+    "cidades_atendidas": [
+      "Foz Do Iguaçu / PR",
+      "Santa Terezinha de Itaipu / PR"
+    ],
+    "telefones": [
+      "(45) 3573-7454"
+    ],
+    "email": "fozdoiguacu@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "cidade": "Francisco Beltrão",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Carolina Zanette Marcello, 106 B. Luther King",
+    "cidades_atendidas": [
+      "Enéas Marques / PR",
+      "Francisco Beltrão / PR",
+      "Manfrinópolis / PR",
+      "Marmeleiro / PR",
+      "Nova Esperança do Sudoeste / PR",
+      "Renascença / PR"
+    ],
+    "telefones": [
+      "(46) 3523-3072"
+    ],
+    "email": "franciscobeltrao@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Guarapuava",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Inácio Martins 140, Bairro Industrial",
+    "cidades_atendidas": [
+      "Boa Ventura de São Roque / PR",
+      "Campina do Simão / PR",
+      "Cândido de Abreu / PR",
+      "Candói / PR",
+      "Foz do Jordão / PR",
+      "Goioxim / PR",
+      "Guarapuava / PR",
+      "Manoel Ribas / PR",
+      "Mato Rico / PR",
+      "Pinhão / PR",
+      "Pitanga / PR",
+      "Reserva do Iguaçu / PR",
+      "Santa Maria do Oeste / PR",
+      "Turvo / PR"
+    ],
+    "telefones": [
+      "(42) 3622-5757"
+    ],
+    "email": "guarapuava@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Irati",
+    "cidade": "Irati",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 277 Km 243,5, Serra dos Nogueiras",
+    "cidades_atendidas": [
+      "Fernandes Pinheiro / PR",
+      "Guamiranga / PR",
+      "Imbituva / PR",
+      "Inácio Martins / PR",
+      "Irati / PR",
+      "Ivaí / PR",
+      "Mallet / PR",
+      "Paulo Frontin / PR",
+      "Prudentópolis / PR",
+      "Rebouças / PR",
+      "Rio Azul / PR",
+      "Teixeira Soares / PR"
+    ],
+    "telefones": [
+      "(42) 99837-6073"
+    ],
+    "email": "irati@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Jaguariaíva",
+    "cidade": "Jaguariaíva",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. BNH, 501 - Vila Kennedy",
+    "cidades_atendidas": [
+      "Arapoti / PR",
+      "Jaguariaíva / PR",
+      "São José da Boa Vista / PR",
+      "Sengés / PR",
+      "Wenceslau Braz / PR"
+    ],
+    "telefones": [],
+    "email": "jaguariaiva@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Laranjeiras do Sul",
+    "cidade": "Laranjeiras do Sul",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 277, KM 453 B. Vila Industrial",
+    "cidades_atendidas": [
+      "Cantagalo / PR",
+      "Laranjal / PR",
+      "Laranjeiras Do Sul / PR",
+      "Marquinho / PR",
+      "Nova Laranjeiras / PR",
+      "Palmital / PR",
+      "Porto Barreiro / PR",
+      "Rio Bonito do Iguaçu / PR",
+      "Virmond / PR"
+    ],
+    "telefones": [
+      "(42) 3635-6737"
+    ],
+    "email": "laranjeirasdosul@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Londrina",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. Francisco José Ferreira, 500, Bairro Yara",
+    "cidades_atendidas": [
+      "Alvorada do Sul / PR",
+      "Assaí / PR",
+      "Bela Vista do Paraíso / PR",
+      "Cambé / PR",
+      "Cianorte / PR",
+      "Cornélio Procópio / PR",
+      "Guaporema / PR",
+      "Ibiporã / PR",
+      "Indianópolis / PR",
+      "Japurá / PR",
+      "Jataizinho / PR",
+      "Jussara / PR",
+      "Leópolis / PR",
+      "Londrina / PR",
+      "Londrina Norte / PR",
+      "Nova América da Colina / PR",
+      "Nova Santa Bárbara / PR",
+      "Primeiro de Maio / PR",
+      "Rancho Alegre / PR",
+      "Rolândia / PR",
+      "Rondon / PR",
+      "Santa Cecília do Pavão / PR",
+      "Santa Mariana / PR",
+      "São Jerônimo da Serra / PR",
+      "São Manoel do Paraná / PR",
+      "São Sebastião da Amoreira / PR",
+      "São Tomé / PR",
+      "Sertaneja / PR",
+      "Sertanópolis / PR",
+      "Tamarana / PR",
+      "Terra Boa / PR",
+      "Uraí / PR"
+    ],
+    "telefones": [
+      "(43) 3772-3484"
+    ],
+    "email": "londrina@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Marechal Cândido Rondon",
+    "cidade": "Marechal Cândido Rondon",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua 15 de novembro, n° 3131, Bairro Ana Neuza",
+    "cidades_atendidas": [
+      "Entre Rios do Oeste / PR",
+      "Guaíra / PR",
+      "Marechal Cândido Rondon / PR",
+      "Maripá / PR",
+      "Mercedes / PR",
+      "Nova Santa Rosa / PR",
+      "Palotina / PR",
+      "Pato Bragado / PR",
+      "Quatro Pontes / PR",
+      "Terra Roxa / PR"
+    ],
+    "telefones": [
+      "(45) 2031-0430"
+    ],
+    "email": "marechal@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Maringá",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rod. Prefeito Sincler Sambatti, 10092, B. Jardim Bertioga",
+    "cidades_atendidas": [
+      "lto Paraná / PR",
+      "Amaporã / PR",
+      "Ângulo / PR",
+      "Atalaia / PR",
+      "Cafeara / PR",
+      "Centenário do Sul / PR",
+      "Colorado / PR",
+      "Cruzeiro do Sul / PR",
+      "Diamante do Norte / PR",
+      "Doutor Camargo / PR",
+      "Floraí / PR",
+      "Floresta / PR",
+      "Florestópolis / PR",
+      "Flórida / PR",
+      "Guairaçá / PR",
+      "Guaraci / PR",
+      "Iguaraçu / PR",
+      "Inajá / PR",
+      "Itaguajé / PR",
+      "Itambé / PR",
+      "Itaúna do Sul / PR",
+      "Ivatuba / PR",
+      "Jaguapitã / PR",
+      "Jardim Olinda / PR",
+      "Loanda / PR",
+      "Lobato / PR",
+      "Lupionópolis / PR",
+      "Mandaguaçu / PR",
+      "Marialva / PR",
+      "Marilena / PR",
+      "Maringá / PR",
+      "Mirador / PR",
+      "Miraselva / PR",
+      "Munhoz de Melo / PR",
+      "Nossa Senhora das Graças / PR",
+      "Nova Aliança do Ivaí / PR",
+      "Nova Esperança / PR",
+      "Nova Londrina / PR",
+      "Ourizona / PR",
+      "Paiçandu / PR",
+      "Paraíso do Norte / PR",
+      "Paranacity / PR",
+      "Paranapoema / PR",
+      "Paranavaí / PR",
+      "Planaltina do Paraná / PR",
+      "Porecatu / PR",
+      "Porto Rico / PR",
+      "Prado Ferreira / PR",
+      "Presidente Castelo Branco / PR",
+      "Querência do Norte / PR",
+      "Santa Cruz de Monte Castelo / PR",
+      "Santa Fé / PR",
+      "Santa Inês / PR",
+      "Santa Isabel do Ivaí / PR",
+      "Santa Mônica / PR",
+      "Santo Antônio do Caiuá / PR",
+      "Santo Inácio / PR",
+      "São Carlos do Ivaí / PR",
+      "São João do Caiuá / PR",
+      "São Jorge do Ivaí / PR",
+      "São Pedro do Paraná / PR",
+      "Sarandi / PR",
+      "Tamboara / PR",
+      "Terra Rica / PR",
+      "Uniflor / PR"
+    ],
+    "telefones": [
+      "(44) 3266-7589"
+    ],
+    "email": "maringa@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Medianeira",
+    "cidade": "Medianeira",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Severino David Endrigo, 51, B. Florença",
+    "cidades_atendidas": [
+      "Céu Azul / PR",
+      "Diamante d'Oeste / PR",
+      "Itaipulândia / PR",
+      "Matelândia / PR",
+      "Medianeira / PR",
+      "Missal / PR",
+      "Ramilândia / PR",
+      "Santa Helena / PR",
+      "São Miguel do Iguaçu / PR",
+      "Serranópolis do Iguaçu / PR",
+      "Vera Cruz do Oeste / PR"
+    ],
+    "telefones": [
+      "(45) 3264-7385"
+    ],
+    "email": "medianeira@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Palmas",
+    "cidade": "Palmas",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Alberto Santos Dumont, 295, B. Divino, Palmas-PR",
+    "cidades_atendidas": [
+      "Clevelândia / PR",
+      "Coronel Domingos Soares / PR",
+      "Palmas / PR"
+    ],
+    "telefones": [
+      "(46) 3262-1117"
+    ],
+    "email": "palmas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Pato Branco",
+    "cidade": "Pato Branco",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 158, Km. 373, 25 B. Menino Deus",
+    "cidades_atendidas": [
+      "Bom Sucesso do Sul / PR",
+      "Chopinzinho / PR",
+      "Coronel Vivida / PR",
+      "Honório Serpa / PR",
+      "Itapejara d'Oeste / PR",
+      "Mangueirinha / PR",
+      "Mariópolis / PR",
+      "Pato Branco / PR",
+      "São João / PR",
+      "Saudade do Iguaçu / PR",
+      "Sulina / PR",
+      "Vitorino / PR"
+    ],
+    "telefones": [
+      "(46) 3225-5801"
+    ],
+    "email": "patobranco@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Ponta Grossa",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Souza Naves, n° 1999, Bairro Chapada",
+    "cidades_atendidas": [
+      "Carambeí / PR",
+      "Castro / PR",
+      "Ipiranga / PR",
+      "Palmeira / PR",
+      "Piraí do Sul / PR",
+      "Ponta Grossa / PR",
+      "Porto Amazonas / PR"
+    ],
+    "telefones": [
+      "(41) 99570-5960"
+    ],
+    "email": "pontagrossa@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Quedas do Iguaçu",
+    "cidade": "Quedas do Iguaçu",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Taruma 2031 -  Anexo a Rodoviária, Centro",
+    "cidades_atendidas": [
+      "Boa Vista da Aparecida / PR",
+      "Campo Bonito / PR",
+      "Catanduvas / PR",
+      "Diamante do Sul / PR",
+      "Espigão Alto do Iguaçu / PR",
+      "Guaraniaçu / PR",
+      "Ibema / PR",
+      "Quedas do Iguaçu / PR",
+      "Três Barras do Paraná / PR"
+    ],
+    "telefones": [
+      "(46) 3532-2006"
+    ],
+    "email": "quedasdoiguacu@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santo Antônio da Platina",
+    "cidade": "Santo Antônio da Platina",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Vereador José Tanko, 241, Parque Jandira",
+    "cidades_atendidas": [
+      "Abatiá / PR",
+      "Andirá / PR",
+      "Bandeirantes / PR",
+      "Barra do Jacaré / PR",
+      "Cambará / PR",
+      "Carlópolis / PR",
+      "Congonhinhas / PR",
+      "Conselheiro Mairinck / PR",
+      "Curiúva / PR",
+      "Figueira / PR",
+      "Guapirama / PR",
+      "Ibaiti / PR",
+      "Itambaracá / PR",
+      "Jaboti / PR",
+      "Jacarezinho / PR",
+      "Japira / PR",
+      "Joaquim Távora / PR",
+      "Jundiaí do Sul / PR",
+      "Nova Fátima / PR",
+      "Pinhalão / PR",
+      "Quatiguá / PR",
+      "Ribeirão Claro / PR",
+      "Ribeirão do Pinhal / PR",
+      "Salto do Itararé / PR",
+      "Santa Amélia / PR",
+      "Santana do Itararé / PR",
+      "Santo Antônio da Platina / PR",
+      "Santo Antônio do Paraíso / PR",
+      "Sapopema / PR",
+      "Siqueira Campos / PR",
+      "Tomazina / PR"
+    ],
+    "telefones": [
+      "(49) 98879-2783"
+    ],
+    "email": "santoantoniodaplatina@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Mateus do Sul",
+    "cidade": "São Mateus do Sul",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 476 km 280, Nº 2056 Vila Nepomuceno",
+    "cidades_atendidas": [
+      "Antônio Olinto / PR",
+      "São João do Triunfo / PR",
+      "São Mateus do Sul / PR"
+    ],
+    "telefones": [
+      "(42) 98850-4546"
+    ],
+    "email": "saomateus@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "cidade": "Telêmaco Borba",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Castanheira, 315 B. Jardim Monte Carlo",
+    "cidades_atendidas": [
+      "Imbaú / PR",
+      "Ortigueira / PR",
+      "Reserva / PR",
+      "Telêmaco Borba / PR",
+      "Tibagi / PR",
+      "Ventania / PR"
+    ],
+    "telefones": [
+      "(42) 99165-8575"
+    ],
+    "email": "telemacoborba@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Toledo",
+    "cidade": "Toledo",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Senador Atílio Fontana, 4791 - Barracão 16, Centro",
+    "cidades_atendidas": [
+      "Assis Chateaubriand / PR",
+      "Formosa do Oeste / PR",
+      "Iracema do Oeste / PR",
+      "Jesuítas / PR",
+      "Ouro Verde do Oeste / PR",
+      "São José das Palmeiras / PR",
+      "São Pedro do Iguaçu / PR",
+      "Toledo / PR",
+      "Tupãssi / PR"
+    ],
+    "telefones": [
+      "(45) 2033-8077"
+    ],
+    "email": "toledo@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Umuarama",
+    "cidade": "Umuarama",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "R. Benjamin Pajanoti, 1329 - Jardim Santiago",
+    "cidades_atendidas": [
+      "Alto Paraíso / PR",
+      "Alto Piquiri / PR",
+      "Altônia / PR",
+      "Brasilândia do Sul / PR",
+      "Cafezal do Sul / PR",
+      "Cidade Gaúcha / PR",
+      "Cruzeiro do Oeste / PR",
+      "Douradina / PR",
+      "Esperança Nova / PR",
+      "Francisco Alves / PR",
+      "Icaraíma / PR",
+      "Iporã / PR",
+      "Ivaté / PR",
+      "Maria Helena / PR",
+      "Mariluz / PR",
+      "Moreira Sales / PR",
+      "Nova Olímpia / PR",
+      "Perobal / PR",
+      "Pérola / PR",
+      "São Jorge do Patrocínio / PR",
+      "Tapejara / PR",
+      "Tapira / PR",
+      "Tuneiras do Oeste / PR",
+      "Umuarama / PR",
+      "Xambrê / PR"
+    ],
+    "telefones": [
+      "(44) 3624-8283"
+    ],
+    "email": "umuarama@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "União Da Vitória",
+    "cidade": "União Da Vitória",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua São Domingos, Bairro Mallon",
+    "cidades_atendidas": [
+      "Bituruna / PR",
+      "Cruz Machado / PR",
+      "General Carneiro / PR",
+      "Paula Freitas / PR",
+      "Porto Vitória / PR",
+      "União Da Vitória / PR",
+      "Irineópolis / SC",
+      "Porto União / SC"
+    ],
+    "telefones": [
+      "(42) 3524-6903"
+    ],
+    "email": "uniaodavitoria@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Alegrete",
+    "cidade": "Alegrete",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Planalto, N. 30, Bairro Saudade",
+    "cidades_atendidas": [
+      "legrete / RS",
+      "Manoel Viana / RS"
+    ],
+    "telefones": [
+      "(55) 99677-1784"
+    ],
+    "email": "alegrete.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Bagé",
+    "cidade": "Bagé",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Álvaro Lannes de Carvalho, 20, Bairro Getúlio Vargas",
+    "cidades_atendidas": [
+      "Aceguá / RS",
+      "Bagé / RS",
+      "Candiota / RS",
+      "Dom Pedrito / RS",
+      "Hulha Negra / RS",
+      "Pedras Altas / RS",
+      "Pinheiro Machado / RS"
+    ],
+    "telefones": [
+      "(53) 99992-2160"
+    ],
+    "email": "bage@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Artêmio Arlindo Someci, 765, Bairo: São Vendelino",
+    "cidades_atendidas": [
+      "Alto Feliz / RS",
+      "Barão / RS",
+      "Bento Gonçalves / RS",
+      "Carlos Barbosa / RS",
+      "Coronel Pilar / RS",
+      "Farroupilha / RS",
+      "Feliz / RS",
+      "Garibaldi / RS",
+      "Monte Belo do Sul / RS",
+      "Nova Roma do Sul / RS",
+      "Pinto Bandeira / RS",
+      "Salvador do Sul / RS",
+      "Santa Tereza / RS",
+      "São Pedro da Serra / RS",
+      "São Vedelino / RS",
+      "São Vendelino / RS",
+      "Vale Real / RS"
+    ],
+    "telefones": [],
+    "email": "bentogoncalves@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Caçapava do Sul",
+    "cidade": "Caçapava do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. Lino Azambuja, 1343 - 2 - Centro",
+    "cidades_atendidas": [
+      "Caçapava do Sul / RS",
+      "Lavras do Sul / RS",
+      "Santana da Boa Vista / RS",
+      "São Sepé / RS"
+    ],
+    "telefones": [
+      "(55) 9 9999-2393"
+    ],
+    "email": "cacapavadosul.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Camaquã",
+    "cidade": "Camaquã",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Quinze de Novembro, 470, Bairro Olaria",
+    "cidades_atendidas": [
+      "Amaral Ferrador / RS",
+      "Arambaré / RS",
+      "Barão do Triunfo / RS",
+      "Barra do Ribeiro / RS",
+      "Camaquã / RS",
+      "Cerro Grande do Sul / RS",
+      "Chuvisca / RS",
+      "Cristal / RS",
+      "Dom Feliciano / RS",
+      "Mariana Pimentel / RS",
+      "Sentinela do Sul / RS",
+      "Sertão Santana / RS",
+      "Tapes / RS"
+    ],
+    "telefones": [
+      "(51) 3671-0455"
+    ],
+    "email": "camaqua@bauerexpress.com",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Carazinho",
+    "cidade": "Carazinho",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Joao Rizzeto, n° 80, Bairro Oriental (Em frente a rodoviária Carazinho)",
+    "cidades_atendidas": [
+      "Almirante Tamandaré do Sul / RS",
+      "Carazinho / RS",
+      "Chapada / RS",
+      "Coqueiros do Sul / RS",
+      "Não-Me-Toque / RS",
+      "Saldanha Marinho / RS",
+      "Santo Antônio do Planalto / RS"
+    ],
+    "telefones": [
+      "(54) 3331-9064"
+    ],
+    "email": "carazinho@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Caxias do Sul",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "ROD. ERS 122  -  Km 69, N. 7470, Bairro: Desvio Rizzo",
+    "cidades_atendidas": [
+      "Cambará do Sul / RS",
+      "Canela / RS",
+      "Caxias Do Sul / RS",
+      "Flores da Cunha / RS",
+      "Gramado / RS",
+      "Nova Pádua / RS",
+      "Nova Petrópolis / RS",
+      "São Francisco de Paula / RS",
+      "São Marcos / RS"
+    ],
+    "telefones": [
+      "(54) 99681-8651"
+    ],
+    "email": "caxiasdosul@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Cruz Alta",
+    "cidade": "Cruz Alta",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Plácido de Castro, 406-A, B. Jardim América",
+    "cidades_atendidas": [
+      "Boa Vista do Incra / RS",
+      "Cruz Alta / RS",
+      "Júlio de Castilhos / RS",
+      "Tupanciretã / RS"
+    ],
+    "telefones": [
+      "(55) 3324-1181"
+    ],
+    "email": "cruzalta@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Erechim",
+    "cidade": "Erechim",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Dr. João Caruso, 390, Bairro: Industrial",
+    "cidades_atendidas": [
+      "Aratiba / RS",
+      "Áurea / RS",
+      "Barão de Cotegipe / RS",
+      "Barra do Rio Azul / RS",
+      "Benjamin Constant do Sul / RS",
+      "Campinas do Sul / RS",
+      "Carlos Gomes / RS",
+      "Centenário / RS",
+      "Cruzaltense / RS",
+      "Entre Rios do Sul / RS",
+      "Erechim / RS",
+      "Erval Grande / RS",
+      "Faxinalzinho / RS",
+      "Gaurama / RS",
+      "Itatiba do Sul / RS",
+      "Jacutinga / RS",
+      "Marcelino Ramos / RS",
+      "Mariano Moro / RS",
+      "Paulo Bento / RS",
+      "Ponte Preta / RS",
+      "Quatro Irmãos / RS",
+      "São Valentim / RS",
+      "Severiano de Almeida / RS",
+      "Três Arroios / RS",
+      "Viadutos / RS"
+    ],
+    "telefones": [
+      "(54) 3522-3030"
+    ],
+    "email": "erechim@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Frederico Westphalen",
+    "cidade": "Frederico Westphalen",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Campos Eliseos, 192, Centro",
+    "cidades_atendidas": [
+      "Alpestre / RS",
+      "Ametista do Sul / RS",
+      "Boa Vista das Missões / RS",
+      "Caiçara / RS",
+      "Cerro Grande / RS",
+      "Cristal do Sul / RS",
+      "Dois Irmãos das Missões / RS",
+      "Erval Seco / RS",
+      "Frederico Westphalen / RS",
+      "Gramado dos Loureiros / RS",
+      "Iraí / RS",
+      "Jaboticaba / RS",
+      "Lajeado do Bugre / RS",
+      "Novo Tiradentes / RS",
+      "Palmitinho / RS",
+      "Pinhal / RS",
+      "Pinheirinho do Vale / RS",
+      "Planalto / RS",
+      "Rodeio Bonito / RS",
+      "Sagrada Família / RS",
+      "São José das Missões / RS",
+      "São Pedro das Missões / RS",
+      "Seberi / RS",
+      "Taquaruçu do Sul / RS",
+      "Vicente Dutra / RS",
+      "Vista Alegre / RS"
+    ],
+    "telefones": [
+      "(55) 3744-4270"
+    ],
+    "email": "frederico@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Getúlio Vargas",
+    "cidade": "Getúlio Vargas",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: 3, numero 80. Bairro: Parque Industrial",
+    "cidades_atendidas": [
+      "Charrua / RS",
+      "Erebango / RS",
+      "Estação / RS",
+      "Floriano Peixoto / RS",
+      "Getúlio Vargas / RS",
+      "Ipiranga do Sul / RS",
+      "Sertão / RS"
+    ],
+    "telefones": [
+      "(54) 3698-4545"
+    ],
+    "email": "getuliovargas@bauerexpress.com",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Ibirubá",
+    "cidade": "Ibirubá",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rodovia 223  -  Km 43  -  Bairro Industrial",
+    "cidades_atendidas": [
+      "Alto Alegre / RS",
+      "Campos Borges / RS",
+      "Colorado / RS",
+      "Ernestina / RS",
+      "Espumoso / RS",
+      "Estrela Velha / RS",
+      "Fortaleza dos Valos / RS",
+      "Ibirapuitã / RS",
+      "Ibirubá / RS",
+      "Jacuizinho / RS",
+      "Lagoa dos Três Cantos / RS",
+      "Mormaço / RS",
+      "Nicolau Vergueiro / RS",
+      "Quinze de Novembro / RS",
+      "Salto do Jacuí / RS",
+      "Selbach / RS",
+      "Soledade / RS",
+      "Tio Hugo / RS",
+      "Victor Graeff / RS"
+    ],
+    "telefones": [
+      "(54) 3199-1486"
+    ],
+    "email": "ibiruba@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Ijuí",
+    "cidade": "Ijuí",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Parecis, n° 75, Bairro Pindorama",
+    "cidades_atendidas": [
+      "Ajuricaba / RS",
+      "Augusto Pestana / RS",
+      "Boa Vista do Cadeado / RS",
+      "Bozano / RS",
+      "Catuípe / RS",
+      "Condor / RS",
+      "Coronel Barros / RS",
+      "Ijuí / RS",
+      "Jóia / RS",
+      "Nova Ramada / RS",
+      "Panambi / RS",
+      "Pejuçara / RS",
+      "Santa Bárbara do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 3383-0014"
+    ],
+    "email": "ijui@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Lajeado",
+    "cidade": "Lajeado",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Castelo Branco, 193 – Bairro Moinhos",
+    "cidades_atendidas": [
+      "Anta Gorda / RS",
+      "Arroio do Meio / RS",
+      "Arvorezinha / RS",
+      "Boa Vista do Sul / RS",
+      "Bom Retiro do Sul / RS",
+      "Boqueirão do Leão / RS",
+      "Canudos do Vale / RS",
+      "Capitão / RS",
+      "Colinas / RS",
+      "Coqueiro Baixo / RS",
+      "Cruzeiro do Sul / RS",
+      "Doutor Ricardo / RS",
+      "Encantado / RS",
+      "Estrela / RS",
+      "Fazenda Vilanova / RS",
+      "Fontoura Xavier / RS",
+      "Forquetinha / RS",
+      "Ilópolis / RS",
+      "Imigrante / RS",
+      "Itapuca / RS",
+      "Lajeado / RS",
+      "Marques de Souza / RS",
+      "Mato Leitão / RS",
+      "Muçum / RS",
+      "Nova Bréscia / RS",
+      "Passo do Sobrado / RS",
+      "Paverama / RS",
+      "Poço das Antas / RS",
+      "Pouso Novo / RS",
+      "Progresso / RS",
+      "Putinga / RS",
+      "Relvado / RS",
+      "Roca Sales / RS",
+      "Santa Clara do Sul / RS",
+      "São José do Herval / RS",
+      "Sério / RS",
+      "Tabaí / RS",
+      "Taquari / RS",
+      "Teutônia / RS",
+      "Travesseiro / RS",
+      "Vale Verde / RS",
+      "Venâncio Aires / RS",
+      "Westfalia / RS"
+    ],
+    "telefones": [
+      "(51) 3748-7728"
+    ],
+    "email": "lajeado@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Marau",
+    "cidade": "Marau",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Serafim Grando, Numero 124, Bairro Santa Rita",
+    "cidades_atendidas": [
+      "Camargo / RS",
+      "Casca / RS",
+      "Gentil / RS",
+      "Marau / RS",
+      "Mato Castelhano / RS",
+      "Montauri / RS",
+      "Nova Alvorada / RS",
+      "Santo Antônio do Palma / RS",
+      "Serafina Corrêa / RS",
+      "União da Serra / RS",
+      "Vila Maria / RS"
+    ],
+    "telefones": [
+      "(54) 2241-0069"
+    ],
+    "email": "marau@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Nova Prata",
+    "cidade": "Nova Prata",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "EST RST 470 - Km 163  -  número 104 - Bairro Retiro",
+    "cidades_atendidas": [
+      "André da Rocha / RS",
+      "Cotiporã / RS",
+      "Dois Lajeados / RS",
+      "Fagundes Varela / RS",
+      "Guaporé / RS",
+      "Nova Araçá / RS",
+      "Nova Bassano / RS",
+      "Paraí / RS",
+      "Protásio Alves / RS",
+      "São Valentim do Sul / RS",
+      "Veranópolis / RS",
+      "Vespasiano Correa / RS",
+      "Vila Flores / RS"
+    ],
+    "telefones": [
+      "(54) 2121-5369"
+    ],
+    "email": "luiscarlossouzars@gmail.com",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Passo Fundo",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "RS 324, Perimetral Sul, SN, Região do Bairro José Alexandre Zachia",
+    "cidades_atendidas": [
+      "Barracão / RS",
+      "Cacique Doble / RS",
+      "Capão Bonito do Sul / RS",
+      "Caseiros / RS",
+      "Ciríaco / RS",
+      "Coxilha / RS",
+      "David Canabarro / RS",
+      "Guabiju / RS",
+      "Ibiaçá / RS",
+      "Ibiraiaras / RS",
+      "Lagoa Vermelha / RS",
+      "Machadinho / RS",
+      "Maximiliano de Almeida / RS",
+      "Muliterno / RS",
+      "Nova Prata / RS",
+      "Paim Filho / RS",
+      "Passo Fundo / RS",
+      "Sananduva / RS",
+      "Santa Cecília do Sul / RS",
+      "Santo Expedito do Sul / RS",
+      "São Domingos do Sul / RS",
+      "São João da Urtiga / RS",
+      "São Jorge / RS",
+      "São José do Ouro / RS",
+      "Tapejara / RS",
+      "Tapera / RS",
+      "Tupanci do Sul / RS",
+      "Vanini / RS",
+      "Vila Lângaro / RS"
+    ],
+    "telefones": [
+      "(54) 3313-8486"
+    ],
+    "email": "passofundo@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Pelotas",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av; 25 de julho, 1437 pavilhão E, Fundos, Três vendas",
+    "cidades_atendidas": [
+      "Arroio do Padre / RS",
+      "Arroio Grande / RS",
+      "Canguçu / RS",
+      "Capão do Leão / RS",
+      "Cerrito / RS",
+      "Chuí / RS",
+      "Herval / RS",
+      "Jaguarão / RS",
+      "Morro Redondo / RS",
+      "Pedro Osório / RS",
+      "Pelotas / RS",
+      "Piratini / RS",
+      "Rio Grande / RS",
+      "Santa Vitória do Palmar / RS",
+      "São José do Norte / RS",
+      "São Lourenço do Sul / RS",
+      "Turuçu / RS"
+    ],
+    "telefones": [
+      "(53) 3199-8938"
+    ],
+    "email": "pelotas.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Porto Alegre",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Plinio Kroeff, nº 1455, Bairro Rubem Berta",
+    "cidades_atendidas": [
+      "Alvorada / RS",
+      "Arroio dos Ratos / RS",
+      "Bom Princípio / RS",
+      "Butiá / RS",
+      "Cachoeirinha / RS",
+      "Canoas / RS",
+      "Capela de Santana / RS",
+      "Charqueadas / RS",
+      "Eldorado do Sul / RS",
+      "Esteio / RS",
+      "General Câmara / RS",
+      "Glorinha / RS",
+      "Gravataí / RS",
+      "Guaíba / RS",
+      "Harmonia / RS",
+      "Igrejinha / RS",
+      "Minas do Leão / RS",
+      "Montenegro / RS",
+      "Nova Hartz / RS",
+      "Nova Santa Rita / RS",
+      "Pareci Novo / RS",
+      "Parobé / RS",
+      "Porto Alegre / RS",
+      "Riozinho / RS",
+      "Rolante / RS",
+      "São Jerônimo / RS",
+      "São Sebastião do Caí / RS",
+      "Sapucaia Do Sul / RS",
+      "Taquara / RS",
+      "Três Coroas / RS",
+      "Triunfo / RS",
+      "Tupandi / RS",
+      "Viamão / RS"
+    ],
+    "telefones": [
+      "(51) 3079-4580"
+    ],
+    "email": "portoalegre@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Rosário do Sul",
+    "cidade": "Rosário do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Honório Lemos, N.2394, Bairro: Areias Brancas. –",
+    "cidades_atendidas": [
+      "Rosário do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 3231-8425"
+    ],
+    "email": "rosariodosul.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santa Cruz Do Sul",
+    "cidade": "Santa Cruz Do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "BR 471, KM 122,9, Bairro Várzea",
+    "cidades_atendidas": [
+      "Encruzilhada do Sul / RS",
+      "Gramado Xavier / RS",
+      "Herveiras / RS",
+      "Pantano Grande / RS",
+      "Rio Pardo / RS",
+      "Santa Cruz Do Sul / RS",
+      "Sinimbu / RS",
+      "Vale do Sol / RS",
+      "Vera Cruz / RS"
+    ],
+    "telefones": [
+      "(51) 3121-2305"
+    ],
+    "email": "santacruzdosul@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santa Maria",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Marques Dos Santos, 95",
+    "cidades_atendidas": [
+      "Agudo / RS",
+      "Dona Francisca / RS",
+      "Faxinal do Soturno / RS",
+      "Formigueiro / RS",
+      "Itaara / RS",
+      "Ivorá / RS",
+      "Nova Palma / RS",
+      "Paraíso do Sul / RS",
+      "Pinhal Grande / RS",
+      "Restinga Seca / RS",
+      "Santa da Boa Vista / RS",
+      "Santa Maria / RS",
+      "São João da Polêsine / RS",
+      "São João do Polêsine / RS",
+      "São Martinho da Serra / RS",
+      "Silveira Martins / RS"
+    ],
+    "telefones": [
+      "(55) 2500-0157"
+    ],
+    "email": "santamaria.gerencia@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santa Rosa",
+    "cidade": "Santa Rosa",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Acesso Henrique Gasen, 538, B. Alto do Parque",
+    "cidades_atendidas": [
+      "Alecrim / RS",
+      "Campina das Missões / RS",
+      "Cândido Godói / RS",
+      "Doutor Maurício Cardoso / RS",
+      "Giruá / RS",
+      "Horizontina / RS",
+      "Independência / RS",
+      "Novo Machado / RS",
+      "Porto Lucena / RS",
+      "Porto Mauá / RS",
+      "Porto Vera Cruz / RS",
+      "Santa Rosa / RS",
+      "Santo Cristo / RS",
+      "São José do Inhacorá / RS",
+      "São Paulo das Missões / RS",
+      "Senador Salgado Filho / RS",
+      "Três de Maio / RS",
+      "Tucunduva / RS",
+      "Tuparendi / RS"
+    ],
+    "telefones": [
+      "(55) 3512-4540"
+    ],
+    "email": "santarosa@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santana do Livramento",
+    "cidade": "Santana do Livramento",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Prefeito Sergio Fuentes,n° 833, Bairro Prado",
+    "cidades_atendidas": [
+      "Quaraí / RS",
+      "Santana do Livramento / RS"
+    ],
+    "telefones": [
+      "(55) 99909-2250"
+    ],
+    "email": "santanadolivramento.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santiago",
+    "cidade": "Santiago",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Avenida Aparicio Mariense, 1377, SALA A, Vila Rica,",
+    "cidades_atendidas": [
+      "Cacequi / RS",
+      "Capão do Cipó / RS",
+      "Itacurubi / RS",
+      "Jaguari / RS",
+      "Nova esperança do Sul / RS",
+      "Santiago / RS",
+      "São Francisco de Assis / RS",
+      "São Vicente do Sul / RS",
+      "Unistalda / RS"
+    ],
+    "telefones": [
+      "(55) 99188-2054"
+    ],
+    "email": "santiago.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santo Ângelo",
+    "cidade": "Santo Ângelo",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. Cel. Damasio Gomes de Castro, n° 853, Bairro Oliveira",
+    "cidades_atendidas": [
+      "Cerro Largo / RS",
+      "Entre-Ijuís / RS",
+      "Eugênio de Castro / RS",
+      "Guarani das Missões / RS",
+      "Salvador das Missões / RS",
+      "Santo Ângelo / RS",
+      "São Pedro do Butiá / RS",
+      "Sete de Setembro / RS",
+      "Ubiretama / RS"
+    ],
+    "telefones": [
+      "(55) 3312-0892"
+    ],
+    "email": "augustostreck@gmail.com",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Santo Augusto",
+    "cidade": "Santo Augusto",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua José Stival N. 80, Leonízio Gonzatto",
+    "cidades_atendidas": [
+      "Alegria / RS",
+      "Barra do Guarita / RS",
+      "Boa Vista do Buricá / RS",
+      "Bom Progresso / RS",
+      "Braga / RS",
+      "Campo Novo / RS",
+      "Chiapetta / RS",
+      "Coronel Bicaco / RS",
+      "Crissiumal / RS",
+      "Derrubadas / RS",
+      "Esperança do Sul / RS",
+      "Humaitá / RS",
+      "Inhacorá / RS",
+      "Miraguaí / RS",
+      "Nova Candelária / RS",
+      "Redentora / RS",
+      "Santo Augusto / RS",
+      "São Martinho / RS",
+      "São Valério do Sul / RS",
+      "Sede Nova / RS",
+      "Tenente Portela / RS",
+      "Tiradentes do Sul / RS",
+      "Três Passos / RS",
+      "Vista Gaúcha / RS"
+    ],
+    "telefones": [
+      "(55) 99907-4629"
+    ],
+    "email": "santoaugusto.gerencia@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Borja",
+    "cidade": "São Borja",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R Bento Goncalves, N.727,Bairro Passo",
+    "cidades_atendidas": [
+      "Itaqui / RS",
+      "Maçambará / RS",
+      "São Borja / RS"
+    ],
+    "telefones": [
+      "(55) 99730-4746"
+    ],
+    "email": "saoborja.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Gabriel",
+    "cidade": "São Gabriel",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R Onesimo Laureano, N.230, Zona Sul,",
+    "cidades_atendidas": [
+      "Santa Margarida do Sul / RS",
+      "São Gabriel / RS",
+      "Vila Nova do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 98402-7150"
+    ],
+    "email": "saogabriel.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Luiz Gonzaga",
+    "cidade": "São Luiz Gonzaga",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua João Goulart, 1131, B. Vila Harmonia",
+    "cidades_atendidas": [
+      "Bossoroca / RS",
+      "Caibaté / RS",
+      "Dezesseis de Novembro / RS",
+      "Garruchos / RS",
+      "Mato Queimado / RS",
+      "Pirapó / RS",
+      "Porto Xavier / RS",
+      "Rolador / RS",
+      "Roque Gonzales / RS",
+      "Santo Antônio das Missões / RS",
+      "São Luiz Gonzaga / RS",
+      "São Miguel das Missões / RS",
+      "São Nicolau / RS",
+      "Vitória das Missões / RS"
+    ],
+    "telefones": [
+      "(55) 3352-7355"
+    ],
+    "email": "saoluizgonzaga@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Pedro do Sul",
+    "cidade": "São Pedro do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Rio Branco, 73 - Bairro Santo António",
+    "cidades_atendidas": [
+      "Dilermando de Aguiar / RS",
+      "Jari / RS",
+      "Mata / RS",
+      "Quevedos / RS",
+      "São Pedro do Sul / RS",
+      "Toropi / RS"
+    ],
+    "telefones": [
+      "(55) 98125-3446"
+    ],
+    "email": "saopedrodosul.televendas@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Sarandi",
+    "cidade": "Sarandi",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. João Piva, N.13710, Bairro Mirasul",
+    "cidades_atendidas": [
+      "Barra Funda / RS",
+      "Constantina / RS",
+      "Engenho Velho / RS",
+      "Liberato Salzano / RS",
+      "Nonoai / RS",
+      "Nova Boa Vista / RS",
+      "Novo Barreiro / RS",
+      "Novo Xingu / RS",
+      "Palmeira das Missões / RS",
+      "Pontão / RS",
+      "Rio dos Índios / RS",
+      "Ronda Alta / RS",
+      "Rondinha / RS",
+      "Sarandi / RS",
+      "Três Palmeiras / RS",
+      "Trindade do Sul / RS"
+    ],
+    "telefones": [
+      "(54) 99221- 6340"
+    ],
+    "email": "sarandi@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Uruguaiana",
+    "cidade": "Uruguaiana",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Beco Transazul, 09 Bairro: Rio Branco",
+    "cidades_atendidas": [
+      "Barra do Quaraí / RS",
+      "Uruguaiana / RS"
+    ],
+    "telefones": [],
+    "email": "uruguaiana@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Vacaria",
+    "cidade": "Vacaria",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Moreira Paz, 1738, Sala 01, Bairro Borges",
+    "cidades_atendidas": [
+      "Antônio Prado / RS",
+      "Bom Jesus / RS",
+      "Campestre da Serra / RS",
+      "Esmeralda / RS",
+      "Ipê / RS",
+      "Jaquirana / RS",
+      "Monte Alegre dos Campos / RS",
+      "Muitos Capões / RS",
+      "Pinhal da Serra / RS",
+      "São José dos Ausentes / RS",
+      "Vacaria / RS"
+    ],
+    "telefones": [
+      "(54) 99632-3655"
+    ],
+    "email": "vacaria@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Xangri-lá",
+    "cidade": "Xangri-lá",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Maria de Lourdes Cosmos, 48, B. Guara",
+    "cidades_atendidas": [
+      "Arroio do Sal / RS",
+      "Balneário Pinhal / RS",
+      "Capão da Canoa / RS",
+      "Capivari do Sul / RS",
+      "Caraá / RS",
+      "Cidreira / RS",
+      "Dom Pedro de Alcântara / RS",
+      "Imbé / RS",
+      "Itati / RS",
+      "Mampituba / RS",
+      "Maquiné / RS",
+      "Morrinhos do Sul / RS",
+      "Mostardas / RS",
+      "Osório / RS",
+      "Palmares do Sul / RS",
+      "Santo Antônio da Patrulha / RS",
+      "Tavares / RS",
+      "Terra de Areia / RS",
+      "Torres / RS",
+      "Tramandaí / RS",
+      "Três Cachoeiras / RS",
+      "Três Forquilhas / RS",
+      "Xangri-Lá / RS"
+    ],
+    "telefones": [],
+    "email": "xangrila@bauerexpress.com",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Araranguá",
+    "cidade": "Araranguá",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Ana Lidia Carolina. 62, Jardim Cibele",
+    "cidades_atendidas": [
+      "Araranguá / SC",
+      "Balneário Arroio do Silva / SC",
+      "Balneário Gaivota / SC",
+      "Ermo / SC",
+      "Forquilhinha / SC",
+      "Jacinto Machado / SC",
+      "Maracajá / SC",
+      "Meleiro / SC",
+      "Morro Grande / SC",
+      "Passo de Torres / SC",
+      "Praia Grande / SC",
+      "Santa Rosa do Sul / SC",
+      "São João do Sul / SC",
+      "Sombrio / SC",
+      "Timbé do Sul / SC",
+      "Turvo / SC"
+    ],
+    "telefones": [
+      "(48) 998229808"
+    ],
+    "email": "ararangua@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Biguaçu",
+    "cidade": "Biguaçu",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R. Alexandre Sergio Godinho, 210 - Mar das Pedras",
+    "cidades_atendidas": [
+      "Águas Mornas / SC",
+      "Angelina / SC",
+      "Anitápolis / SC",
+      "Antônio Carlos / SC",
+      "Biguaçu / SC",
+      "Florianópolis / SC",
+      "Governador Celso Ramos / SC",
+      "Palhoça / SC",
+      "Paulo Lopes / SC",
+      "Rancho Queimado / SC",
+      "Santo Amaro da Imperatriz / SC",
+      "São Bonifácio / SC",
+      "São José / SC",
+      "São Pedro de Alcântara / SC"
+    ],
+    "telefones": [
+      "(﻿48) 2012-3360"
+    ],
+    "email": "biguacu@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Blumenau",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Artur Oscar Kluge, 115, Passo Manso",
+    "cidades_atendidas": [
+      "Benedito Novo / SC",
+      "Blumenau / SC",
+      "Botuverá / SC",
+      "Brusque / SC",
+      "Canelinha / SC",
+      "Doutor Pedrinho / SC",
+      "Gaspar / SC",
+      "Guabiruba / SC",
+      "Ilhota / SC",
+      "Indaial / SC",
+      "Luiz Alves / SC",
+      "Major Gercino / SC",
+      "Nova Trento / SC",
+      "Pomerode / SC",
+      "Rio dos Cedros / SC",
+      "São João Batista / SC",
+      "São João do Itaperiú / SC",
+      "Tijucas / SC",
+      "Timbó / SC"
+    ],
+    "telefones": [
+      "(47) 2204-2943"
+    ],
+    "email": "blumenau@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Chapecó",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Nicarágua, 465 D B. Líder",
+    "cidades_atendidas": [
+      "Águas de Chapecó / SC",
+      "Arvoredo / SC",
+      "Caibi / SC",
+      "Caxambu do Sul / SC",
+      "Chapecó / SC",
+      "Cordilheira Alta / SC",
+      "Coronel Freitas / SC",
+      "Guatambú / SC",
+      "Itá / SC",
+      "Paial / SC",
+      "Palmitos / SC",
+      "Planalto Alegre / SC",
+      "São Carlos / SC",
+      "Seara / SC",
+      "Xavantina / SC"
+    ],
+    "telefones": [
+      "(49) 3319-3030"
+    ],
+    "email": "chapeco@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Concórdia",
+    "cidade": "Concórdia",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Tancredo de Almeida Neves, 6990 - Bairro São Cristóvão",
+    "cidades_atendidas": [
+      "Alto Bela Vista / SC",
+      "Arabutã / SC",
+      "Concórdia / SC",
+      "Ipira / SC",
+      "Ipumirim / SC",
+      "Lindóia do Sul / SC",
+      "Peritiba / SC",
+      "Piratuba / SC"
+    ],
+    "telefones": [
+      "(49) 3444-2039"
+    ],
+    "email": "concordia@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Criciúma",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Jacinto Machado, 222 - Bairro Presidente Vargas",
+    "cidades_atendidas": [
+      "Balneário Rincão / SC",
+      "Cocal do Sul / SC",
+      "Criciúma / SC",
+      "Içara / SC",
+      "Morro da Fumaça / SC",
+      "Nova Veneza / SC",
+      "Siderópolis / SC",
+      "Treviso / SC",
+      "Urussanga / SC"
+    ],
+    "telefones": [
+      "(48) 98877-1305"
+    ],
+    "email": "criciuma@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Curitibanos",
+    "cidade": "Curitibanos",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "BR 470 Km 248 Bairro Bom Jesus,  6600",
+    "cidades_atendidas": [
+      "Curitibanos / SC",
+      "Frei Rogério / SC",
+      "Ponte Alta do Norte / SC",
+      "Santa Cecília / SC",
+      "São Cristóvão do Sul / SC"
+    ],
+    "telefones": [
+      "(49) 3241-2459"
+    ],
+    "email": "cdcuritibanos@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Curitibanos",
+    "cidade": "Curitibanos",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Orlando Gans num 1009, Bairro Nossa Sra. Aparecida",
+    "cidades_atendidas": [
+      "Curitibanos / SC",
+      "Frei Rogério / SC",
+      "Ponte Alta do Norte / SC",
+      "Santa Cecília / SC",
+      "São Cristóvão do Sul / SC"
+    ],
+    "telefones": [
+      "(49) 3241-2261"
+    ],
+    "email": "curitibanos.expedicao@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Fraiburgo",
+    "cidade": "Fraiburgo",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Cruz e Souza, 117, sala 2 Jardim das Araucárias - CEP",
+    "cidades_atendidas": [
+      "Fraiburgo / SC",
+      "Monte Carlo / SC"
+    ],
+    "telefones": [
+      "(49) 3960-1050"
+    ],
+    "email": "fraiburgo.gerencia@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Itajaí",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rodovia BR 101, 12500  -  bloco 2 , galpão 1 - Bairro Canhanduba",
+    "cidades_atendidas": [
+      "Balneário Camboriú / SC",
+      "Balneário Piçarras / SC",
+      "Barra Velha / SC",
+      "Bombinhas / SC",
+      "Camboriú / SC",
+      "Itajaí / SC",
+      "Itapema / SC",
+      "Navegantes / SC",
+      "Penha / SC",
+      "Porto Belo / SC"
+    ],
+    "telefones": [
+      "(47) 3224-2577"
+    ],
+    "email": "itajai@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "cidade": "Jaraguá do Sul",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Av. Prefeito Waldemar Grubba, 1880, B. Vila Lalau",
+    "cidades_atendidas": [
+      "Corupá / SC",
+      "Guaramirim / SC",
+      "Jaraguá Do Sul / SC",
+      "Massaranduba / SC",
+      "Schroeder / SC"
+    ],
+    "telefones": [
+      "(47) 3208-9538"
+    ],
+    "email": "jaraguadosul@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Joaçaba",
+    "cidade": "Joaçaba",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R Pedro Sautchuk, 113, Bairro N. Sra. De Lourdes",
+    "cidades_atendidas": [
+      "Abdon Batista / SC",
+      "Água Doce / SC",
+      "Arroio Trinta / SC",
+      "Brunópolis / SC",
+      "Campos Novos / SC",
+      "Capinzal / SC",
+      "Catanduvas / SC",
+      "Celso Ramos / SC",
+      "Erval Velho / SC",
+      "Herval D'Oeste / SC",
+      "Ibiam / SC",
+      "Ibicaré / SC",
+      "Jaborá / SC",
+      "Joaçaba / SC",
+      "Lacerdópolis / SC",
+      "Luzerna / SC",
+      "Macieira / SC",
+      "Ouro / SC",
+      "Pinheiro Preto / SC",
+      "Presidente Castello Branco / SC",
+      "Salto Veloso / SC",
+      "Tangará / SC",
+      "Treze Tílias / SC",
+      "Vargem / SC",
+      "Vargem Bonita / SC",
+      "Zortéa / SC"
+    ],
+    "telefones": [
+      "(49) 3521-1548"
+    ],
+    "email": "joacaba@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Joinville",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R. XV de Novembro, 4769 - Bairro Vila Nova",
+    "cidades_atendidas": [
+      "Araquari / SC",
+      "Balneário Barra do Sul / SC",
+      "Garuva / SC",
+      "Itapoá / SC",
+      "Joinville / SC",
+      "São Francisco do Sul / SC"
+    ],
+    "telefones": [
+      "(47) 3512-6281"
+    ],
+    "email": "joinville@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Lages",
+    "cidade": "Lages",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Cecília Langaro, 115 B. Santa Catarina",
+    "cidades_atendidas": [
+      "Alfredo Wagner / SC",
+      "Anita Garibaldi / SC",
+      "Bocaína do Sul / SC",
+      "Bom Jardim da Serra / SC",
+      "Bom Retiro / SC",
+      "Campo Belo do Sul / SC",
+      "Capão Alto / SC",
+      "Cerro Negro / SC",
+      "Correia Pinto / SC",
+      "Lages / SC",
+      "Painel / SC",
+      "Ponte Alta / SC",
+      "Rio Rufino / SC",
+      "São Joaquim / SC",
+      "São José do Cerrito / SC",
+      "Urubici / SC",
+      "Urupema / SC"
+    ],
+    "telefones": [
+      "(49) 3223-0741"
+    ],
+    "email": "lages@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Lontras",
+    "cidade": "Lontras",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "ROD. SC 110, 175 - Margem Esquerda",
+    "cidades_atendidas": [
+      "Agronômica / SC",
+      "Apiúna / SC",
+      "Ascurra / SC",
+      "Aurora / SC",
+      "Chapadão do Lageado / SC",
+      "Dona Emma / SC",
+      "Ibirama / SC",
+      "Imbuia / SC",
+      "Ituporanga / SC",
+      "José Boiteux / SC",
+      "Laurentino / SC",
+      "Leoberto Leal / SC",
+      "Lontras / SC",
+      "Petrolândia / SC",
+      "Presidente Getúlio / SC",
+      "Presidente Nereu / SC",
+      "Rio do Oeste / SC",
+      "Rio Do Sul / SC",
+      "Rodeio / SC",
+      "Vidal Ramos / SC",
+      "Vitor Meireles / SC",
+      "Witmarsum / SC"
+    ],
+    "telefones": [
+      "(47) 3300-0518"
+    ],
+    "email": "riodosul@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Mafra",
+    "cidade": "Mafra",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Avenida industrial Paulo Fleischmann , 500 - 2, Vila Nova, 89304-362",
+    "cidades_atendidas": [],
+    "telefones": [
+      "(47) 99948-6754"
+    ],
+    "email": "mafra@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Maravilha",
+    "cidade": "Maravilha",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua José Engelmann, SN - Br-282 - Km 607 - Bairro Industria",
+    "cidades_atendidas": [
+      "Águas Frias / SC",
+      "Bom Jesus do Oeste / SC",
+      "Cunha Porã / SC",
+      "Cunhataí / SC",
+      "Flor do Sertão / SC",
+      "Iraceminha / SC",
+      "Maravilha / SC",
+      "Modelo / SC",
+      "Nova Erechim / SC",
+      "Nova Itaberaba / SC",
+      "Pinhalzinho / SC",
+      "Romelândia / SC",
+      "Santa Terezinha do Progresso / SC",
+      "São Miguel da Boa Vista / SC",
+      "Saudades / SC",
+      "Serra Alta / SC",
+      "Sul Brasil / SC",
+      "Tigrinhos / SC"
+    ],
+    "telefones": [
+      "(49) 3630-1062"
+    ],
+    "email": "maravilha@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Pouso Redondo",
+    "cidade": "Pouso Redondo",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua: Else Siewerdt s/n – Barracão 1, Bairro: Arno Siewerdt",
+    "cidades_atendidas": [
+      "Agrolândia / SC",
+      "Atalanta / SC",
+      "Braço do Trombudo / SC",
+      "Mirim Doce / SC",
+      "Otacílio Costa / SC",
+      "Palmeira / SC",
+      "Pouso Redondo / SC",
+      "Rio do Campo / SC",
+      "Salete / SC",
+      "Santa Terezinha / SC",
+      "Taió / SC"
+    ],
+    "telefones": [
+      "(47) 99669-0417"
+    ],
+    "email": "pousoredondo@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Bento Do Sul",
+    "cidade": "São Bento Do Sul",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Alfredo Zierth, 216, B.Cruzeiro",
+    "cidades_atendidas": [
+      "Agudos do Sul / PR",
+      "Piên / PR",
+      "Tijucas do Sul / PR",
+      "Campo Alegre / SC",
+      "Rio Negrinho / SC",
+      "São Bento do Sul / SC"
+    ],
+    "telefones": [
+      "(47) 99177-7887"
+    ],
+    "email": "saobentodosul@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Lourenço do Oeste",
+    "cidade": "São Lourenço do Oeste",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Av. Brasil, n° 2346, Bairro Cruzeiro",
+    "cidades_atendidas": [
+      "Flor da Serra do Sul / PR",
+      "Salgado Filho / PR",
+      "Anchieta / SC",
+      "Campo Erê / SC",
+      "Coronel Martins / SC",
+      "Entre Rios / SC",
+      "Formosa do Sul / SC",
+      "Galvão / SC",
+      "Ipuaçu / SC",
+      "Irati / SC",
+      "Jardinópolis / SC",
+      "Jupiá / SC",
+      "Novo Horizonte / SC",
+      "Palma Sola / SC",
+      "Quilombo / SC",
+      "Saltinho / SC",
+      "Santiago do Sul / SC",
+      "São Bernardino / SC",
+      "São Domingos / SC",
+      "São Lourenço do Oeste / SC",
+      "União do Oeste / SC"
+    ],
+    "telefones": [
+      "(49) 3344-3353"
+    ],
+    "email": "saolourenco@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "São Miguel do Oeste",
+    "cidade": "São Miguel do Oeste",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Florianópolis, 1795 B. São Luiz",
+    "cidades_atendidas": [
+      "Flor da Serra do Sul / PR",
+      "Salgado Filho / PR",
+      "Anchieta / SC",
+      "Campo Erê / SC",
+      "Coronel Martins / SC",
+      "Entre Rios / SC",
+      "Formosa do Sul / SC",
+      "Galvão / SC",
+      "Ipuaçu / SC",
+      "Irati / SC",
+      "Jardinópolis / SC",
+      "Jupiá / SC",
+      "Novo Horizonte / SC",
+      "Palma Sola / SC",
+      "Quilombo / SC",
+      "Saltinho / SC",
+      "Santiago do Sul / SC",
+      "São Bernardino / SC",
+      "São Domingos / SC",
+      "São Lourenço do Oeste / SC",
+      "União do Oeste / SC"
+    ],
+    "telefones": [
+      "(49) 3622-6969"
+    ],
+    "email": "saomiguel@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Tubarão",
+    "cidade": "Tubarão",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Coronel José Martins Cabral, 1080 B. Humaitá",
+    "cidades_atendidas": [
+      "Armazém / SC",
+      "Braço do Norte / SC",
+      "Capivari de Baixo / SC",
+      "Garopaba / SC",
+      "Grão Pará / SC",
+      "Gravatal / SC",
+      "Imaruí / SC",
+      "Imbituba / SC",
+      "Jaguaruna / SC",
+      "Laguna / SC",
+      "Lauro Müller / SC",
+      "Orleans / SC",
+      "Pedras Grandes / SC",
+      "Pescaria Brava / SC",
+      "Rio Fortuna / SC",
+      "Sangão / SC",
+      "Santa Rosa de Lima / SC",
+      "São Ludgero / SC",
+      "São Martinho / SC",
+      "Treze de Maio / SC",
+      "Tubarão / SC"
+    ],
+    "telefones": [
+      "(48) 3629-0096"
+    ],
+    "email": "tubarao@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Videira",
+    "cidade": "Videira",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "SC-355, km 50 - RIO DAS PEDRAS",
+    "cidades_atendidas": [
+      "Caçador / SC",
+      "Calmon / SC",
+      "Iomerê / SC",
+      "Lebon Régis / SC",
+      "Matos Costa / SC",
+      "Rio das Antas / SC",
+      "Timbó Grande / SC",
+      "Videira / SC"
+    ],
+    "telefones": [
+      "(49) 99189-3401"
+    ],
+    "email": "videira@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Xanxerê",
+    "cidade": "Xanxerê",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Aldoino Casagranda, 165. Bairro: Nossa Senhora de Fátima",
+    "cidades_atendidas": [
+      "Abelardo Luz / SC",
+      "Bom Jesus / SC",
+      "Faxinal dos Guedes / SC",
+      "Irani / SC",
+      "Lajeado Grande / SC",
+      "Marema / SC",
+      "Ouro Verde / SC",
+      "Passos Maia / SC",
+      "Ponte Serrada / SC",
+      "Vargeão / SC",
+      "Xanxerê / SC",
+      "Xaxim / SC"
+    ],
+    "telefones": [
+      "(49) 3433-2354"
+    ],
+    "email": "xanxere@bauerexpress.com.br",
+    "source": "parana.xlsx"
+  },
+  {
+    "nome": "Ampére",
+    "cidade": "Ampére",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: Davi Capellari 114, Bairro: Rude Jose Spanhol",
+    "cidades_atendidas": [
+      "Ampére / PR",
+      "Bela Vista da Caroba / PR",
+      "Bom Jesus do Sul / PR",
+      "Capanema / PR",
+      "Capitão Leônidas Marques / PR",
+      "Pérola d'Oeste / PR",
+      "Pinhal de São Bento / PR",
+      "Planalto / PR",
+      "Pranchita / PR",
+      "Realeza / PR",
+      "Santa Izabel do Oeste / PR",
+      "Santa Lúcia / PR",
+      "Santo Antônio do Sudoeste / PR"
+    ],
+    "telefones": [
+      "(46) 3547-3445"
+    ],
+    "email": "ampere@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Apucarana",
+    "cidade": "Apucarana",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Minas Gerais, n° 3943, Bairro Adriana Correa",
+    "cidades_atendidas": [
+      "Apucarana / PR",
+      "Arapuã / PR",
+      "Ariranha do Ivaí / PR",
+      "Bom Sucesso / PR",
+      "Borrazópolis / PR",
+      "Califórnia / PR",
+      "Cambira / PR",
+      "Cruzmaltina / PR",
+      "Faxinal / PR",
+      "Godoy Moreira / PR",
+      "Grandes Rios / PR",
+      "Ivaiporã / PR",
+      "Jandaia do Sul / PR",
+      "Jardim Alegre / PR",
+      "Kaloré / PR",
+      "Lidianópolis / PR",
+      "Lunardelli / PR",
+      "Mandaguari / PR",
+      "Marilândia do Sul / PR",
+      "Marumbi / PR",
+      "Mauá da Serra / PR",
+      "Novo Itacolomi / PR",
+      "Rio Bom / PR",
+      "Rio Branco do Ivaí / PR",
+      "Rosário do Ivaí / PR",
+      "São João do Ivaí / PR",
+      "São Pedro do Ivaí / PR"
+    ],
+    "telefones": [
+      "(43) 3422-3363"
+    ],
+    "email": "apucarana@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Arapongas",
+    "cidade": "Arapongas",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: faisão 1057, Bairro: vila Sampaio",
+    "cidades_atendidas": [
+      "Arapongas / PR",
+      "Astorga / PR",
+      "Pitangueiras / PR",
+      "Sabáudia / PR"
+    ],
+    "telefones": [
+      "(43) 3252-7599"
+    ],
+    "email": "arapongas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Campo Mourão",
+    "cidade": "Campo Mourão",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Estefano Domanski, 3777 - B. Jardim Santa Cruz",
+    "cidades_atendidas": [
+      "Araruna / PR",
+      "Barbosa Ferraz / PR",
+      "Boa Esperança / PR",
+      "Campo Mourão / PR",
+      "Corumbataí do Sul / PR",
+      "Engenheiro Beltrão / PR",
+      "Farol / PR",
+      "Fênix / PR",
+      "Goioerê / PR",
+      "Iretama / PR",
+      "Janiópolis / PR",
+      "Juranda / PR",
+      "Luiziana / PR",
+      "Mamborê / PR",
+      "Nova Tebas / PR",
+      "Peabiru / PR",
+      "Quarto Centenário / PR",
+      "Quinta do Sol / PR",
+      "Rancho Alegre d'Oeste / PR",
+      "Roncador / PR"
+    ],
+    "telefones": [
+      "(44) 99924-0072"
+    ],
+    "email": "campomourao@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Cascavel",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av.: Araci tanaka biazetto, 9930, Bairro: Parque São Paulo",
+    "cidades_atendidas": [
+      "Altamira do Paraná / PR",
+      "Anahy / PR",
+      "Braganey / PR",
+      "Cafelândia / PR",
+      "Campina da Lagoa / PR",
+      "Cascavel / PR",
+      "Corbélia / PR",
+      "Iguatu / PR",
+      "Lindoeste / PR",
+      "Nova Aurora / PR",
+      "Nova Cantu / PR",
+      "Santa Tereza do Oeste / PR",
+      "Ubiratã / PR"
+    ],
+    "telefones": [
+      "(45) 3228-1071"
+    ],
+    "email": "cascavel@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Curitiba",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR-116, Km 15, 26929, B. Campo do Santana",
+    "cidades_atendidas": [
+      "Adrianópolis / PR",
+      "Almirante Tamandaré / PR",
+      "Antonina / PR",
+      "Araucária / PR",
+      "Balsa Nova / PR",
+      "Bocaiúva do Sul / PR",
+      "Campina Grande do Sul / PR",
+      "Campo do Tenente / PR",
+      "Campo Largo / PR",
+      "Campo Magro / PR",
+      "Cerro Azul / PR",
+      "Colombo / PR",
+      "Contenda / PR",
+      "Curitiba / PR",
+      "Doutor Ulysses / PR",
+      "Fazenda Rio Grande / PR",
+      "Guaratuba / PR",
+      "Itaperuçu / PR",
+      "Lapa / PR",
+      "Mandirituba / PR",
+      "Matinhos / PR",
+      "Morretes / PR",
+      "Paranaguá / PR",
+      "Pinhais / PR",
+      "Piraquara / PR",
+      "Pontal do Paraná / PR",
+      "Quatro Barras / PR",
+      "Quitandinha / PR",
+      "Rio Branco do Sul / PR",
+      "Rio Negro / PR",
+      "São José Dos Pinhais / PR",
+      "Tunas do Paraná / PR",
+      "Bela Vista do Toldo / SC",
+      "Canoinhas / SC",
+      "Itaiópolis / SC",
+      "Mafra / SC",
+      "Major Vieira / SC",
+      "Monte Castelo / SC",
+      "Papanduva / SC",
+      "Três Barras / SC"
+    ],
+    "telefones": [
+      "(41) 3268-7932"
+    ],
+    "email": "curitiba@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "cidade": "Dois Vizinhos",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: Ivanir Araldi 305, Bairro: Pq. Industrial Araldi",
+    "cidades_atendidas": [
+      "Boa Esperança do Iguaçu / PR",
+      "Cruzeiro do Iguaçu / PR",
+      "Dois Vizinhos / PR",
+      "Nova Prata do Iguaçu / PR",
+      "Salto do Lontra / PR",
+      "São Jorge D'Oeste / PR",
+      "Verê / PR"
+    ],
+    "telefones": [
+      "(46) 3010-1479"
+    ],
+    "email": "doisvizinhos@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. Ranieri Mazilli, 418 B. Parque Presidente",
+    "cidades_atendidas": [
+      "Foz Do Iguaçu / PR",
+      "Santa Terezinha de Itaipu / PR"
+    ],
+    "telefones": [
+      "(45) 3573-7454"
+    ],
+    "email": "fozdoiguacu@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "cidade": "Francisco Beltrão",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Carolina Zanette Marcello, 106 B. Luther King",
+    "cidades_atendidas": [
+      "Enéas Marques / PR",
+      "Francisco Beltrão / PR",
+      "Manfrinópolis / PR",
+      "Marmeleiro / PR",
+      "Nova Esperança do Sudoeste / PR",
+      "Renascença / PR"
+    ],
+    "telefones": [
+      "(46) 3523-3072"
+    ],
+    "email": "franciscobeltrao@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Guarapuava",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Inácio Martins 140, Bairro Industrial",
+    "cidades_atendidas": [
+      "Boa Ventura de São Roque / PR",
+      "Campina do Simão / PR",
+      "Cândido de Abreu / PR",
+      "Candói / PR",
+      "Foz do Jordão / PR",
+      "Goioxim / PR",
+      "Guarapuava / PR",
+      "Manoel Ribas / PR",
+      "Mato Rico / PR",
+      "Pinhão / PR",
+      "Pitanga / PR",
+      "Reserva do Iguaçu / PR",
+      "Santa Maria do Oeste / PR",
+      "Turvo / PR"
+    ],
+    "telefones": [
+      "(42) 3622-5757"
+    ],
+    "email": "guarapuava@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Irati",
+    "cidade": "Irati",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 277 Km 243,5, Serra dos Nogueiras",
+    "cidades_atendidas": [
+      "Fernandes Pinheiro / PR",
+      "Guamiranga / PR",
+      "Imbituva / PR",
+      "Inácio Martins / PR",
+      "Irati / PR",
+      "Ivaí / PR",
+      "Mallet / PR",
+      "Paulo Frontin / PR",
+      "Prudentópolis / PR",
+      "Rebouças / PR",
+      "Rio Azul / PR",
+      "Teixeira Soares / PR"
+    ],
+    "telefones": [
+      "(42) 99837-6073"
+    ],
+    "email": "irati@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Jaguariaíva",
+    "cidade": "Jaguariaíva",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. BNH, 501 - Vila Kennedy",
+    "cidades_atendidas": [
+      "Arapoti / PR",
+      "Jaguariaíva / PR",
+      "São José da Boa Vista / PR",
+      "Sengés / PR",
+      "Wenceslau Braz / PR"
+    ],
+    "telefones": [],
+    "email": "jaguariaiva@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Laranjeiras do Sul",
+    "cidade": "Laranjeiras do Sul",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 277, KM 453 B. Vila Industrial",
+    "cidades_atendidas": [
+      "Cantagalo / PR",
+      "Laranjal / PR",
+      "Laranjeiras Do Sul / PR",
+      "Marquinho / PR",
+      "Nova Laranjeiras / PR",
+      "Palmital / PR",
+      "Porto Barreiro / PR",
+      "Rio Bonito do Iguaçu / PR",
+      "Virmond / PR"
+    ],
+    "telefones": [
+      "(42) 3635-6737"
+    ],
+    "email": "laranjeirasdosul@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Londrina",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. Francisco José Ferreira, 500, Bairro Yara",
+    "cidades_atendidas": [
+      "Alvorada do Sul / PR",
+      "Assaí / PR",
+      "Bela Vista do Paraíso / PR",
+      "Cambé / PR",
+      "Cianorte / PR",
+      "Cornélio Procópio / PR",
+      "Guaporema / PR",
+      "Ibiporã / PR",
+      "Indianópolis / PR",
+      "Japurá / PR",
+      "Jataizinho / PR",
+      "Jussara / PR",
+      "Leópolis / PR",
+      "Londrina / PR",
+      "Londrina Norte / PR",
+      "Nova América da Colina / PR",
+      "Nova Santa Bárbara / PR",
+      "Primeiro de Maio / PR",
+      "Rancho Alegre / PR",
+      "Rolândia / PR",
+      "Rondon / PR",
+      "Santa Cecília do Pavão / PR",
+      "Santa Mariana / PR",
+      "São Jerônimo da Serra / PR",
+      "São Manoel do Paraná / PR",
+      "São Sebastião da Amoreira / PR",
+      "São Tomé / PR",
+      "Sertaneja / PR",
+      "Sertanópolis / PR",
+      "Tamarana / PR",
+      "Terra Boa / PR",
+      "Uraí / PR"
+    ],
+    "telefones": [
+      "(43) 3772-3484"
+    ],
+    "email": "londrina@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Marechal Cândido Rondon",
+    "cidade": "Marechal Cândido Rondon",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua 15 de novembro, n° 3131, Bairro Ana Neuza",
+    "cidades_atendidas": [
+      "Entre Rios do Oeste / PR",
+      "Guaíra / PR",
+      "Marechal Cândido Rondon / PR",
+      "Maripá / PR",
+      "Mercedes / PR",
+      "Nova Santa Rosa / PR",
+      "Palotina / PR",
+      "Pato Bragado / PR",
+      "Quatro Pontes / PR",
+      "Terra Roxa / PR"
+    ],
+    "telefones": [
+      "(45) 2031-0430"
+    ],
+    "email": "marechal@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Maringá",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rod. Prefeito Sincler Sambatti, 10092, B. Jardim Bertioga",
+    "cidades_atendidas": [
+      "lto Paraná / PR",
+      "Amaporã / PR",
+      "Ângulo / PR",
+      "Atalaia / PR",
+      "Cafeara / PR",
+      "Centenário do Sul / PR",
+      "Colorado / PR",
+      "Cruzeiro do Sul / PR",
+      "Diamante do Norte / PR",
+      "Doutor Camargo / PR",
+      "Floraí / PR",
+      "Floresta / PR",
+      "Florestópolis / PR",
+      "Flórida / PR",
+      "Guairaçá / PR",
+      "Guaraci / PR",
+      "Iguaraçu / PR",
+      "Inajá / PR",
+      "Itaguajé / PR",
+      "Itambé / PR",
+      "Itaúna do Sul / PR",
+      "Ivatuba / PR",
+      "Jaguapitã / PR",
+      "Jardim Olinda / PR",
+      "Loanda / PR",
+      "Lobato / PR",
+      "Lupionópolis / PR",
+      "Mandaguaçu / PR",
+      "Marialva / PR",
+      "Marilena / PR",
+      "Maringá / PR",
+      "Mirador / PR",
+      "Miraselva / PR",
+      "Munhoz de Melo / PR",
+      "Nossa Senhora das Graças / PR",
+      "Nova Aliança do Ivaí / PR",
+      "Nova Esperança / PR",
+      "Nova Londrina / PR",
+      "Ourizona / PR",
+      "Paiçandu / PR",
+      "Paraíso do Norte / PR",
+      "Paranacity / PR",
+      "Paranapoema / PR",
+      "Paranavaí / PR",
+      "Planaltina do Paraná / PR",
+      "Porecatu / PR",
+      "Porto Rico / PR",
+      "Prado Ferreira / PR",
+      "Presidente Castelo Branco / PR",
+      "Querência do Norte / PR",
+      "Santa Cruz de Monte Castelo / PR",
+      "Santa Fé / PR",
+      "Santa Inês / PR",
+      "Santa Isabel do Ivaí / PR",
+      "Santa Mônica / PR",
+      "Santo Antônio do Caiuá / PR",
+      "Santo Inácio / PR",
+      "São Carlos do Ivaí / PR",
+      "São João do Caiuá / PR",
+      "São Jorge do Ivaí / PR",
+      "São Pedro do Paraná / PR",
+      "Sarandi / PR",
+      "Tamboara / PR",
+      "Terra Rica / PR",
+      "Uniflor / PR"
+    ],
+    "telefones": [
+      "(44) 3266-7589"
+    ],
+    "email": "maringa@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Medianeira",
+    "cidade": "Medianeira",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Severino David Endrigo, 51, B. Florença",
+    "cidades_atendidas": [
+      "Céu Azul / PR",
+      "Diamante d'Oeste / PR",
+      "Itaipulândia / PR",
+      "Matelândia / PR",
+      "Medianeira / PR",
+      "Missal / PR",
+      "Ramilândia / PR",
+      "Santa Helena / PR",
+      "São Miguel do Iguaçu / PR",
+      "Serranópolis do Iguaçu / PR",
+      "Vera Cruz do Oeste / PR"
+    ],
+    "telefones": [
+      "(45) 3264-7385"
+    ],
+    "email": "medianeira@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Palmas",
+    "cidade": "Palmas",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Alberto Santos Dumont, 295, B. Divino, Palmas-PR",
+    "cidades_atendidas": [
+      "Clevelândia / PR",
+      "Coronel Domingos Soares / PR",
+      "Palmas / PR"
+    ],
+    "telefones": [
+      "(46) 3262-1117"
+    ],
+    "email": "palmas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Pato Branco",
+    "cidade": "Pato Branco",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 158, Km. 373, 25 B. Menino Deus",
+    "cidades_atendidas": [
+      "Bom Sucesso do Sul / PR",
+      "Chopinzinho / PR",
+      "Coronel Vivida / PR",
+      "Honório Serpa / PR",
+      "Itapejara d'Oeste / PR",
+      "Mangueirinha / PR",
+      "Mariópolis / PR",
+      "Pato Branco / PR",
+      "São João / PR",
+      "Saudade do Iguaçu / PR",
+      "Sulina / PR",
+      "Vitorino / PR"
+    ],
+    "telefones": [
+      "(46) 3225-5801"
+    ],
+    "email": "patobranco@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Ponta Grossa",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Souza Naves, n° 1999, Bairro Chapada",
+    "cidades_atendidas": [
+      "Carambeí / PR",
+      "Castro / PR",
+      "Ipiranga / PR",
+      "Palmeira / PR",
+      "Piraí do Sul / PR",
+      "Ponta Grossa / PR",
+      "Porto Amazonas / PR"
+    ],
+    "telefones": [
+      "(41) 99570-5960"
+    ],
+    "email": "pontagrossa@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Quedas do Iguaçu",
+    "cidade": "Quedas do Iguaçu",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Taruma 2031 -  Anexo a Rodoviária, Centro",
+    "cidades_atendidas": [
+      "Boa Vista da Aparecida / PR",
+      "Campo Bonito / PR",
+      "Catanduvas / PR",
+      "Diamante do Sul / PR",
+      "Espigão Alto do Iguaçu / PR",
+      "Guaraniaçu / PR",
+      "Ibema / PR",
+      "Quedas do Iguaçu / PR",
+      "Três Barras do Paraná / PR"
+    ],
+    "telefones": [
+      "(46) 3532-2006"
+    ],
+    "email": "quedasdoiguacu@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santo Antônio da Platina",
+    "cidade": "Santo Antônio da Platina",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Vereador José Tanko, 241, Parque Jandira",
+    "cidades_atendidas": [
+      "Abatiá / PR",
+      "Andirá / PR",
+      "Bandeirantes / PR",
+      "Barra do Jacaré / PR",
+      "Cambará / PR",
+      "Carlópolis / PR",
+      "Congonhinhas / PR",
+      "Conselheiro Mairinck / PR",
+      "Curiúva / PR",
+      "Figueira / PR",
+      "Guapirama / PR",
+      "Ibaiti / PR",
+      "Itambaracá / PR",
+      "Jaboti / PR",
+      "Jacarezinho / PR",
+      "Japira / PR",
+      "Joaquim Távora / PR",
+      "Jundiaí do Sul / PR",
+      "Nova Fátima / PR",
+      "Pinhalão / PR",
+      "Quatiguá / PR",
+      "Ribeirão Claro / PR",
+      "Ribeirão do Pinhal / PR",
+      "Salto do Itararé / PR",
+      "Santa Amélia / PR",
+      "Santana do Itararé / PR",
+      "Santo Antônio da Platina / PR",
+      "Santo Antônio do Paraíso / PR",
+      "Sapopema / PR",
+      "Siqueira Campos / PR",
+      "Tomazina / PR"
+    ],
+    "telefones": [
+      "(49) 98879-2783"
+    ],
+    "email": "santoantoniodaplatina@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Mateus do Sul",
+    "cidade": "São Mateus do Sul",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 476 km 280, Nº 2056 Vila Nepomuceno",
+    "cidades_atendidas": [
+      "Antônio Olinto / PR",
+      "São João do Triunfo / PR",
+      "São Mateus do Sul / PR"
+    ],
+    "telefones": [
+      "(42) 98850-4546"
+    ],
+    "email": "saomateus@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "cidade": "Telêmaco Borba",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Castanheira, 315 B. Jardim Monte Carlo",
+    "cidades_atendidas": [
+      "Imbaú / PR",
+      "Ortigueira / PR",
+      "Reserva / PR",
+      "Telêmaco Borba / PR",
+      "Tibagi / PR",
+      "Ventania / PR"
+    ],
+    "telefones": [
+      "(42) 99165-8575"
+    ],
+    "email": "telemacoborba@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Toledo",
+    "cidade": "Toledo",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Senador Atílio Fontana, 4791 - Barracão 16, Centro",
+    "cidades_atendidas": [
+      "Assis Chateaubriand / PR",
+      "Formosa do Oeste / PR",
+      "Iracema do Oeste / PR",
+      "Jesuítas / PR",
+      "Ouro Verde do Oeste / PR",
+      "São José das Palmeiras / PR",
+      "São Pedro do Iguaçu / PR",
+      "Toledo / PR",
+      "Tupãssi / PR"
+    ],
+    "telefones": [
+      "(45) 2033-8077"
+    ],
+    "email": "toledo@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Umuarama",
+    "cidade": "Umuarama",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "R. Benjamin Pajanoti, 1329 - Jardim Santiago",
+    "cidades_atendidas": [
+      "Alto Paraíso / PR",
+      "Alto Piquiri / PR",
+      "Altônia / PR",
+      "Brasilândia do Sul / PR",
+      "Cafezal do Sul / PR",
+      "Cidade Gaúcha / PR",
+      "Cruzeiro do Oeste / PR",
+      "Douradina / PR",
+      "Esperança Nova / PR",
+      "Francisco Alves / PR",
+      "Icaraíma / PR",
+      "Iporã / PR",
+      "Ivaté / PR",
+      "Maria Helena / PR",
+      "Mariluz / PR",
+      "Moreira Sales / PR",
+      "Nova Olímpia / PR",
+      "Perobal / PR",
+      "Pérola / PR",
+      "São Jorge do Patrocínio / PR",
+      "Tapejara / PR",
+      "Tapira / PR",
+      "Tuneiras do Oeste / PR",
+      "Umuarama / PR",
+      "Xambrê / PR"
+    ],
+    "telefones": [
+      "(44) 3624-8283"
+    ],
+    "email": "umuarama@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "União Da Vitória",
+    "cidade": "União Da Vitória",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua São Domingos, Bairro Mallon",
+    "cidades_atendidas": [
+      "Bituruna / PR",
+      "Cruz Machado / PR",
+      "General Carneiro / PR",
+      "Paula Freitas / PR",
+      "Porto Vitória / PR",
+      "União Da Vitória / PR",
+      "Irineópolis / SC",
+      "Porto União / SC"
+    ],
+    "telefones": [
+      "(42) 3524-6903"
+    ],
+    "email": "uniaodavitoria@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Alegrete",
+    "cidade": "Alegrete",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Planalto, N. 30, Bairro Saudade",
+    "cidades_atendidas": [
+      "legrete / RS",
+      "Manoel Viana / RS"
+    ],
+    "telefones": [
+      "(55) 99677-1784"
+    ],
+    "email": "alegrete.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Bagé",
+    "cidade": "Bagé",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Álvaro Lannes de Carvalho, 20, Bairro Getúlio Vargas",
+    "cidades_atendidas": [
+      "Aceguá / RS",
+      "Bagé / RS",
+      "Candiota / RS",
+      "Dom Pedrito / RS",
+      "Hulha Negra / RS",
+      "Pedras Altas / RS",
+      "Pinheiro Machado / RS"
+    ],
+    "telefones": [
+      "(53) 99992-2160"
+    ],
+    "email": "bage@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Artêmio Arlindo Someci, 765, Bairo: São Vendelino",
+    "cidades_atendidas": [
+      "Alto Feliz / RS",
+      "Barão / RS",
+      "Bento Gonçalves / RS",
+      "Carlos Barbosa / RS",
+      "Coronel Pilar / RS",
+      "Farroupilha / RS",
+      "Feliz / RS",
+      "Garibaldi / RS",
+      "Monte Belo do Sul / RS",
+      "Nova Roma do Sul / RS",
+      "Pinto Bandeira / RS",
+      "Salvador do Sul / RS",
+      "Santa Tereza / RS",
+      "São Pedro da Serra / RS",
+      "São Vedelino / RS",
+      "São Vendelino / RS",
+      "Vale Real / RS"
+    ],
+    "telefones": [],
+    "email": "bentogoncalves@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Caçapava do Sul",
+    "cidade": "Caçapava do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. Lino Azambuja, 1343 - 2 - Centro",
+    "cidades_atendidas": [
+      "Caçapava do Sul / RS",
+      "Lavras do Sul / RS",
+      "Santana da Boa Vista / RS",
+      "São Sepé / RS"
+    ],
+    "telefones": [
+      "(55) 9 9999-2393"
+    ],
+    "email": "cacapavadosul.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Camaquã",
+    "cidade": "Camaquã",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Quinze de Novembro, 470, Bairro Olaria",
+    "cidades_atendidas": [
+      "Amaral Ferrador / RS",
+      "Arambaré / RS",
+      "Barão do Triunfo / RS",
+      "Barra do Ribeiro / RS",
+      "Camaquã / RS",
+      "Cerro Grande do Sul / RS",
+      "Chuvisca / RS",
+      "Cristal / RS",
+      "Dom Feliciano / RS",
+      "Mariana Pimentel / RS",
+      "Sentinela do Sul / RS",
+      "Sertão Santana / RS",
+      "Tapes / RS"
+    ],
+    "telefones": [
+      "(51) 3671-0455"
+    ],
+    "email": "camaqua@bauerexpress.com",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Carazinho",
+    "cidade": "Carazinho",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Joao Rizzeto, n° 80, Bairro Oriental (Em frente a rodoviária Carazinho)",
+    "cidades_atendidas": [
+      "Almirante Tamandaré do Sul / RS",
+      "Carazinho / RS",
+      "Chapada / RS",
+      "Coqueiros do Sul / RS",
+      "Não-Me-Toque / RS",
+      "Saldanha Marinho / RS",
+      "Santo Antônio do Planalto / RS"
+    ],
+    "telefones": [
+      "(54) 3331-9064"
+    ],
+    "email": "carazinho@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Caxias do Sul",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "ROD. ERS 122  -  Km 69, N. 7470, Bairro: Desvio Rizzo",
+    "cidades_atendidas": [
+      "Cambará do Sul / RS",
+      "Canela / RS",
+      "Caxias Do Sul / RS",
+      "Flores da Cunha / RS",
+      "Gramado / RS",
+      "Nova Pádua / RS",
+      "Nova Petrópolis / RS",
+      "São Francisco de Paula / RS",
+      "São Marcos / RS"
+    ],
+    "telefones": [
+      "(54) 99681-8651"
+    ],
+    "email": "caxiasdosul@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Cruz Alta",
+    "cidade": "Cruz Alta",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Plácido de Castro, 406-A, B. Jardim América",
+    "cidades_atendidas": [
+      "Boa Vista do Incra / RS",
+      "Cruz Alta / RS",
+      "Júlio de Castilhos / RS",
+      "Tupanciretã / RS"
+    ],
+    "telefones": [
+      "(55) 3324-1181"
+    ],
+    "email": "cruzalta@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Erechim",
+    "cidade": "Erechim",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Dr. João Caruso, 390, Bairro: Industrial",
+    "cidades_atendidas": [
+      "Aratiba / RS",
+      "Áurea / RS",
+      "Barão de Cotegipe / RS",
+      "Barra do Rio Azul / RS",
+      "Benjamin Constant do Sul / RS",
+      "Campinas do Sul / RS",
+      "Carlos Gomes / RS",
+      "Centenário / RS",
+      "Cruzaltense / RS",
+      "Entre Rios do Sul / RS",
+      "Erechim / RS",
+      "Erval Grande / RS",
+      "Faxinalzinho / RS",
+      "Gaurama / RS",
+      "Itatiba do Sul / RS",
+      "Jacutinga / RS",
+      "Marcelino Ramos / RS",
+      "Mariano Moro / RS",
+      "Paulo Bento / RS",
+      "Ponte Preta / RS",
+      "Quatro Irmãos / RS",
+      "São Valentim / RS",
+      "Severiano de Almeida / RS",
+      "Três Arroios / RS",
+      "Viadutos / RS"
+    ],
+    "telefones": [
+      "(54) 3522-3030"
+    ],
+    "email": "erechim@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Frederico Westphalen",
+    "cidade": "Frederico Westphalen",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Campos Eliseos, 192, Centro",
+    "cidades_atendidas": [
+      "Alpestre / RS",
+      "Ametista do Sul / RS",
+      "Boa Vista das Missões / RS",
+      "Caiçara / RS",
+      "Cerro Grande / RS",
+      "Cristal do Sul / RS",
+      "Dois Irmãos das Missões / RS",
+      "Erval Seco / RS",
+      "Frederico Westphalen / RS",
+      "Gramado dos Loureiros / RS",
+      "Iraí / RS",
+      "Jaboticaba / RS",
+      "Lajeado do Bugre / RS",
+      "Novo Tiradentes / RS",
+      "Palmitinho / RS",
+      "Pinhal / RS",
+      "Pinheirinho do Vale / RS",
+      "Planalto / RS",
+      "Rodeio Bonito / RS",
+      "Sagrada Família / RS",
+      "São José das Missões / RS",
+      "São Pedro das Missões / RS",
+      "Seberi / RS",
+      "Taquaruçu do Sul / RS",
+      "Vicente Dutra / RS",
+      "Vista Alegre / RS"
+    ],
+    "telefones": [
+      "(55) 3744-4270"
+    ],
+    "email": "frederico@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Getúlio Vargas",
+    "cidade": "Getúlio Vargas",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: 3, numero 80. Bairro: Parque Industrial",
+    "cidades_atendidas": [
+      "Charrua / RS",
+      "Erebango / RS",
+      "Estação / RS",
+      "Floriano Peixoto / RS",
+      "Getúlio Vargas / RS",
+      "Ipiranga do Sul / RS",
+      "Sertão / RS"
+    ],
+    "telefones": [
+      "(54) 3698-4545"
+    ],
+    "email": "getuliovargas@bauerexpress.com",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Ibirubá",
+    "cidade": "Ibirubá",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rodovia 223  -  Km 43  -  Bairro Industrial",
+    "cidades_atendidas": [
+      "Alto Alegre / RS",
+      "Campos Borges / RS",
+      "Colorado / RS",
+      "Ernestina / RS",
+      "Espumoso / RS",
+      "Estrela Velha / RS",
+      "Fortaleza dos Valos / RS",
+      "Ibirapuitã / RS",
+      "Ibirubá / RS",
+      "Jacuizinho / RS",
+      "Lagoa dos Três Cantos / RS",
+      "Mormaço / RS",
+      "Nicolau Vergueiro / RS",
+      "Quinze de Novembro / RS",
+      "Salto do Jacuí / RS",
+      "Selbach / RS",
+      "Soledade / RS",
+      "Tio Hugo / RS",
+      "Victor Graeff / RS"
+    ],
+    "telefones": [
+      "(54) 3199-1486"
+    ],
+    "email": "ibiruba@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Ijuí",
+    "cidade": "Ijuí",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Parecis, n° 75, Bairro Pindorama",
+    "cidades_atendidas": [
+      "Ajuricaba / RS",
+      "Augusto Pestana / RS",
+      "Boa Vista do Cadeado / RS",
+      "Bozano / RS",
+      "Catuípe / RS",
+      "Condor / RS",
+      "Coronel Barros / RS",
+      "Ijuí / RS",
+      "Jóia / RS",
+      "Nova Ramada / RS",
+      "Panambi / RS",
+      "Pejuçara / RS",
+      "Santa Bárbara do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 3383-0014"
+    ],
+    "email": "ijui@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Lajeado",
+    "cidade": "Lajeado",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Castelo Branco, 193 – Bairro Moinhos",
+    "cidades_atendidas": [
+      "Anta Gorda / RS",
+      "Arroio do Meio / RS",
+      "Arvorezinha / RS",
+      "Boa Vista do Sul / RS",
+      "Bom Retiro do Sul / RS",
+      "Boqueirão do Leão / RS",
+      "Canudos do Vale / RS",
+      "Capitão / RS",
+      "Colinas / RS",
+      "Coqueiro Baixo / RS",
+      "Cruzeiro do Sul / RS",
+      "Doutor Ricardo / RS",
+      "Encantado / RS",
+      "Estrela / RS",
+      "Fazenda Vilanova / RS",
+      "Fontoura Xavier / RS",
+      "Forquetinha / RS",
+      "Ilópolis / RS",
+      "Imigrante / RS",
+      "Itapuca / RS",
+      "Lajeado / RS",
+      "Marques de Souza / RS",
+      "Mato Leitão / RS",
+      "Muçum / RS",
+      "Nova Bréscia / RS",
+      "Passo do Sobrado / RS",
+      "Paverama / RS",
+      "Poço das Antas / RS",
+      "Pouso Novo / RS",
+      "Progresso / RS",
+      "Putinga / RS",
+      "Relvado / RS",
+      "Roca Sales / RS",
+      "Santa Clara do Sul / RS",
+      "São José do Herval / RS",
+      "Sério / RS",
+      "Tabaí / RS",
+      "Taquari / RS",
+      "Teutônia / RS",
+      "Travesseiro / RS",
+      "Vale Verde / RS",
+      "Venâncio Aires / RS",
+      "Westfalia / RS"
+    ],
+    "telefones": [
+      "(51) 3748-7728"
+    ],
+    "email": "lajeado@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Marau",
+    "cidade": "Marau",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Serafim Grando, Numero 124, Bairro Santa Rita",
+    "cidades_atendidas": [
+      "Camargo / RS",
+      "Casca / RS",
+      "Gentil / RS",
+      "Marau / RS",
+      "Mato Castelhano / RS",
+      "Montauri / RS",
+      "Nova Alvorada / RS",
+      "Santo Antônio do Palma / RS",
+      "Serafina Corrêa / RS",
+      "União da Serra / RS",
+      "Vila Maria / RS"
+    ],
+    "telefones": [
+      "(54) 2241-0069"
+    ],
+    "email": "marau@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Nova Prata",
+    "cidade": "Nova Prata",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "EST RST 470 - Km 163  -  número 104 - Bairro Retiro",
+    "cidades_atendidas": [
+      "André da Rocha / RS",
+      "Cotiporã / RS",
+      "Dois Lajeados / RS",
+      "Fagundes Varela / RS",
+      "Guaporé / RS",
+      "Nova Araçá / RS",
+      "Nova Bassano / RS",
+      "Paraí / RS",
+      "Protásio Alves / RS",
+      "São Valentim do Sul / RS",
+      "Veranópolis / RS",
+      "Vespasiano Correa / RS",
+      "Vila Flores / RS"
+    ],
+    "telefones": [
+      "(54) 2121-5369"
+    ],
+    "email": "luiscarlossouzars@gmail.com",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Passo Fundo",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "RS 324, Perimetral Sul, SN, Região do Bairro José Alexandre Zachia",
+    "cidades_atendidas": [
+      "Barracão / RS",
+      "Cacique Doble / RS",
+      "Capão Bonito do Sul / RS",
+      "Caseiros / RS",
+      "Ciríaco / RS",
+      "Coxilha / RS",
+      "David Canabarro / RS",
+      "Guabiju / RS",
+      "Ibiaçá / RS",
+      "Ibiraiaras / RS",
+      "Lagoa Vermelha / RS",
+      "Machadinho / RS",
+      "Maximiliano de Almeida / RS",
+      "Muliterno / RS",
+      "Nova Prata / RS",
+      "Paim Filho / RS",
+      "Passo Fundo / RS",
+      "Sananduva / RS",
+      "Santa Cecília do Sul / RS",
+      "Santo Expedito do Sul / RS",
+      "São Domingos do Sul / RS",
+      "São João da Urtiga / RS",
+      "São Jorge / RS",
+      "São José do Ouro / RS",
+      "Tapejara / RS",
+      "Tapera / RS",
+      "Tupanci do Sul / RS",
+      "Vanini / RS",
+      "Vila Lângaro / RS"
+    ],
+    "telefones": [
+      "(54) 3313-8486"
+    ],
+    "email": "passofundo@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Pelotas",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av; 25 de julho, 1437 pavilhão E, Fundos, Três vendas",
+    "cidades_atendidas": [
+      "Arroio do Padre / RS",
+      "Arroio Grande / RS",
+      "Canguçu / RS",
+      "Capão do Leão / RS",
+      "Cerrito / RS",
+      "Chuí / RS",
+      "Herval / RS",
+      "Jaguarão / RS",
+      "Morro Redondo / RS",
+      "Pedro Osório / RS",
+      "Pelotas / RS",
+      "Piratini / RS",
+      "Rio Grande / RS",
+      "Santa Vitória do Palmar / RS",
+      "São José do Norte / RS",
+      "São Lourenço do Sul / RS",
+      "Turuçu / RS"
+    ],
+    "telefones": [
+      "(53) 3199-8938"
+    ],
+    "email": "pelotas.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Porto Alegre",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Plinio Kroeff, nº 1455, Bairro Rubem Berta",
+    "cidades_atendidas": [
+      "Alvorada / RS",
+      "Arroio dos Ratos / RS",
+      "Bom Princípio / RS",
+      "Butiá / RS",
+      "Cachoeirinha / RS",
+      "Canoas / RS",
+      "Capela de Santana / RS",
+      "Charqueadas / RS",
+      "Eldorado do Sul / RS",
+      "Esteio / RS",
+      "General Câmara / RS",
+      "Glorinha / RS",
+      "Gravataí / RS",
+      "Guaíba / RS",
+      "Harmonia / RS",
+      "Igrejinha / RS",
+      "Minas do Leão / RS",
+      "Montenegro / RS",
+      "Nova Hartz / RS",
+      "Nova Santa Rita / RS",
+      "Pareci Novo / RS",
+      "Parobé / RS",
+      "Porto Alegre / RS",
+      "Riozinho / RS",
+      "Rolante / RS",
+      "São Jerônimo / RS",
+      "São Sebastião do Caí / RS",
+      "Sapucaia Do Sul / RS",
+      "Taquara / RS",
+      "Três Coroas / RS",
+      "Triunfo / RS",
+      "Tupandi / RS",
+      "Viamão / RS"
+    ],
+    "telefones": [
+      "(51) 3079-4580"
+    ],
+    "email": "portoalegre@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Rosário do Sul",
+    "cidade": "Rosário do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Honório Lemos, N.2394, Bairro: Areias Brancas. –",
+    "cidades_atendidas": [
+      "Rosário do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 3231-8425"
+    ],
+    "email": "rosariodosul.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santa Cruz Do Sul",
+    "cidade": "Santa Cruz Do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "BR 471, KM 122,9, Bairro Várzea",
+    "cidades_atendidas": [
+      "Encruzilhada do Sul / RS",
+      "Gramado Xavier / RS",
+      "Herveiras / RS",
+      "Pantano Grande / RS",
+      "Rio Pardo / RS",
+      "Santa Cruz Do Sul / RS",
+      "Sinimbu / RS",
+      "Vale do Sol / RS",
+      "Vera Cruz / RS"
+    ],
+    "telefones": [
+      "(51) 3121-2305"
+    ],
+    "email": "santacruzdosul@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santa Maria",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Marques Dos Santos, 95",
+    "cidades_atendidas": [
+      "Agudo / RS",
+      "Dona Francisca / RS",
+      "Faxinal do Soturno / RS",
+      "Formigueiro / RS",
+      "Itaara / RS",
+      "Ivorá / RS",
+      "Nova Palma / RS",
+      "Paraíso do Sul / RS",
+      "Pinhal Grande / RS",
+      "Restinga Seca / RS",
+      "Santa da Boa Vista / RS",
+      "Santa Maria / RS",
+      "São João da Polêsine / RS",
+      "São João do Polêsine / RS",
+      "São Martinho da Serra / RS",
+      "Silveira Martins / RS"
+    ],
+    "telefones": [
+      "(55) 2500-0157"
+    ],
+    "email": "santamaria.gerencia@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santa Rosa",
+    "cidade": "Santa Rosa",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Acesso Henrique Gasen, 538, B. Alto do Parque",
+    "cidades_atendidas": [
+      "Alecrim / RS",
+      "Campina das Missões / RS",
+      "Cândido Godói / RS",
+      "Doutor Maurício Cardoso / RS",
+      "Giruá / RS",
+      "Horizontina / RS",
+      "Independência / RS",
+      "Novo Machado / RS",
+      "Porto Lucena / RS",
+      "Porto Mauá / RS",
+      "Porto Vera Cruz / RS",
+      "Santa Rosa / RS",
+      "Santo Cristo / RS",
+      "São José do Inhacorá / RS",
+      "São Paulo das Missões / RS",
+      "Senador Salgado Filho / RS",
+      "Três de Maio / RS",
+      "Tucunduva / RS",
+      "Tuparendi / RS"
+    ],
+    "telefones": [
+      "(55) 3512-4540"
+    ],
+    "email": "santarosa@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santana do Livramento",
+    "cidade": "Santana do Livramento",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Prefeito Sergio Fuentes,n° 833, Bairro Prado",
+    "cidades_atendidas": [
+      "Quaraí / RS",
+      "Santana do Livramento / RS"
+    ],
+    "telefones": [
+      "(55) 99909-2250"
+    ],
+    "email": "santanadolivramento.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santiago",
+    "cidade": "Santiago",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Avenida Aparicio Mariense, 1377, SALA A, Vila Rica,",
+    "cidades_atendidas": [
+      "Cacequi / RS",
+      "Capão do Cipó / RS",
+      "Itacurubi / RS",
+      "Jaguari / RS",
+      "Nova esperança do Sul / RS",
+      "Santiago / RS",
+      "São Francisco de Assis / RS",
+      "São Vicente do Sul / RS",
+      "Unistalda / RS"
+    ],
+    "telefones": [
+      "(55) 99188-2054"
+    ],
+    "email": "santiago.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santo Ângelo",
+    "cidade": "Santo Ângelo",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. Cel. Damasio Gomes de Castro, n° 853, Bairro Oliveira",
+    "cidades_atendidas": [
+      "Cerro Largo / RS",
+      "Entre-Ijuís / RS",
+      "Eugênio de Castro / RS",
+      "Guarani das Missões / RS",
+      "Salvador das Missões / RS",
+      "Santo Ângelo / RS",
+      "São Pedro do Butiá / RS",
+      "Sete de Setembro / RS",
+      "Ubiretama / RS"
+    ],
+    "telefones": [
+      "(55) 3312-0892"
+    ],
+    "email": "augustostreck@gmail.com",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Santo Augusto",
+    "cidade": "Santo Augusto",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua José Stival N. 80, Leonízio Gonzatto",
+    "cidades_atendidas": [
+      "Alegria / RS",
+      "Barra do Guarita / RS",
+      "Boa Vista do Buricá / RS",
+      "Bom Progresso / RS",
+      "Braga / RS",
+      "Campo Novo / RS",
+      "Chiapetta / RS",
+      "Coronel Bicaco / RS",
+      "Crissiumal / RS",
+      "Derrubadas / RS",
+      "Esperança do Sul / RS",
+      "Humaitá / RS",
+      "Inhacorá / RS",
+      "Miraguaí / RS",
+      "Nova Candelária / RS",
+      "Redentora / RS",
+      "Santo Augusto / RS",
+      "São Martinho / RS",
+      "São Valério do Sul / RS",
+      "Sede Nova / RS",
+      "Tenente Portela / RS",
+      "Tiradentes do Sul / RS",
+      "Três Passos / RS",
+      "Vista Gaúcha / RS"
+    ],
+    "telefones": [
+      "(55) 99907-4629"
+    ],
+    "email": "santoaugusto.gerencia@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Borja",
+    "cidade": "São Borja",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R Bento Goncalves, N.727,Bairro Passo",
+    "cidades_atendidas": [
+      "Itaqui / RS",
+      "Maçambará / RS",
+      "São Borja / RS"
+    ],
+    "telefones": [
+      "(55) 99730-4746"
+    ],
+    "email": "saoborja.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Gabriel",
+    "cidade": "São Gabriel",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R Onesimo Laureano, N.230, Zona Sul,",
+    "cidades_atendidas": [
+      "Santa Margarida do Sul / RS",
+      "São Gabriel / RS",
+      "Vila Nova do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 98402-7150"
+    ],
+    "email": "saogabriel.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Luiz Gonzaga",
+    "cidade": "São Luiz Gonzaga",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua João Goulart, 1131, B. Vila Harmonia",
+    "cidades_atendidas": [
+      "Bossoroca / RS",
+      "Caibaté / RS",
+      "Dezesseis de Novembro / RS",
+      "Garruchos / RS",
+      "Mato Queimado / RS",
+      "Pirapó / RS",
+      "Porto Xavier / RS",
+      "Rolador / RS",
+      "Roque Gonzales / RS",
+      "Santo Antônio das Missões / RS",
+      "São Luiz Gonzaga / RS",
+      "São Miguel das Missões / RS",
+      "São Nicolau / RS",
+      "Vitória das Missões / RS"
+    ],
+    "telefones": [
+      "(55) 3352-7355"
+    ],
+    "email": "saoluizgonzaga@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Pedro do Sul",
+    "cidade": "São Pedro do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Rio Branco, 73 - Bairro Santo António",
+    "cidades_atendidas": [
+      "Dilermando de Aguiar / RS",
+      "Jari / RS",
+      "Mata / RS",
+      "Quevedos / RS",
+      "São Pedro do Sul / RS",
+      "Toropi / RS"
+    ],
+    "telefones": [
+      "(55) 98125-3446"
+    ],
+    "email": "saopedrodosul.televendas@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Sarandi",
+    "cidade": "Sarandi",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. João Piva, N.13710, Bairro Mirasul",
+    "cidades_atendidas": [
+      "Barra Funda / RS",
+      "Constantina / RS",
+      "Engenho Velho / RS",
+      "Liberato Salzano / RS",
+      "Nonoai / RS",
+      "Nova Boa Vista / RS",
+      "Novo Barreiro / RS",
+      "Novo Xingu / RS",
+      "Palmeira das Missões / RS",
+      "Pontão / RS",
+      "Rio dos Índios / RS",
+      "Ronda Alta / RS",
+      "Rondinha / RS",
+      "Sarandi / RS",
+      "Três Palmeiras / RS",
+      "Trindade do Sul / RS"
+    ],
+    "telefones": [
+      "(54) 99221- 6340"
+    ],
+    "email": "sarandi@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Uruguaiana",
+    "cidade": "Uruguaiana",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Beco Transazul, 09 Bairro: Rio Branco",
+    "cidades_atendidas": [
+      "Barra do Quaraí / RS",
+      "Uruguaiana / RS"
+    ],
+    "telefones": [],
+    "email": "uruguaiana@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Vacaria",
+    "cidade": "Vacaria",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Moreira Paz, 1738, Sala 01, Bairro Borges",
+    "cidades_atendidas": [
+      "Antônio Prado / RS",
+      "Bom Jesus / RS",
+      "Campestre da Serra / RS",
+      "Esmeralda / RS",
+      "Ipê / RS",
+      "Jaquirana / RS",
+      "Monte Alegre dos Campos / RS",
+      "Muitos Capões / RS",
+      "Pinhal da Serra / RS",
+      "São José dos Ausentes / RS",
+      "Vacaria / RS"
+    ],
+    "telefones": [
+      "(54) 99632-3655"
+    ],
+    "email": "vacaria@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Xangri-lá",
+    "cidade": "Xangri-lá",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Maria de Lourdes Cosmos, 48, B. Guara",
+    "cidades_atendidas": [
+      "Arroio do Sal / RS",
+      "Balneário Pinhal / RS",
+      "Capão da Canoa / RS",
+      "Capivari do Sul / RS",
+      "Caraá / RS",
+      "Cidreira / RS",
+      "Dom Pedro de Alcântara / RS",
+      "Imbé / RS",
+      "Itati / RS",
+      "Mampituba / RS",
+      "Maquiné / RS",
+      "Morrinhos do Sul / RS",
+      "Mostardas / RS",
+      "Osório / RS",
+      "Palmares do Sul / RS",
+      "Santo Antônio da Patrulha / RS",
+      "Tavares / RS",
+      "Terra de Areia / RS",
+      "Torres / RS",
+      "Tramandaí / RS",
+      "Três Cachoeiras / RS",
+      "Três Forquilhas / RS",
+      "Xangri-Lá / RS"
+    ],
+    "telefones": [],
+    "email": "xangrila@bauerexpress.com",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Araranguá",
+    "cidade": "Araranguá",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Ana Lidia Carolina. 62, Jardim Cibele",
+    "cidades_atendidas": [
+      "Araranguá / SC",
+      "Balneário Arroio do Silva / SC",
+      "Balneário Gaivota / SC",
+      "Ermo / SC",
+      "Forquilhinha / SC",
+      "Jacinto Machado / SC",
+      "Maracajá / SC",
+      "Meleiro / SC",
+      "Morro Grande / SC",
+      "Passo de Torres / SC",
+      "Praia Grande / SC",
+      "Santa Rosa do Sul / SC",
+      "São João do Sul / SC",
+      "Sombrio / SC",
+      "Timbé do Sul / SC",
+      "Turvo / SC"
+    ],
+    "telefones": [
+      "(48) 998229808"
+    ],
+    "email": "ararangua@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Biguaçu",
+    "cidade": "Biguaçu",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R. Alexandre Sergio Godinho, 210 - Mar das Pedras",
+    "cidades_atendidas": [
+      "Águas Mornas / SC",
+      "Angelina / SC",
+      "Anitápolis / SC",
+      "Antônio Carlos / SC",
+      "Biguaçu / SC",
+      "Florianópolis / SC",
+      "Governador Celso Ramos / SC",
+      "Palhoça / SC",
+      "Paulo Lopes / SC",
+      "Rancho Queimado / SC",
+      "Santo Amaro da Imperatriz / SC",
+      "São Bonifácio / SC",
+      "São José / SC",
+      "São Pedro de Alcântara / SC"
+    ],
+    "telefones": [
+      "(﻿48) 2012-3360"
+    ],
+    "email": "biguacu@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Blumenau",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Artur Oscar Kluge, 115, Passo Manso",
+    "cidades_atendidas": [
+      "Benedito Novo / SC",
+      "Blumenau / SC",
+      "Botuverá / SC",
+      "Brusque / SC",
+      "Canelinha / SC",
+      "Doutor Pedrinho / SC",
+      "Gaspar / SC",
+      "Guabiruba / SC",
+      "Ilhota / SC",
+      "Indaial / SC",
+      "Luiz Alves / SC",
+      "Major Gercino / SC",
+      "Nova Trento / SC",
+      "Pomerode / SC",
+      "Rio dos Cedros / SC",
+      "São João Batista / SC",
+      "São João do Itaperiú / SC",
+      "Tijucas / SC",
+      "Timbó / SC"
+    ],
+    "telefones": [
+      "(47) 2204-2943"
+    ],
+    "email": "blumenau@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Chapecó",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Nicarágua, 465 D B. Líder",
+    "cidades_atendidas": [
+      "Águas de Chapecó / SC",
+      "Arvoredo / SC",
+      "Caibi / SC",
+      "Caxambu do Sul / SC",
+      "Chapecó / SC",
+      "Cordilheira Alta / SC",
+      "Coronel Freitas / SC",
+      "Guatambú / SC",
+      "Itá / SC",
+      "Paial / SC",
+      "Palmitos / SC",
+      "Planalto Alegre / SC",
+      "São Carlos / SC",
+      "Seara / SC",
+      "Xavantina / SC"
+    ],
+    "telefones": [
+      "(49) 3319-3030"
+    ],
+    "email": "chapeco@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Concórdia",
+    "cidade": "Concórdia",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Tancredo de Almeida Neves, 6990 - Bairro São Cristóvão",
+    "cidades_atendidas": [
+      "Alto Bela Vista / SC",
+      "Arabutã / SC",
+      "Concórdia / SC",
+      "Ipira / SC",
+      "Ipumirim / SC",
+      "Lindóia do Sul / SC",
+      "Peritiba / SC",
+      "Piratuba / SC"
+    ],
+    "telefones": [
+      "(49) 3444-2039"
+    ],
+    "email": "concordia@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Criciúma",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Jacinto Machado, 222 - Bairro Presidente Vargas",
+    "cidades_atendidas": [
+      "Balneário Rincão / SC",
+      "Cocal do Sul / SC",
+      "Criciúma / SC",
+      "Içara / SC",
+      "Morro da Fumaça / SC",
+      "Nova Veneza / SC",
+      "Siderópolis / SC",
+      "Treviso / SC",
+      "Urussanga / SC"
+    ],
+    "telefones": [
+      "(48) 98877-1305"
+    ],
+    "email": "criciuma@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Curitibanos",
+    "cidade": "Curitibanos",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "BR 470 Km 248 Bairro Bom Jesus,  6600",
+    "cidades_atendidas": [
+      "Curitibanos / SC",
+      "Frei Rogério / SC",
+      "Ponte Alta do Norte / SC",
+      "Santa Cecília / SC",
+      "São Cristóvão do Sul / SC"
+    ],
+    "telefones": [
+      "(49) 3241-2459"
+    ],
+    "email": "cdcuritibanos@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Curitibanos",
+    "cidade": "Curitibanos",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Orlando Gans num 1009, Bairro Nossa Sra. Aparecida",
+    "cidades_atendidas": [
+      "Curitibanos / SC",
+      "Frei Rogério / SC",
+      "Ponte Alta do Norte / SC",
+      "Santa Cecília / SC",
+      "São Cristóvão do Sul / SC"
+    ],
+    "telefones": [
+      "(49) 3241-2261"
+    ],
+    "email": "curitibanos.expedicao@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Fraiburgo",
+    "cidade": "Fraiburgo",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Cruz e Souza, 117, sala 2 Jardim das Araucárias - CEP",
+    "cidades_atendidas": [
+      "Fraiburgo / SC",
+      "Monte Carlo / SC"
+    ],
+    "telefones": [
+      "(49) 3960-1050"
+    ],
+    "email": "fraiburgo.gerencia@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Itajaí",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rodovia BR 101, 12500  -  bloco 2 , galpão 1 - Bairro Canhanduba",
+    "cidades_atendidas": [
+      "Balneário Camboriú / SC",
+      "Balneário Piçarras / SC",
+      "Barra Velha / SC",
+      "Bombinhas / SC",
+      "Camboriú / SC",
+      "Itajaí / SC",
+      "Itapema / SC",
+      "Navegantes / SC",
+      "Penha / SC",
+      "Porto Belo / SC"
+    ],
+    "telefones": [
+      "(47) 3224-2577"
+    ],
+    "email": "itajai@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "cidade": "Jaraguá do Sul",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Av. Prefeito Waldemar Grubba, 1880, B. Vila Lalau",
+    "cidades_atendidas": [
+      "Corupá / SC",
+      "Guaramirim / SC",
+      "Jaraguá Do Sul / SC",
+      "Massaranduba / SC",
+      "Schroeder / SC"
+    ],
+    "telefones": [
+      "(47) 3208-9538"
+    ],
+    "email": "jaraguadosul@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Joaçaba",
+    "cidade": "Joaçaba",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R Pedro Sautchuk, 113, Bairro N. Sra. De Lourdes",
+    "cidades_atendidas": [
+      "Abdon Batista / SC",
+      "Água Doce / SC",
+      "Arroio Trinta / SC",
+      "Brunópolis / SC",
+      "Campos Novos / SC",
+      "Capinzal / SC",
+      "Catanduvas / SC",
+      "Celso Ramos / SC",
+      "Erval Velho / SC",
+      "Herval D'Oeste / SC",
+      "Ibiam / SC",
+      "Ibicaré / SC",
+      "Jaborá / SC",
+      "Joaçaba / SC",
+      "Lacerdópolis / SC",
+      "Luzerna / SC",
+      "Macieira / SC",
+      "Ouro / SC",
+      "Pinheiro Preto / SC",
+      "Presidente Castello Branco / SC",
+      "Salto Veloso / SC",
+      "Tangará / SC",
+      "Treze Tílias / SC",
+      "Vargem / SC",
+      "Vargem Bonita / SC",
+      "Zortéa / SC"
+    ],
+    "telefones": [
+      "(49) 3521-1548"
+    ],
+    "email": "joacaba@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Joinville",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R. XV de Novembro, 4769 - Bairro Vila Nova",
+    "cidades_atendidas": [
+      "Araquari / SC",
+      "Balneário Barra do Sul / SC",
+      "Garuva / SC",
+      "Itapoá / SC",
+      "Joinville / SC",
+      "São Francisco do Sul / SC"
+    ],
+    "telefones": [
+      "(47) 3512-6281"
+    ],
+    "email": "joinville@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Lages",
+    "cidade": "Lages",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Cecília Langaro, 115 B. Santa Catarina",
+    "cidades_atendidas": [
+      "Alfredo Wagner / SC",
+      "Anita Garibaldi / SC",
+      "Bocaína do Sul / SC",
+      "Bom Jardim da Serra / SC",
+      "Bom Retiro / SC",
+      "Campo Belo do Sul / SC",
+      "Capão Alto / SC",
+      "Cerro Negro / SC",
+      "Correia Pinto / SC",
+      "Lages / SC",
+      "Painel / SC",
+      "Ponte Alta / SC",
+      "Rio Rufino / SC",
+      "São Joaquim / SC",
+      "São José do Cerrito / SC",
+      "Urubici / SC",
+      "Urupema / SC"
+    ],
+    "telefones": [
+      "(49) 3223-0741"
+    ],
+    "email": "lages@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Lontras",
+    "cidade": "Lontras",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "ROD. SC 110, 175 - Margem Esquerda",
+    "cidades_atendidas": [
+      "Agronômica / SC",
+      "Apiúna / SC",
+      "Ascurra / SC",
+      "Aurora / SC",
+      "Chapadão do Lageado / SC",
+      "Dona Emma / SC",
+      "Ibirama / SC",
+      "Imbuia / SC",
+      "Ituporanga / SC",
+      "José Boiteux / SC",
+      "Laurentino / SC",
+      "Leoberto Leal / SC",
+      "Lontras / SC",
+      "Petrolândia / SC",
+      "Presidente Getúlio / SC",
+      "Presidente Nereu / SC",
+      "Rio do Oeste / SC",
+      "Rio Do Sul / SC",
+      "Rodeio / SC",
+      "Vidal Ramos / SC",
+      "Vitor Meireles / SC",
+      "Witmarsum / SC"
+    ],
+    "telefones": [
+      "(47) 3300-0518"
+    ],
+    "email": "riodosul@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Mafra",
+    "cidade": "Mafra",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Avenida industrial Paulo Fleischmann , 500 - 2, Vila Nova, 89304-362",
+    "cidades_atendidas": [],
+    "telefones": [
+      "(47) 99948-6754"
+    ],
+    "email": "mafra@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Maravilha",
+    "cidade": "Maravilha",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua José Engelmann, SN - Br-282 - Km 607 - Bairro Industria",
+    "cidades_atendidas": [
+      "Águas Frias / SC",
+      "Bom Jesus do Oeste / SC",
+      "Cunha Porã / SC",
+      "Cunhataí / SC",
+      "Flor do Sertão / SC",
+      "Iraceminha / SC",
+      "Maravilha / SC",
+      "Modelo / SC",
+      "Nova Erechim / SC",
+      "Nova Itaberaba / SC",
+      "Pinhalzinho / SC",
+      "Romelândia / SC",
+      "Santa Terezinha do Progresso / SC",
+      "São Miguel da Boa Vista / SC",
+      "Saudades / SC",
+      "Serra Alta / SC",
+      "Sul Brasil / SC",
+      "Tigrinhos / SC"
+    ],
+    "telefones": [
+      "(49) 3630-1062"
+    ],
+    "email": "maravilha@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Pouso Redondo",
+    "cidade": "Pouso Redondo",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua: Else Siewerdt s/n – Barracão 1, Bairro: Arno Siewerdt",
+    "cidades_atendidas": [
+      "Agrolândia / SC",
+      "Atalanta / SC",
+      "Braço do Trombudo / SC",
+      "Mirim Doce / SC",
+      "Otacílio Costa / SC",
+      "Palmeira / SC",
+      "Pouso Redondo / SC",
+      "Rio do Campo / SC",
+      "Salete / SC",
+      "Santa Terezinha / SC",
+      "Taió / SC"
+    ],
+    "telefones": [
+      "(47) 99669-0417"
+    ],
+    "email": "pousoredondo@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Bento Do Sul",
+    "cidade": "São Bento Do Sul",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Alfredo Zierth, 216, B.Cruzeiro",
+    "cidades_atendidas": [
+      "Agudos do Sul / PR",
+      "Piên / PR",
+      "Tijucas do Sul / PR",
+      "Campo Alegre / SC",
+      "Rio Negrinho / SC",
+      "São Bento do Sul / SC"
+    ],
+    "telefones": [
+      "(47) 99177-7887"
+    ],
+    "email": "saobentodosul@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Lourenço do Oeste",
+    "cidade": "São Lourenço do Oeste",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Av. Brasil, n° 2346, Bairro Cruzeiro",
+    "cidades_atendidas": [
+      "Flor da Serra do Sul / PR",
+      "Salgado Filho / PR",
+      "Anchieta / SC",
+      "Campo Erê / SC",
+      "Coronel Martins / SC",
+      "Entre Rios / SC",
+      "Formosa do Sul / SC",
+      "Galvão / SC",
+      "Ipuaçu / SC",
+      "Irati / SC",
+      "Jardinópolis / SC",
+      "Jupiá / SC",
+      "Novo Horizonte / SC",
+      "Palma Sola / SC",
+      "Quilombo / SC",
+      "Saltinho / SC",
+      "Santiago do Sul / SC",
+      "São Bernardino / SC",
+      "São Domingos / SC",
+      "São Lourenço do Oeste / SC",
+      "União do Oeste / SC"
+    ],
+    "telefones": [
+      "(49) 3344-3353"
+    ],
+    "email": "saolourenco@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "São Miguel do Oeste",
+    "cidade": "São Miguel do Oeste",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Florianópolis, 1795 B. São Luiz",
+    "cidades_atendidas": [
+      "Flor da Serra do Sul / PR",
+      "Salgado Filho / PR",
+      "Anchieta / SC",
+      "Campo Erê / SC",
+      "Coronel Martins / SC",
+      "Entre Rios / SC",
+      "Formosa do Sul / SC",
+      "Galvão / SC",
+      "Ipuaçu / SC",
+      "Irati / SC",
+      "Jardinópolis / SC",
+      "Jupiá / SC",
+      "Novo Horizonte / SC",
+      "Palma Sola / SC",
+      "Quilombo / SC",
+      "Saltinho / SC",
+      "Santiago do Sul / SC",
+      "São Bernardino / SC",
+      "São Domingos / SC",
+      "São Lourenço do Oeste / SC",
+      "União do Oeste / SC"
+    ],
+    "telefones": [
+      "(49) 3622-6969"
+    ],
+    "email": "saomiguel@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Tubarão",
+    "cidade": "Tubarão",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Coronel José Martins Cabral, 1080 B. Humaitá",
+    "cidades_atendidas": [
+      "Armazém / SC",
+      "Braço do Norte / SC",
+      "Capivari de Baixo / SC",
+      "Garopaba / SC",
+      "Grão Pará / SC",
+      "Gravatal / SC",
+      "Imaruí / SC",
+      "Imbituba / SC",
+      "Jaguaruna / SC",
+      "Laguna / SC",
+      "Lauro Müller / SC",
+      "Orleans / SC",
+      "Pedras Grandes / SC",
+      "Pescaria Brava / SC",
+      "Rio Fortuna / SC",
+      "Sangão / SC",
+      "Santa Rosa de Lima / SC",
+      "São Ludgero / SC",
+      "São Martinho / SC",
+      "Treze de Maio / SC",
+      "Tubarão / SC"
+    ],
+    "telefones": [
+      "(48) 3629-0096"
+    ],
+    "email": "tubarao@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Videira",
+    "cidade": "Videira",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "SC-355, km 50 - RIO DAS PEDRAS",
+    "cidades_atendidas": [
+      "Caçador / SC",
+      "Calmon / SC",
+      "Iomerê / SC",
+      "Lebon Régis / SC",
+      "Matos Costa / SC",
+      "Rio das Antas / SC",
+      "Timbó Grande / SC",
+      "Videira / SC"
+    ],
+    "telefones": [
+      "(49) 99189-3401"
+    ],
+    "email": "videira@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Xanxerê",
+    "cidade": "Xanxerê",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Aldoino Casagranda, 165. Bairro: Nossa Senhora de Fátima",
+    "cidades_atendidas": [
+      "Abelardo Luz / SC",
+      "Bom Jesus / SC",
+      "Faxinal dos Guedes / SC",
+      "Irani / SC",
+      "Lajeado Grande / SC",
+      "Marema / SC",
+      "Ouro Verde / SC",
+      "Passos Maia / SC",
+      "Ponte Serrada / SC",
+      "Vargeão / SC",
+      "Xanxerê / SC",
+      "Xaxim / SC"
+    ],
+    "telefones": [
+      "(49) 3433-2354"
+    ],
+    "email": "xanxere@bauerexpress.com.br",
+    "source": "rioGrandeDoSul.xlsx"
+  },
+  {
+    "nome": "Ampére",
+    "cidade": "Ampére",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: Davi Capellari 114, Bairro: Rude Jose Spanhol",
+    "cidades_atendidas": [
+      "Ampére / PR",
+      "Bela Vista da Caroba / PR",
+      "Bom Jesus do Sul / PR",
+      "Capanema / PR",
+      "Capitão Leônidas Marques / PR",
+      "Pérola d'Oeste / PR",
+      "Pinhal de São Bento / PR",
+      "Planalto / PR",
+      "Pranchita / PR",
+      "Realeza / PR",
+      "Santa Izabel do Oeste / PR",
+      "Santa Lúcia / PR",
+      "Santo Antônio do Sudoeste / PR"
+    ],
+    "telefones": [
+      "(46) 3547-3445"
+    ],
+    "email": "ampere@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Apucarana",
+    "cidade": "Apucarana",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Minas Gerais, n° 3943, Bairro Adriana Correa",
+    "cidades_atendidas": [
+      "Apucarana / PR",
+      "Arapuã / PR",
+      "Ariranha do Ivaí / PR",
+      "Bom Sucesso / PR",
+      "Borrazópolis / PR",
+      "Califórnia / PR",
+      "Cambira / PR",
+      "Cruzmaltina / PR",
+      "Faxinal / PR",
+      "Godoy Moreira / PR",
+      "Grandes Rios / PR",
+      "Ivaiporã / PR",
+      "Jandaia do Sul / PR",
+      "Jardim Alegre / PR",
+      "Kaloré / PR",
+      "Lidianópolis / PR",
+      "Lunardelli / PR",
+      "Mandaguari / PR",
+      "Marilândia do Sul / PR",
+      "Marumbi / PR",
+      "Mauá da Serra / PR",
+      "Novo Itacolomi / PR",
+      "Rio Bom / PR",
+      "Rio Branco do Ivaí / PR",
+      "Rosário do Ivaí / PR",
+      "São João do Ivaí / PR",
+      "São Pedro do Ivaí / PR"
+    ],
+    "telefones": [
+      "(43) 3422-3363"
+    ],
+    "email": "apucarana@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Arapongas",
+    "cidade": "Arapongas",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: faisão 1057, Bairro: vila Sampaio",
+    "cidades_atendidas": [
+      "Arapongas / PR",
+      "Astorga / PR",
+      "Pitangueiras / PR",
+      "Sabáudia / PR"
+    ],
+    "telefones": [
+      "(43) 3252-7599"
+    ],
+    "email": "arapongas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Campo Mourão",
+    "cidade": "Campo Mourão",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Estefano Domanski, 3777 - B. Jardim Santa Cruz",
+    "cidades_atendidas": [
+      "Araruna / PR",
+      "Barbosa Ferraz / PR",
+      "Boa Esperança / PR",
+      "Campo Mourão / PR",
+      "Corumbataí do Sul / PR",
+      "Engenheiro Beltrão / PR",
+      "Farol / PR",
+      "Fênix / PR",
+      "Goioerê / PR",
+      "Iretama / PR",
+      "Janiópolis / PR",
+      "Juranda / PR",
+      "Luiziana / PR",
+      "Mamborê / PR",
+      "Nova Tebas / PR",
+      "Peabiru / PR",
+      "Quarto Centenário / PR",
+      "Quinta do Sol / PR",
+      "Rancho Alegre d'Oeste / PR",
+      "Roncador / PR"
+    ],
+    "telefones": [
+      "(44) 99924-0072"
+    ],
+    "email": "campomourao@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Cascavel",
+    "cidade": "Cascavel",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av.: Araci tanaka biazetto, 9930, Bairro: Parque São Paulo",
+    "cidades_atendidas": [
+      "Altamira do Paraná / PR",
+      "Anahy / PR",
+      "Braganey / PR",
+      "Cafelândia / PR",
+      "Campina da Lagoa / PR",
+      "Cascavel / PR",
+      "Corbélia / PR",
+      "Iguatu / PR",
+      "Lindoeste / PR",
+      "Nova Aurora / PR",
+      "Nova Cantu / PR",
+      "Santa Tereza do Oeste / PR",
+      "Ubiratã / PR"
+    ],
+    "telefones": [
+      "(45) 3228-1071"
+    ],
+    "email": "cascavel@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Curitiba",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR-116, Km 15, 26929, B. Campo do Santana",
+    "cidades_atendidas": [
+      "Adrianópolis / PR",
+      "Almirante Tamandaré / PR",
+      "Antonina / PR",
+      "Araucária / PR",
+      "Balsa Nova / PR",
+      "Bocaiúva do Sul / PR",
+      "Campina Grande do Sul / PR",
+      "Campo do Tenente / PR",
+      "Campo Largo / PR",
+      "Campo Magro / PR",
+      "Cerro Azul / PR",
+      "Colombo / PR",
+      "Contenda / PR",
+      "Curitiba / PR",
+      "Doutor Ulysses / PR",
+      "Fazenda Rio Grande / PR",
+      "Guaratuba / PR",
+      "Itaperuçu / PR",
+      "Lapa / PR",
+      "Mandirituba / PR",
+      "Matinhos / PR",
+      "Morretes / PR",
+      "Paranaguá / PR",
+      "Pinhais / PR",
+      "Piraquara / PR",
+      "Pontal do Paraná / PR",
+      "Quatro Barras / PR",
+      "Quitandinha / PR",
+      "Rio Branco do Sul / PR",
+      "Rio Negro / PR",
+      "São José Dos Pinhais / PR",
+      "Tunas do Paraná / PR",
+      "Bela Vista do Toldo / SC",
+      "Canoinhas / SC",
+      "Itaiópolis / SC",
+      "Mafra / SC",
+      "Major Vieira / SC",
+      "Monte Castelo / SC",
+      "Papanduva / SC",
+      "Três Barras / SC"
+    ],
+    "telefones": [
+      "(41) 3268-7932"
+    ],
+    "email": "curitiba@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "cidade": "Dois Vizinhos",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua: Ivanir Araldi 305, Bairro: Pq. Industrial Araldi",
+    "cidades_atendidas": [
+      "Boa Esperança do Iguaçu / PR",
+      "Cruzeiro do Iguaçu / PR",
+      "Dois Vizinhos / PR",
+      "Nova Prata do Iguaçu / PR",
+      "Salto do Lontra / PR",
+      "São Jorge D'Oeste / PR",
+      "Verê / PR"
+    ],
+    "telefones": [
+      "(46) 3010-1479"
+    ],
+    "email": "doisvizinhos@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "cidade": "Foz do Iguaçu",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. Ranieri Mazilli, 418 B. Parque Presidente",
+    "cidades_atendidas": [
+      "Foz Do Iguaçu / PR",
+      "Santa Terezinha de Itaipu / PR"
+    ],
+    "telefones": [
+      "(45) 3573-7454"
+    ],
+    "email": "fozdoiguacu@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "cidade": "Francisco Beltrão",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Carolina Zanette Marcello, 106 B. Luther King",
+    "cidades_atendidas": [
+      "Enéas Marques / PR",
+      "Francisco Beltrão / PR",
+      "Manfrinópolis / PR",
+      "Marmeleiro / PR",
+      "Nova Esperança do Sudoeste / PR",
+      "Renascença / PR"
+    ],
+    "telefones": [
+      "(46) 3523-3072"
+    ],
+    "email": "franciscobeltrao@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Guarapuava",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Inácio Martins 140, Bairro Industrial",
+    "cidades_atendidas": [
+      "Boa Ventura de São Roque / PR",
+      "Campina do Simão / PR",
+      "Cândido de Abreu / PR",
+      "Candói / PR",
+      "Foz do Jordão / PR",
+      "Goioxim / PR",
+      "Guarapuava / PR",
+      "Manoel Ribas / PR",
+      "Mato Rico / PR",
+      "Pinhão / PR",
+      "Pitanga / PR",
+      "Reserva do Iguaçu / PR",
+      "Santa Maria do Oeste / PR",
+      "Turvo / PR"
+    ],
+    "telefones": [
+      "(42) 3622-5757"
+    ],
+    "email": "guarapuava@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Irati",
+    "cidade": "Irati",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 277 Km 243,5, Serra dos Nogueiras",
+    "cidades_atendidas": [
+      "Fernandes Pinheiro / PR",
+      "Guamiranga / PR",
+      "Imbituva / PR",
+      "Inácio Martins / PR",
+      "Irati / PR",
+      "Ivaí / PR",
+      "Mallet / PR",
+      "Paulo Frontin / PR",
+      "Prudentópolis / PR",
+      "Rebouças / PR",
+      "Rio Azul / PR",
+      "Teixeira Soares / PR"
+    ],
+    "telefones": [
+      "(42) 99837-6073"
+    ],
+    "email": "irati@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Jaguariaíva",
+    "cidade": "Jaguariaíva",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. BNH, 501 - Vila Kennedy",
+    "cidades_atendidas": [
+      "Arapoti / PR",
+      "Jaguariaíva / PR",
+      "São José da Boa Vista / PR",
+      "Sengés / PR",
+      "Wenceslau Braz / PR"
+    ],
+    "telefones": [],
+    "email": "jaguariaiva@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Laranjeiras do Sul",
+    "cidade": "Laranjeiras do Sul",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 277, KM 453 B. Vila Industrial",
+    "cidades_atendidas": [
+      "Cantagalo / PR",
+      "Laranjal / PR",
+      "Laranjeiras Do Sul / PR",
+      "Marquinho / PR",
+      "Nova Laranjeiras / PR",
+      "Palmital / PR",
+      "Porto Barreiro / PR",
+      "Rio Bonito do Iguaçu / PR",
+      "Virmond / PR"
+    ],
+    "telefones": [
+      "(42) 3635-6737"
+    ],
+    "email": "laranjeirasdosul@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Londrina",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Av. Francisco José Ferreira, 500, Bairro Yara",
+    "cidades_atendidas": [
+      "Alvorada do Sul / PR",
+      "Assaí / PR",
+      "Bela Vista do Paraíso / PR",
+      "Cambé / PR",
+      "Cianorte / PR",
+      "Cornélio Procópio / PR",
+      "Guaporema / PR",
+      "Ibiporã / PR",
+      "Indianópolis / PR",
+      "Japurá / PR",
+      "Jataizinho / PR",
+      "Jussara / PR",
+      "Leópolis / PR",
+      "Londrina / PR",
+      "Londrina Norte / PR",
+      "Nova América da Colina / PR",
+      "Nova Santa Bárbara / PR",
+      "Primeiro de Maio / PR",
+      "Rancho Alegre / PR",
+      "Rolândia / PR",
+      "Rondon / PR",
+      "Santa Cecília do Pavão / PR",
+      "Santa Mariana / PR",
+      "São Jerônimo da Serra / PR",
+      "São Manoel do Paraná / PR",
+      "São Sebastião da Amoreira / PR",
+      "São Tomé / PR",
+      "Sertaneja / PR",
+      "Sertanópolis / PR",
+      "Tamarana / PR",
+      "Terra Boa / PR",
+      "Uraí / PR"
+    ],
+    "telefones": [
+      "(43) 3772-3484"
+    ],
+    "email": "londrina@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Marechal Cândido Rondon",
+    "cidade": "Marechal Cândido Rondon",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua 15 de novembro, n° 3131, Bairro Ana Neuza",
+    "cidades_atendidas": [
+      "Entre Rios do Oeste / PR",
+      "Guaíra / PR",
+      "Marechal Cândido Rondon / PR",
+      "Maripá / PR",
+      "Mercedes / PR",
+      "Nova Santa Rosa / PR",
+      "Palotina / PR",
+      "Pato Bragado / PR",
+      "Quatro Pontes / PR",
+      "Terra Roxa / PR"
+    ],
+    "telefones": [
+      "(45) 2031-0430"
+    ],
+    "email": "marechal@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Maringá",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rod. Prefeito Sincler Sambatti, 10092, B. Jardim Bertioga",
+    "cidades_atendidas": [
+      "lto Paraná / PR",
+      "Amaporã / PR",
+      "Ângulo / PR",
+      "Atalaia / PR",
+      "Cafeara / PR",
+      "Centenário do Sul / PR",
+      "Colorado / PR",
+      "Cruzeiro do Sul / PR",
+      "Diamante do Norte / PR",
+      "Doutor Camargo / PR",
+      "Floraí / PR",
+      "Floresta / PR",
+      "Florestópolis / PR",
+      "Flórida / PR",
+      "Guairaçá / PR",
+      "Guaraci / PR",
+      "Iguaraçu / PR",
+      "Inajá / PR",
+      "Itaguajé / PR",
+      "Itambé / PR",
+      "Itaúna do Sul / PR",
+      "Ivatuba / PR",
+      "Jaguapitã / PR",
+      "Jardim Olinda / PR",
+      "Loanda / PR",
+      "Lobato / PR",
+      "Lupionópolis / PR",
+      "Mandaguaçu / PR",
+      "Marialva / PR",
+      "Marilena / PR",
+      "Maringá / PR",
+      "Mirador / PR",
+      "Miraselva / PR",
+      "Munhoz de Melo / PR",
+      "Nossa Senhora das Graças / PR",
+      "Nova Aliança do Ivaí / PR",
+      "Nova Esperança / PR",
+      "Nova Londrina / PR",
+      "Ourizona / PR",
+      "Paiçandu / PR",
+      "Paraíso do Norte / PR",
+      "Paranacity / PR",
+      "Paranapoema / PR",
+      "Paranavaí / PR",
+      "Planaltina do Paraná / PR",
+      "Porecatu / PR",
+      "Porto Rico / PR",
+      "Prado Ferreira / PR",
+      "Presidente Castelo Branco / PR",
+      "Querência do Norte / PR",
+      "Santa Cruz de Monte Castelo / PR",
+      "Santa Fé / PR",
+      "Santa Inês / PR",
+      "Santa Isabel do Ivaí / PR",
+      "Santa Mônica / PR",
+      "Santo Antônio do Caiuá / PR",
+      "Santo Inácio / PR",
+      "São Carlos do Ivaí / PR",
+      "São João do Caiuá / PR",
+      "São Jorge do Ivaí / PR",
+      "São Pedro do Paraná / PR",
+      "Sarandi / PR",
+      "Tamboara / PR",
+      "Terra Rica / PR",
+      "Uniflor / PR"
+    ],
+    "telefones": [
+      "(44) 3266-7589"
+    ],
+    "email": "maringa@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Medianeira",
+    "cidade": "Medianeira",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Severino David Endrigo, 51, B. Florença",
+    "cidades_atendidas": [
+      "Céu Azul / PR",
+      "Diamante d'Oeste / PR",
+      "Itaipulândia / PR",
+      "Matelândia / PR",
+      "Medianeira / PR",
+      "Missal / PR",
+      "Ramilândia / PR",
+      "Santa Helena / PR",
+      "São Miguel do Iguaçu / PR",
+      "Serranópolis do Iguaçu / PR",
+      "Vera Cruz do Oeste / PR"
+    ],
+    "telefones": [
+      "(45) 3264-7385"
+    ],
+    "email": "medianeira@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Palmas",
+    "cidade": "Palmas",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Alberto Santos Dumont, 295, B. Divino, Palmas-PR",
+    "cidades_atendidas": [
+      "Clevelândia / PR",
+      "Coronel Domingos Soares / PR",
+      "Palmas / PR"
+    ],
+    "telefones": [
+      "(46) 3262-1117"
+    ],
+    "email": "palmas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Pato Branco",
+    "cidade": "Pato Branco",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 158, Km. 373, 25 B. Menino Deus",
+    "cidades_atendidas": [
+      "Bom Sucesso do Sul / PR",
+      "Chopinzinho / PR",
+      "Coronel Vivida / PR",
+      "Honório Serpa / PR",
+      "Itapejara d'Oeste / PR",
+      "Mangueirinha / PR",
+      "Mariópolis / PR",
+      "Pato Branco / PR",
+      "São João / PR",
+      "Saudade do Iguaçu / PR",
+      "Sulina / PR",
+      "Vitorino / PR"
+    ],
+    "telefones": [
+      "(46) 3225-5801"
+    ],
+    "email": "patobranco@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Ponta Grossa",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Souza Naves, n° 1999, Bairro Chapada",
+    "cidades_atendidas": [
+      "Carambeí / PR",
+      "Castro / PR",
+      "Ipiranga / PR",
+      "Palmeira / PR",
+      "Piraí do Sul / PR",
+      "Ponta Grossa / PR",
+      "Porto Amazonas / PR"
+    ],
+    "telefones": [
+      "(41) 99570-5960"
+    ],
+    "email": "pontagrossa@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Quedas do Iguaçu",
+    "cidade": "Quedas do Iguaçu",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Taruma 2031 -  Anexo a Rodoviária, Centro",
+    "cidades_atendidas": [
+      "Boa Vista da Aparecida / PR",
+      "Campo Bonito / PR",
+      "Catanduvas / PR",
+      "Diamante do Sul / PR",
+      "Espigão Alto do Iguaçu / PR",
+      "Guaraniaçu / PR",
+      "Ibema / PR",
+      "Quedas do Iguaçu / PR",
+      "Três Barras do Paraná / PR"
+    ],
+    "telefones": [
+      "(46) 3532-2006"
+    ],
+    "email": "quedasdoiguacu@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santo Antônio da Platina",
+    "cidade": "Santo Antônio da Platina",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Vereador José Tanko, 241, Parque Jandira",
+    "cidades_atendidas": [
+      "Abatiá / PR",
+      "Andirá / PR",
+      "Bandeirantes / PR",
+      "Barra do Jacaré / PR",
+      "Cambará / PR",
+      "Carlópolis / PR",
+      "Congonhinhas / PR",
+      "Conselheiro Mairinck / PR",
+      "Curiúva / PR",
+      "Figueira / PR",
+      "Guapirama / PR",
+      "Ibaiti / PR",
+      "Itambaracá / PR",
+      "Jaboti / PR",
+      "Jacarezinho / PR",
+      "Japira / PR",
+      "Joaquim Távora / PR",
+      "Jundiaí do Sul / PR",
+      "Nova Fátima / PR",
+      "Pinhalão / PR",
+      "Quatiguá / PR",
+      "Ribeirão Claro / PR",
+      "Ribeirão do Pinhal / PR",
+      "Salto do Itararé / PR",
+      "Santa Amélia / PR",
+      "Santana do Itararé / PR",
+      "Santo Antônio da Platina / PR",
+      "Santo Antônio do Paraíso / PR",
+      "Sapopema / PR",
+      "Siqueira Campos / PR",
+      "Tomazina / PR"
+    ],
+    "telefones": [
+      "(49) 98879-2783"
+    ],
+    "email": "santoantoniodaplatina@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Mateus do Sul",
+    "cidade": "São Mateus do Sul",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "BR 476 km 280, Nº 2056 Vila Nepomuceno",
+    "cidades_atendidas": [
+      "Antônio Olinto / PR",
+      "São João do Triunfo / PR",
+      "São Mateus do Sul / PR"
+    ],
+    "telefones": [
+      "(42) 98850-4546"
+    ],
+    "email": "saomateus@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "cidade": "Telêmaco Borba",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua Castanheira, 315 B. Jardim Monte Carlo",
+    "cidades_atendidas": [
+      "Imbaú / PR",
+      "Ortigueira / PR",
+      "Reserva / PR",
+      "Telêmaco Borba / PR",
+      "Tibagi / PR",
+      "Ventania / PR"
+    ],
+    "telefones": [
+      "(42) 99165-8575"
+    ],
+    "email": "telemacoborba@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Toledo",
+    "cidade": "Toledo",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Avenida Senador Atílio Fontana, 4791 - Barracão 16, Centro",
+    "cidades_atendidas": [
+      "Assis Chateaubriand / PR",
+      "Formosa do Oeste / PR",
+      "Iracema do Oeste / PR",
+      "Jesuítas / PR",
+      "Ouro Verde do Oeste / PR",
+      "São José das Palmeiras / PR",
+      "São Pedro do Iguaçu / PR",
+      "Toledo / PR",
+      "Tupãssi / PR"
+    ],
+    "telefones": [
+      "(45) 2033-8077"
+    ],
+    "email": "toledo@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Umuarama",
+    "cidade": "Umuarama",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "R. Benjamin Pajanoti, 1329 - Jardim Santiago",
+    "cidades_atendidas": [
+      "Alto Paraíso / PR",
+      "Alto Piquiri / PR",
+      "Altônia / PR",
+      "Brasilândia do Sul / PR",
+      "Cafezal do Sul / PR",
+      "Cidade Gaúcha / PR",
+      "Cruzeiro do Oeste / PR",
+      "Douradina / PR",
+      "Esperança Nova / PR",
+      "Francisco Alves / PR",
+      "Icaraíma / PR",
+      "Iporã / PR",
+      "Ivaté / PR",
+      "Maria Helena / PR",
+      "Mariluz / PR",
+      "Moreira Sales / PR",
+      "Nova Olímpia / PR",
+      "Perobal / PR",
+      "Pérola / PR",
+      "São Jorge do Patrocínio / PR",
+      "Tapejara / PR",
+      "Tapira / PR",
+      "Tuneiras do Oeste / PR",
+      "Umuarama / PR",
+      "Xambrê / PR"
+    ],
+    "telefones": [
+      "(44) 3624-8283"
+    ],
+    "email": "umuarama@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "União Da Vitória",
+    "cidade": "União Da Vitória",
+    "uf": "PR",
+    "cep_prefixos": [],
+    "endereco": "Rua São Domingos, Bairro Mallon",
+    "cidades_atendidas": [
+      "Bituruna / PR",
+      "Cruz Machado / PR",
+      "General Carneiro / PR",
+      "Paula Freitas / PR",
+      "Porto Vitória / PR",
+      "União Da Vitória / PR",
+      "Irineópolis / SC",
+      "Porto União / SC"
+    ],
+    "telefones": [
+      "(42) 3524-6903"
+    ],
+    "email": "uniaodavitoria@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Alegrete",
+    "cidade": "Alegrete",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Planalto, N. 30, Bairro Saudade",
+    "cidades_atendidas": [
+      "legrete / RS",
+      "Manoel Viana / RS"
+    ],
+    "telefones": [
+      "(55) 99677-1784"
+    ],
+    "email": "alegrete.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Bagé",
+    "cidade": "Bagé",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Álvaro Lannes de Carvalho, 20, Bairro Getúlio Vargas",
+    "cidades_atendidas": [
+      "Aceguá / RS",
+      "Bagé / RS",
+      "Candiota / RS",
+      "Dom Pedrito / RS",
+      "Hulha Negra / RS",
+      "Pedras Altas / RS",
+      "Pinheiro Machado / RS"
+    ],
+    "telefones": [
+      "(53) 99992-2160"
+    ],
+    "email": "bage@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "cidade": "Bento Gonçalves",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Artêmio Arlindo Someci, 765, Bairo: São Vendelino",
+    "cidades_atendidas": [
+      "Alto Feliz / RS",
+      "Barão / RS",
+      "Bento Gonçalves / RS",
+      "Carlos Barbosa / RS",
+      "Coronel Pilar / RS",
+      "Farroupilha / RS",
+      "Feliz / RS",
+      "Garibaldi / RS",
+      "Monte Belo do Sul / RS",
+      "Nova Roma do Sul / RS",
+      "Pinto Bandeira / RS",
+      "Salvador do Sul / RS",
+      "Santa Tereza / RS",
+      "São Pedro da Serra / RS",
+      "São Vedelino / RS",
+      "São Vendelino / RS",
+      "Vale Real / RS"
+    ],
+    "telefones": [],
+    "email": "bentogoncalves@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Caçapava do Sul",
+    "cidade": "Caçapava do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. Lino Azambuja, 1343 - 2 - Centro",
+    "cidades_atendidas": [
+      "Caçapava do Sul / RS",
+      "Lavras do Sul / RS",
+      "Santana da Boa Vista / RS",
+      "São Sepé / RS"
+    ],
+    "telefones": [
+      "(55) 9 9999-2393"
+    ],
+    "email": "cacapavadosul.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Camaquã",
+    "cidade": "Camaquã",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Quinze de Novembro, 470, Bairro Olaria",
+    "cidades_atendidas": [
+      "Amaral Ferrador / RS",
+      "Arambaré / RS",
+      "Barão do Triunfo / RS",
+      "Barra do Ribeiro / RS",
+      "Camaquã / RS",
+      "Cerro Grande do Sul / RS",
+      "Chuvisca / RS",
+      "Cristal / RS",
+      "Dom Feliciano / RS",
+      "Mariana Pimentel / RS",
+      "Sentinela do Sul / RS",
+      "Sertão Santana / RS",
+      "Tapes / RS"
+    ],
+    "telefones": [
+      "(51) 3671-0455"
+    ],
+    "email": "camaqua@bauerexpress.com",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Carazinho",
+    "cidade": "Carazinho",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Joao Rizzeto, n° 80, Bairro Oriental (Em frente a rodoviária Carazinho)",
+    "cidades_atendidas": [
+      "Almirante Tamandaré do Sul / RS",
+      "Carazinho / RS",
+      "Chapada / RS",
+      "Coqueiros do Sul / RS",
+      "Não-Me-Toque / RS",
+      "Saldanha Marinho / RS",
+      "Santo Antônio do Planalto / RS"
+    ],
+    "telefones": [
+      "(54) 3331-9064"
+    ],
+    "email": "carazinho@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Caxias do Sul",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "ROD. ERS 122  -  Km 69, N. 7470, Bairro: Desvio Rizzo",
+    "cidades_atendidas": [
+      "Cambará do Sul / RS",
+      "Canela / RS",
+      "Caxias Do Sul / RS",
+      "Flores da Cunha / RS",
+      "Gramado / RS",
+      "Nova Pádua / RS",
+      "Nova Petrópolis / RS",
+      "São Francisco de Paula / RS",
+      "São Marcos / RS"
+    ],
+    "telefones": [
+      "(54) 99681-8651"
+    ],
+    "email": "caxiasdosul@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Cruz Alta",
+    "cidade": "Cruz Alta",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Plácido de Castro, 406-A, B. Jardim América",
+    "cidades_atendidas": [
+      "Boa Vista do Incra / RS",
+      "Cruz Alta / RS",
+      "Júlio de Castilhos / RS",
+      "Tupanciretã / RS"
+    ],
+    "telefones": [
+      "(55) 3324-1181"
+    ],
+    "email": "cruzalta@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Erechim",
+    "cidade": "Erechim",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Dr. João Caruso, 390, Bairro: Industrial",
+    "cidades_atendidas": [
+      "Aratiba / RS",
+      "Áurea / RS",
+      "Barão de Cotegipe / RS",
+      "Barra do Rio Azul / RS",
+      "Benjamin Constant do Sul / RS",
+      "Campinas do Sul / RS",
+      "Carlos Gomes / RS",
+      "Centenário / RS",
+      "Cruzaltense / RS",
+      "Entre Rios do Sul / RS",
+      "Erechim / RS",
+      "Erval Grande / RS",
+      "Faxinalzinho / RS",
+      "Gaurama / RS",
+      "Itatiba do Sul / RS",
+      "Jacutinga / RS",
+      "Marcelino Ramos / RS",
+      "Mariano Moro / RS",
+      "Paulo Bento / RS",
+      "Ponte Preta / RS",
+      "Quatro Irmãos / RS",
+      "São Valentim / RS",
+      "Severiano de Almeida / RS",
+      "Três Arroios / RS",
+      "Viadutos / RS"
+    ],
+    "telefones": [
+      "(54) 3522-3030"
+    ],
+    "email": "erechim@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Frederico Westphalen",
+    "cidade": "Frederico Westphalen",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Campos Eliseos, 192, Centro",
+    "cidades_atendidas": [
+      "Alpestre / RS",
+      "Ametista do Sul / RS",
+      "Boa Vista das Missões / RS",
+      "Caiçara / RS",
+      "Cerro Grande / RS",
+      "Cristal do Sul / RS",
+      "Dois Irmãos das Missões / RS",
+      "Erval Seco / RS",
+      "Frederico Westphalen / RS",
+      "Gramado dos Loureiros / RS",
+      "Iraí / RS",
+      "Jaboticaba / RS",
+      "Lajeado do Bugre / RS",
+      "Novo Tiradentes / RS",
+      "Palmitinho / RS",
+      "Pinhal / RS",
+      "Pinheirinho do Vale / RS",
+      "Planalto / RS",
+      "Rodeio Bonito / RS",
+      "Sagrada Família / RS",
+      "São José das Missões / RS",
+      "São Pedro das Missões / RS",
+      "Seberi / RS",
+      "Taquaruçu do Sul / RS",
+      "Vicente Dutra / RS",
+      "Vista Alegre / RS"
+    ],
+    "telefones": [
+      "(55) 3744-4270"
+    ],
+    "email": "frederico@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Getúlio Vargas",
+    "cidade": "Getúlio Vargas",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: 3, numero 80. Bairro: Parque Industrial",
+    "cidades_atendidas": [
+      "Charrua / RS",
+      "Erebango / RS",
+      "Estação / RS",
+      "Floriano Peixoto / RS",
+      "Getúlio Vargas / RS",
+      "Ipiranga do Sul / RS",
+      "Sertão / RS"
+    ],
+    "telefones": [
+      "(54) 3698-4545"
+    ],
+    "email": "getuliovargas@bauerexpress.com",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Ibirubá",
+    "cidade": "Ibirubá",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rodovia 223  -  Km 43  -  Bairro Industrial",
+    "cidades_atendidas": [
+      "Alto Alegre / RS",
+      "Campos Borges / RS",
+      "Colorado / RS",
+      "Ernestina / RS",
+      "Espumoso / RS",
+      "Estrela Velha / RS",
+      "Fortaleza dos Valos / RS",
+      "Ibirapuitã / RS",
+      "Ibirubá / RS",
+      "Jacuizinho / RS",
+      "Lagoa dos Três Cantos / RS",
+      "Mormaço / RS",
+      "Nicolau Vergueiro / RS",
+      "Quinze de Novembro / RS",
+      "Salto do Jacuí / RS",
+      "Selbach / RS",
+      "Soledade / RS",
+      "Tio Hugo / RS",
+      "Victor Graeff / RS"
+    ],
+    "telefones": [
+      "(54) 3199-1486"
+    ],
+    "email": "ibiruba@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Ijuí",
+    "cidade": "Ijuí",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Parecis, n° 75, Bairro Pindorama",
+    "cidades_atendidas": [
+      "Ajuricaba / RS",
+      "Augusto Pestana / RS",
+      "Boa Vista do Cadeado / RS",
+      "Bozano / RS",
+      "Catuípe / RS",
+      "Condor / RS",
+      "Coronel Barros / RS",
+      "Ijuí / RS",
+      "Jóia / RS",
+      "Nova Ramada / RS",
+      "Panambi / RS",
+      "Pejuçara / RS",
+      "Santa Bárbara do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 3383-0014"
+    ],
+    "email": "ijui@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Lajeado",
+    "cidade": "Lajeado",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Castelo Branco, 193 – Bairro Moinhos",
+    "cidades_atendidas": [
+      "Anta Gorda / RS",
+      "Arroio do Meio / RS",
+      "Arvorezinha / RS",
+      "Boa Vista do Sul / RS",
+      "Bom Retiro do Sul / RS",
+      "Boqueirão do Leão / RS",
+      "Canudos do Vale / RS",
+      "Capitão / RS",
+      "Colinas / RS",
+      "Coqueiro Baixo / RS",
+      "Cruzeiro do Sul / RS",
+      "Doutor Ricardo / RS",
+      "Encantado / RS",
+      "Estrela / RS",
+      "Fazenda Vilanova / RS",
+      "Fontoura Xavier / RS",
+      "Forquetinha / RS",
+      "Ilópolis / RS",
+      "Imigrante / RS",
+      "Itapuca / RS",
+      "Lajeado / RS",
+      "Marques de Souza / RS",
+      "Mato Leitão / RS",
+      "Muçum / RS",
+      "Nova Bréscia / RS",
+      "Passo do Sobrado / RS",
+      "Paverama / RS",
+      "Poço das Antas / RS",
+      "Pouso Novo / RS",
+      "Progresso / RS",
+      "Putinga / RS",
+      "Relvado / RS",
+      "Roca Sales / RS",
+      "Santa Clara do Sul / RS",
+      "São José do Herval / RS",
+      "Sério / RS",
+      "Tabaí / RS",
+      "Taquari / RS",
+      "Teutônia / RS",
+      "Travesseiro / RS",
+      "Vale Verde / RS",
+      "Venâncio Aires / RS",
+      "Westfalia / RS"
+    ],
+    "telefones": [
+      "(51) 3748-7728"
+    ],
+    "email": "lajeado@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Marau",
+    "cidade": "Marau",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Serafim Grando, Numero 124, Bairro Santa Rita",
+    "cidades_atendidas": [
+      "Camargo / RS",
+      "Casca / RS",
+      "Gentil / RS",
+      "Marau / RS",
+      "Mato Castelhano / RS",
+      "Montauri / RS",
+      "Nova Alvorada / RS",
+      "Santo Antônio do Palma / RS",
+      "Serafina Corrêa / RS",
+      "União da Serra / RS",
+      "Vila Maria / RS"
+    ],
+    "telefones": [
+      "(54) 2241-0069"
+    ],
+    "email": "marau@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Nova Prata",
+    "cidade": "Nova Prata",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "EST RST 470 - Km 163  -  número 104 - Bairro Retiro",
+    "cidades_atendidas": [
+      "André da Rocha / RS",
+      "Cotiporã / RS",
+      "Dois Lajeados / RS",
+      "Fagundes Varela / RS",
+      "Guaporé / RS",
+      "Nova Araçá / RS",
+      "Nova Bassano / RS",
+      "Paraí / RS",
+      "Protásio Alves / RS",
+      "São Valentim do Sul / RS",
+      "Veranópolis / RS",
+      "Vespasiano Correa / RS",
+      "Vila Flores / RS"
+    ],
+    "telefones": [
+      "(54) 2121-5369"
+    ],
+    "email": "luiscarlossouzars@gmail.com",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Passo Fundo",
+    "cidade": "Passo Fundo",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "RS 324, Perimetral Sul, SN, Região do Bairro José Alexandre Zachia",
+    "cidades_atendidas": [
+      "Barracão / RS",
+      "Cacique Doble / RS",
+      "Capão Bonito do Sul / RS",
+      "Caseiros / RS",
+      "Ciríaco / RS",
+      "Coxilha / RS",
+      "David Canabarro / RS",
+      "Guabiju / RS",
+      "Ibiaçá / RS",
+      "Ibiraiaras / RS",
+      "Lagoa Vermelha / RS",
+      "Machadinho / RS",
+      "Maximiliano de Almeida / RS",
+      "Muliterno / RS",
+      "Nova Prata / RS",
+      "Paim Filho / RS",
+      "Passo Fundo / RS",
+      "Sananduva / RS",
+      "Santa Cecília do Sul / RS",
+      "Santo Expedito do Sul / RS",
+      "São Domingos do Sul / RS",
+      "São João da Urtiga / RS",
+      "São Jorge / RS",
+      "São José do Ouro / RS",
+      "Tapejara / RS",
+      "Tapera / RS",
+      "Tupanci do Sul / RS",
+      "Vanini / RS",
+      "Vila Lângaro / RS"
+    ],
+    "telefones": [
+      "(54) 3313-8486"
+    ],
+    "email": "passofundo@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Pelotas",
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av; 25 de julho, 1437 pavilhão E, Fundos, Três vendas",
+    "cidades_atendidas": [
+      "Arroio do Padre / RS",
+      "Arroio Grande / RS",
+      "Canguçu / RS",
+      "Capão do Leão / RS",
+      "Cerrito / RS",
+      "Chuí / RS",
+      "Herval / RS",
+      "Jaguarão / RS",
+      "Morro Redondo / RS",
+      "Pedro Osório / RS",
+      "Pelotas / RS",
+      "Piratini / RS",
+      "Rio Grande / RS",
+      "Santa Vitória do Palmar / RS",
+      "São José do Norte / RS",
+      "São Lourenço do Sul / RS",
+      "Turuçu / RS"
+    ],
+    "telefones": [
+      "(53) 3199-8938"
+    ],
+    "email": "pelotas.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Porto Alegre",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Plinio Kroeff, nº 1455, Bairro Rubem Berta",
+    "cidades_atendidas": [
+      "Alvorada / RS",
+      "Arroio dos Ratos / RS",
+      "Bom Princípio / RS",
+      "Butiá / RS",
+      "Cachoeirinha / RS",
+      "Canoas / RS",
+      "Capela de Santana / RS",
+      "Charqueadas / RS",
+      "Eldorado do Sul / RS",
+      "Esteio / RS",
+      "General Câmara / RS",
+      "Glorinha / RS",
+      "Gravataí / RS",
+      "Guaíba / RS",
+      "Harmonia / RS",
+      "Igrejinha / RS",
+      "Minas do Leão / RS",
+      "Montenegro / RS",
+      "Nova Hartz / RS",
+      "Nova Santa Rita / RS",
+      "Pareci Novo / RS",
+      "Parobé / RS",
+      "Porto Alegre / RS",
+      "Riozinho / RS",
+      "Rolante / RS",
+      "São Jerônimo / RS",
+      "São Sebastião do Caí / RS",
+      "Sapucaia Do Sul / RS",
+      "Taquara / RS",
+      "Três Coroas / RS",
+      "Triunfo / RS",
+      "Tupandi / RS",
+      "Viamão / RS"
+    ],
+    "telefones": [
+      "(51) 3079-4580"
+    ],
+    "email": "portoalegre@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Rosário do Sul",
+    "cidade": "Rosário do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Honório Lemos, N.2394, Bairro: Areias Brancas. –",
+    "cidades_atendidas": [
+      "Rosário do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 3231-8425"
+    ],
+    "email": "rosariodosul.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santa Cruz Do Sul",
+    "cidade": "Santa Cruz Do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "BR 471, KM 122,9, Bairro Várzea",
+    "cidades_atendidas": [
+      "Encruzilhada do Sul / RS",
+      "Gramado Xavier / RS",
+      "Herveiras / RS",
+      "Pantano Grande / RS",
+      "Rio Pardo / RS",
+      "Santa Cruz Do Sul / RS",
+      "Sinimbu / RS",
+      "Vale do Sol / RS",
+      "Vera Cruz / RS"
+    ],
+    "telefones": [
+      "(51) 3121-2305"
+    ],
+    "email": "santacruzdosul@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santa Maria",
+    "cidade": "Santa Maria",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Marques Dos Santos, 95",
+    "cidades_atendidas": [
+      "Agudo / RS",
+      "Dona Francisca / RS",
+      "Faxinal do Soturno / RS",
+      "Formigueiro / RS",
+      "Itaara / RS",
+      "Ivorá / RS",
+      "Nova Palma / RS",
+      "Paraíso do Sul / RS",
+      "Pinhal Grande / RS",
+      "Restinga Seca / RS",
+      "Santa da Boa Vista / RS",
+      "Santa Maria / RS",
+      "São João da Polêsine / RS",
+      "São João do Polêsine / RS",
+      "São Martinho da Serra / RS",
+      "Silveira Martins / RS"
+    ],
+    "telefones": [
+      "(55) 2500-0157"
+    ],
+    "email": "santamaria.gerencia@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santa Rosa",
+    "cidade": "Santa Rosa",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Acesso Henrique Gasen, 538, B. Alto do Parque",
+    "cidades_atendidas": [
+      "Alecrim / RS",
+      "Campina das Missões / RS",
+      "Cândido Godói / RS",
+      "Doutor Maurício Cardoso / RS",
+      "Giruá / RS",
+      "Horizontina / RS",
+      "Independência / RS",
+      "Novo Machado / RS",
+      "Porto Lucena / RS",
+      "Porto Mauá / RS",
+      "Porto Vera Cruz / RS",
+      "Santa Rosa / RS",
+      "Santo Cristo / RS",
+      "São José do Inhacorá / RS",
+      "São Paulo das Missões / RS",
+      "Senador Salgado Filho / RS",
+      "Três de Maio / RS",
+      "Tucunduva / RS",
+      "Tuparendi / RS"
+    ],
+    "telefones": [
+      "(55) 3512-4540"
+    ],
+    "email": "santarosa@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santana do Livramento",
+    "cidade": "Santana do Livramento",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Prefeito Sergio Fuentes,n° 833, Bairro Prado",
+    "cidades_atendidas": [
+      "Quaraí / RS",
+      "Santana do Livramento / RS"
+    ],
+    "telefones": [
+      "(55) 99909-2250"
+    ],
+    "email": "santanadolivramento.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santiago",
+    "cidade": "Santiago",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Avenida Aparicio Mariense, 1377, SALA A, Vila Rica,",
+    "cidades_atendidas": [
+      "Cacequi / RS",
+      "Capão do Cipó / RS",
+      "Itacurubi / RS",
+      "Jaguari / RS",
+      "Nova esperança do Sul / RS",
+      "Santiago / RS",
+      "São Francisco de Assis / RS",
+      "São Vicente do Sul / RS",
+      "Unistalda / RS"
+    ],
+    "telefones": [
+      "(55) 99188-2054"
+    ],
+    "email": "santiago.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santo Ângelo",
+    "cidade": "Santo Ângelo",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. Cel. Damasio Gomes de Castro, n° 853, Bairro Oliveira",
+    "cidades_atendidas": [
+      "Cerro Largo / RS",
+      "Entre-Ijuís / RS",
+      "Eugênio de Castro / RS",
+      "Guarani das Missões / RS",
+      "Salvador das Missões / RS",
+      "Santo Ângelo / RS",
+      "São Pedro do Butiá / RS",
+      "Sete de Setembro / RS",
+      "Ubiretama / RS"
+    ],
+    "telefones": [
+      "(55) 3312-0892"
+    ],
+    "email": "augustostreck@gmail.com",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Santo Augusto",
+    "cidade": "Santo Augusto",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua José Stival N. 80, Leonízio Gonzatto",
+    "cidades_atendidas": [
+      "Alegria / RS",
+      "Barra do Guarita / RS",
+      "Boa Vista do Buricá / RS",
+      "Bom Progresso / RS",
+      "Braga / RS",
+      "Campo Novo / RS",
+      "Chiapetta / RS",
+      "Coronel Bicaco / RS",
+      "Crissiumal / RS",
+      "Derrubadas / RS",
+      "Esperança do Sul / RS",
+      "Humaitá / RS",
+      "Inhacorá / RS",
+      "Miraguaí / RS",
+      "Nova Candelária / RS",
+      "Redentora / RS",
+      "Santo Augusto / RS",
+      "São Martinho / RS",
+      "São Valério do Sul / RS",
+      "Sede Nova / RS",
+      "Tenente Portela / RS",
+      "Tiradentes do Sul / RS",
+      "Três Passos / RS",
+      "Vista Gaúcha / RS"
+    ],
+    "telefones": [
+      "(55) 99907-4629"
+    ],
+    "email": "santoaugusto.gerencia@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Borja",
+    "cidade": "São Borja",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R Bento Goncalves, N.727,Bairro Passo",
+    "cidades_atendidas": [
+      "Itaqui / RS",
+      "Maçambará / RS",
+      "São Borja / RS"
+    ],
+    "telefones": [
+      "(55) 99730-4746"
+    ],
+    "email": "saoborja.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Gabriel",
+    "cidade": "São Gabriel",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R Onesimo Laureano, N.230, Zona Sul,",
+    "cidades_atendidas": [
+      "Santa Margarida do Sul / RS",
+      "São Gabriel / RS",
+      "Vila Nova do Sul / RS"
+    ],
+    "telefones": [
+      "(55) 98402-7150"
+    ],
+    "email": "saogabriel.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Luiz Gonzaga",
+    "cidade": "São Luiz Gonzaga",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua João Goulart, 1131, B. Vila Harmonia",
+    "cidades_atendidas": [
+      "Bossoroca / RS",
+      "Caibaté / RS",
+      "Dezesseis de Novembro / RS",
+      "Garruchos / RS",
+      "Mato Queimado / RS",
+      "Pirapó / RS",
+      "Porto Xavier / RS",
+      "Rolador / RS",
+      "Roque Gonzales / RS",
+      "Santo Antônio das Missões / RS",
+      "São Luiz Gonzaga / RS",
+      "São Miguel das Missões / RS",
+      "São Nicolau / RS",
+      "Vitória das Missões / RS"
+    ],
+    "telefones": [
+      "(55) 3352-7355"
+    ],
+    "email": "saoluizgonzaga@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Pedro do Sul",
+    "cidade": "São Pedro do Sul",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Rio Branco, 73 - Bairro Santo António",
+    "cidades_atendidas": [
+      "Dilermando de Aguiar / RS",
+      "Jari / RS",
+      "Mata / RS",
+      "Quevedos / RS",
+      "São Pedro do Sul / RS",
+      "Toropi / RS"
+    ],
+    "telefones": [
+      "(55) 98125-3446"
+    ],
+    "email": "saopedrodosul.televendas@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Sarandi",
+    "cidade": "Sarandi",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "R. João Piva, N.13710, Bairro Mirasul",
+    "cidades_atendidas": [
+      "Barra Funda / RS",
+      "Constantina / RS",
+      "Engenho Velho / RS",
+      "Liberato Salzano / RS",
+      "Nonoai / RS",
+      "Nova Boa Vista / RS",
+      "Novo Barreiro / RS",
+      "Novo Xingu / RS",
+      "Palmeira das Missões / RS",
+      "Pontão / RS",
+      "Rio dos Índios / RS",
+      "Ronda Alta / RS",
+      "Rondinha / RS",
+      "Sarandi / RS",
+      "Três Palmeiras / RS",
+      "Trindade do Sul / RS"
+    ],
+    "telefones": [
+      "(54) 99221- 6340"
+    ],
+    "email": "sarandi@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Uruguaiana",
+    "cidade": "Uruguaiana",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua: Beco Transazul, 09 Bairro: Rio Branco",
+    "cidades_atendidas": [
+      "Barra do Quaraí / RS",
+      "Uruguaiana / RS"
+    ],
+    "telefones": [],
+    "email": "uruguaiana@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Vacaria",
+    "cidade": "Vacaria",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Av. Moreira Paz, 1738, Sala 01, Bairro Borges",
+    "cidades_atendidas": [
+      "Antônio Prado / RS",
+      "Bom Jesus / RS",
+      "Campestre da Serra / RS",
+      "Esmeralda / RS",
+      "Ipê / RS",
+      "Jaquirana / RS",
+      "Monte Alegre dos Campos / RS",
+      "Muitos Capões / RS",
+      "Pinhal da Serra / RS",
+      "São José dos Ausentes / RS",
+      "Vacaria / RS"
+    ],
+    "telefones": [
+      "(54) 99632-3655"
+    ],
+    "email": "vacaria@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Xangri-lá",
+    "cidade": "Xangri-lá",
+    "uf": "RS",
+    "cep_prefixos": [],
+    "endereco": "Rua Maria de Lourdes Cosmos, 48, B. Guara",
+    "cidades_atendidas": [
+      "Arroio do Sal / RS",
+      "Balneário Pinhal / RS",
+      "Capão da Canoa / RS",
+      "Capivari do Sul / RS",
+      "Caraá / RS",
+      "Cidreira / RS",
+      "Dom Pedro de Alcântara / RS",
+      "Imbé / RS",
+      "Itati / RS",
+      "Mampituba / RS",
+      "Maquiné / RS",
+      "Morrinhos do Sul / RS",
+      "Mostardas / RS",
+      "Osório / RS",
+      "Palmares do Sul / RS",
+      "Santo Antônio da Patrulha / RS",
+      "Tavares / RS",
+      "Terra de Areia / RS",
+      "Torres / RS",
+      "Tramandaí / RS",
+      "Três Cachoeiras / RS",
+      "Três Forquilhas / RS",
+      "Xangri-Lá / RS"
+    ],
+    "telefones": [],
+    "email": "xangrila@bauerexpress.com",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Araranguá",
+    "cidade": "Araranguá",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Ana Lidia Carolina. 62, Jardim Cibele",
+    "cidades_atendidas": [
+      "Araranguá / SC",
+      "Balneário Arroio do Silva / SC",
+      "Balneário Gaivota / SC",
+      "Ermo / SC",
+      "Forquilhinha / SC",
+      "Jacinto Machado / SC",
+      "Maracajá / SC",
+      "Meleiro / SC",
+      "Morro Grande / SC",
+      "Passo de Torres / SC",
+      "Praia Grande / SC",
+      "Santa Rosa do Sul / SC",
+      "São João do Sul / SC",
+      "Sombrio / SC",
+      "Timbé do Sul / SC",
+      "Turvo / SC"
+    ],
+    "telefones": [
+      "(48) 998229808"
+    ],
+    "email": "ararangua@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Biguaçu",
+    "cidade": "Biguaçu",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R. Alexandre Sergio Godinho, 210 - Mar das Pedras",
+    "cidades_atendidas": [
+      "Águas Mornas / SC",
+      "Angelina / SC",
+      "Anitápolis / SC",
+      "Antônio Carlos / SC",
+      "Biguaçu / SC",
+      "Florianópolis / SC",
+      "Governador Celso Ramos / SC",
+      "Palhoça / SC",
+      "Paulo Lopes / SC",
+      "Rancho Queimado / SC",
+      "Santo Amaro da Imperatriz / SC",
+      "São Bonifácio / SC",
+      "São José / SC",
+      "São Pedro de Alcântara / SC"
+    ],
+    "telefones": [
+      "(﻿48) 2012-3360"
+    ],
+    "email": "biguacu@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Blumenau",
+    "cidade": "Blumenau",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Artur Oscar Kluge, 115, Passo Manso",
+    "cidades_atendidas": [
+      "Benedito Novo / SC",
+      "Blumenau / SC",
+      "Botuverá / SC",
+      "Brusque / SC",
+      "Canelinha / SC",
+      "Doutor Pedrinho / SC",
+      "Gaspar / SC",
+      "Guabiruba / SC",
+      "Ilhota / SC",
+      "Indaial / SC",
+      "Luiz Alves / SC",
+      "Major Gercino / SC",
+      "Nova Trento / SC",
+      "Pomerode / SC",
+      "Rio dos Cedros / SC",
+      "São João Batista / SC",
+      "São João do Itaperiú / SC",
+      "Tijucas / SC",
+      "Timbó / SC"
+    ],
+    "telefones": [
+      "(47) 2204-2943"
+    ],
+    "email": "blumenau@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Chapecó",
+    "cidade": "Chapecó",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Nicarágua, 465 D B. Líder",
+    "cidades_atendidas": [
+      "Águas de Chapecó / SC",
+      "Arvoredo / SC",
+      "Caibi / SC",
+      "Caxambu do Sul / SC",
+      "Chapecó / SC",
+      "Cordilheira Alta / SC",
+      "Coronel Freitas / SC",
+      "Guatambú / SC",
+      "Itá / SC",
+      "Paial / SC",
+      "Palmitos / SC",
+      "Planalto Alegre / SC",
+      "São Carlos / SC",
+      "Seara / SC",
+      "Xavantina / SC"
+    ],
+    "telefones": [
+      "(49) 3319-3030"
+    ],
+    "email": "chapeco@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Concórdia",
+    "cidade": "Concórdia",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Tancredo de Almeida Neves, 6990 - Bairro São Cristóvão",
+    "cidades_atendidas": [
+      "Alto Bela Vista / SC",
+      "Arabutã / SC",
+      "Concórdia / SC",
+      "Ipira / SC",
+      "Ipumirim / SC",
+      "Lindóia do Sul / SC",
+      "Peritiba / SC",
+      "Piratuba / SC"
+    ],
+    "telefones": [
+      "(49) 3444-2039"
+    ],
+    "email": "concordia@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Criciúma",
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Jacinto Machado, 222 - Bairro Presidente Vargas",
+    "cidades_atendidas": [
+      "Balneário Rincão / SC",
+      "Cocal do Sul / SC",
+      "Criciúma / SC",
+      "Içara / SC",
+      "Morro da Fumaça / SC",
+      "Nova Veneza / SC",
+      "Siderópolis / SC",
+      "Treviso / SC",
+      "Urussanga / SC"
+    ],
+    "telefones": [
+      "(48) 98877-1305"
+    ],
+    "email": "criciuma@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Curitibanos",
+    "cidade": "Curitibanos",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "BR 470 Km 248 Bairro Bom Jesus,  6600",
+    "cidades_atendidas": [
+      "Curitibanos / SC",
+      "Frei Rogério / SC",
+      "Ponte Alta do Norte / SC",
+      "Santa Cecília / SC",
+      "São Cristóvão do Sul / SC"
+    ],
+    "telefones": [
+      "(49) 3241-2459"
+    ],
+    "email": "cdcuritibanos@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Curitibanos",
+    "cidade": "Curitibanos",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Orlando Gans num 1009, Bairro Nossa Sra. Aparecida",
+    "cidades_atendidas": [
+      "Curitibanos / SC",
+      "Frei Rogério / SC",
+      "Ponte Alta do Norte / SC",
+      "Santa Cecília / SC",
+      "São Cristóvão do Sul / SC"
+    ],
+    "telefones": [
+      "(49) 3241-2261"
+    ],
+    "email": "curitibanos.expedicao@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Fraiburgo",
+    "cidade": "Fraiburgo",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Cruz e Souza, 117, sala 2 Jardim das Araucárias - CEP",
+    "cidades_atendidas": [
+      "Fraiburgo / SC",
+      "Monte Carlo / SC"
+    ],
+    "telefones": [
+      "(49) 3960-1050"
+    ],
+    "email": "fraiburgo.gerencia@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Itajaí",
+    "cidade": "Itajaí",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rodovia BR 101, 12500  -  bloco 2 , galpão 1 - Bairro Canhanduba",
+    "cidades_atendidas": [
+      "Balneário Camboriú / SC",
+      "Balneário Piçarras / SC",
+      "Barra Velha / SC",
+      "Bombinhas / SC",
+      "Camboriú / SC",
+      "Itajaí / SC",
+      "Itapema / SC",
+      "Navegantes / SC",
+      "Penha / SC",
+      "Porto Belo / SC"
+    ],
+    "telefones": [
+      "(47) 3224-2577"
+    ],
+    "email": "itajai@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "cidade": "Jaraguá do Sul",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Av. Prefeito Waldemar Grubba, 1880, B. Vila Lalau",
+    "cidades_atendidas": [
+      "Corupá / SC",
+      "Guaramirim / SC",
+      "Jaraguá Do Sul / SC",
+      "Massaranduba / SC",
+      "Schroeder / SC"
+    ],
+    "telefones": [
+      "(47) 3208-9538"
+    ],
+    "email": "jaraguadosul@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Joaçaba",
+    "cidade": "Joaçaba",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R Pedro Sautchuk, 113, Bairro N. Sra. De Lourdes",
+    "cidades_atendidas": [
+      "Abdon Batista / SC",
+      "Água Doce / SC",
+      "Arroio Trinta / SC",
+      "Brunópolis / SC",
+      "Campos Novos / SC",
+      "Capinzal / SC",
+      "Catanduvas / SC",
+      "Celso Ramos / SC",
+      "Erval Velho / SC",
+      "Herval D'Oeste / SC",
+      "Ibiam / SC",
+      "Ibicaré / SC",
+      "Jaborá / SC",
+      "Joaçaba / SC",
+      "Lacerdópolis / SC",
+      "Luzerna / SC",
+      "Macieira / SC",
+      "Ouro / SC",
+      "Pinheiro Preto / SC",
+      "Presidente Castello Branco / SC",
+      "Salto Veloso / SC",
+      "Tangará / SC",
+      "Treze Tílias / SC",
+      "Vargem / SC",
+      "Vargem Bonita / SC",
+      "Zortéa / SC"
+    ],
+    "telefones": [
+      "(49) 3521-1548"
+    ],
+    "email": "joacaba@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Joinville",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "R. XV de Novembro, 4769 - Bairro Vila Nova",
+    "cidades_atendidas": [
+      "Araquari / SC",
+      "Balneário Barra do Sul / SC",
+      "Garuva / SC",
+      "Itapoá / SC",
+      "Joinville / SC",
+      "São Francisco do Sul / SC"
+    ],
+    "telefones": [
+      "(47) 3512-6281"
+    ],
+    "email": "joinville@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Lages",
+    "cidade": "Lages",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Cecília Langaro, 115 B. Santa Catarina",
+    "cidades_atendidas": [
+      "Alfredo Wagner / SC",
+      "Anita Garibaldi / SC",
+      "Bocaína do Sul / SC",
+      "Bom Jardim da Serra / SC",
+      "Bom Retiro / SC",
+      "Campo Belo do Sul / SC",
+      "Capão Alto / SC",
+      "Cerro Negro / SC",
+      "Correia Pinto / SC",
+      "Lages / SC",
+      "Painel / SC",
+      "Ponte Alta / SC",
+      "Rio Rufino / SC",
+      "São Joaquim / SC",
+      "São José do Cerrito / SC",
+      "Urubici / SC",
+      "Urupema / SC"
+    ],
+    "telefones": [
+      "(49) 3223-0741"
+    ],
+    "email": "lages@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Lontras",
+    "cidade": "Lontras",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "ROD. SC 110, 175 - Margem Esquerda",
+    "cidades_atendidas": [
+      "Agronômica / SC",
+      "Apiúna / SC",
+      "Ascurra / SC",
+      "Aurora / SC",
+      "Chapadão do Lageado / SC",
+      "Dona Emma / SC",
+      "Ibirama / SC",
+      "Imbuia / SC",
+      "Ituporanga / SC",
+      "José Boiteux / SC",
+      "Laurentino / SC",
+      "Leoberto Leal / SC",
+      "Lontras / SC",
+      "Petrolândia / SC",
+      "Presidente Getúlio / SC",
+      "Presidente Nereu / SC",
+      "Rio do Oeste / SC",
+      "Rio Do Sul / SC",
+      "Rodeio / SC",
+      "Vidal Ramos / SC",
+      "Vitor Meireles / SC",
+      "Witmarsum / SC"
+    ],
+    "telefones": [
+      "(47) 3300-0518"
+    ],
+    "email": "riodosul@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Mafra",
+    "cidade": "Mafra",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Avenida industrial Paulo Fleischmann , 500 - 2, Vila Nova, 89304-362",
+    "cidades_atendidas": [],
+    "telefones": [
+      "(47) 99948-6754"
+    ],
+    "email": "mafra@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Maravilha",
+    "cidade": "Maravilha",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua José Engelmann, SN - Br-282 - Km 607 - Bairro Industria",
+    "cidades_atendidas": [
+      "Águas Frias / SC",
+      "Bom Jesus do Oeste / SC",
+      "Cunha Porã / SC",
+      "Cunhataí / SC",
+      "Flor do Sertão / SC",
+      "Iraceminha / SC",
+      "Maravilha / SC",
+      "Modelo / SC",
+      "Nova Erechim / SC",
+      "Nova Itaberaba / SC",
+      "Pinhalzinho / SC",
+      "Romelândia / SC",
+      "Santa Terezinha do Progresso / SC",
+      "São Miguel da Boa Vista / SC",
+      "Saudades / SC",
+      "Serra Alta / SC",
+      "Sul Brasil / SC",
+      "Tigrinhos / SC"
+    ],
+    "telefones": [
+      "(49) 3630-1062"
+    ],
+    "email": "maravilha@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Pouso Redondo",
+    "cidade": "Pouso Redondo",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua: Else Siewerdt s/n – Barracão 1, Bairro: Arno Siewerdt",
+    "cidades_atendidas": [
+      "Agrolândia / SC",
+      "Atalanta / SC",
+      "Braço do Trombudo / SC",
+      "Mirim Doce / SC",
+      "Otacílio Costa / SC",
+      "Palmeira / SC",
+      "Pouso Redondo / SC",
+      "Rio do Campo / SC",
+      "Salete / SC",
+      "Santa Terezinha / SC",
+      "Taió / SC"
+    ],
+    "telefones": [
+      "(47) 99669-0417"
+    ],
+    "email": "pousoredondo@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Bento Do Sul",
+    "cidade": "São Bento Do Sul",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Alfredo Zierth, 216, B.Cruzeiro",
+    "cidades_atendidas": [
+      "Agudos do Sul / PR",
+      "Piên / PR",
+      "Tijucas do Sul / PR",
+      "Campo Alegre / SC",
+      "Rio Negrinho / SC",
+      "São Bento do Sul / SC"
+    ],
+    "telefones": [
+      "(47) 99177-7887"
+    ],
+    "email": "saobentodosul@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Lourenço do Oeste",
+    "cidade": "São Lourenço do Oeste",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Av. Brasil, n° 2346, Bairro Cruzeiro",
+    "cidades_atendidas": [
+      "Flor da Serra do Sul / PR",
+      "Salgado Filho / PR",
+      "Anchieta / SC",
+      "Campo Erê / SC",
+      "Coronel Martins / SC",
+      "Entre Rios / SC",
+      "Formosa do Sul / SC",
+      "Galvão / SC",
+      "Ipuaçu / SC",
+      "Irati / SC",
+      "Jardinópolis / SC",
+      "Jupiá / SC",
+      "Novo Horizonte / SC",
+      "Palma Sola / SC",
+      "Quilombo / SC",
+      "Saltinho / SC",
+      "Santiago do Sul / SC",
+      "São Bernardino / SC",
+      "São Domingos / SC",
+      "São Lourenço do Oeste / SC",
+      "União do Oeste / SC"
+    ],
+    "telefones": [
+      "(49) 3344-3353"
+    ],
+    "email": "saolourenco@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "São Miguel do Oeste",
+    "cidade": "São Miguel do Oeste",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Florianópolis, 1795 B. São Luiz",
+    "cidades_atendidas": [
+      "Flor da Serra do Sul / PR",
+      "Salgado Filho / PR",
+      "Anchieta / SC",
+      "Campo Erê / SC",
+      "Coronel Martins / SC",
+      "Entre Rios / SC",
+      "Formosa do Sul / SC",
+      "Galvão / SC",
+      "Ipuaçu / SC",
+      "Irati / SC",
+      "Jardinópolis / SC",
+      "Jupiá / SC",
+      "Novo Horizonte / SC",
+      "Palma Sola / SC",
+      "Quilombo / SC",
+      "Saltinho / SC",
+      "Santiago do Sul / SC",
+      "São Bernardino / SC",
+      "São Domingos / SC",
+      "São Lourenço do Oeste / SC",
+      "União do Oeste / SC"
+    ],
+    "telefones": [
+      "(49) 3622-6969"
+    ],
+    "email": "saomiguel@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Tubarão",
+    "cidade": "Tubarão",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Coronel José Martins Cabral, 1080 B. Humaitá",
+    "cidades_atendidas": [
+      "Armazém / SC",
+      "Braço do Norte / SC",
+      "Capivari de Baixo / SC",
+      "Garopaba / SC",
+      "Grão Pará / SC",
+      "Gravatal / SC",
+      "Imaruí / SC",
+      "Imbituba / SC",
+      "Jaguaruna / SC",
+      "Laguna / SC",
+      "Lauro Müller / SC",
+      "Orleans / SC",
+      "Pedras Grandes / SC",
+      "Pescaria Brava / SC",
+      "Rio Fortuna / SC",
+      "Sangão / SC",
+      "Santa Rosa de Lima / SC",
+      "São Ludgero / SC",
+      "São Martinho / SC",
+      "Treze de Maio / SC",
+      "Tubarão / SC"
+    ],
+    "telefones": [
+      "(48) 3629-0096"
+    ],
+    "email": "tubarao@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Videira",
+    "cidade": "Videira",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "SC-355, km 50 - RIO DAS PEDRAS",
+    "cidades_atendidas": [
+      "Caçador / SC",
+      "Calmon / SC",
+      "Iomerê / SC",
+      "Lebon Régis / SC",
+      "Matos Costa / SC",
+      "Rio das Antas / SC",
+      "Timbó Grande / SC",
+      "Videira / SC"
+    ],
+    "telefones": [
+      "(49) 99189-3401"
+    ],
+    "email": "videira@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  },
+  {
+    "nome": "Xanxerê",
+    "cidade": "Xanxerê",
+    "uf": "SC",
+    "cep_prefixos": [],
+    "endereco": "Rua Aldoino Casagranda, 165. Bairro: Nossa Senhora de Fátima",
+    "cidades_atendidas": [
+      "Abelardo Luz / SC",
+      "Bom Jesus / SC",
+      "Faxinal dos Guedes / SC",
+      "Irani / SC",
+      "Lajeado Grande / SC",
+      "Marema / SC",
+      "Ouro Verde / SC",
+      "Passos Maia / SC",
+      "Ponte Serrada / SC",
+      "Vargeão / SC",
+      "Xanxerê / SC",
+      "Xaxim / SC"
+    ],
+    "telefones": [
+      "(49) 3433-2354"
+    ],
+    "email": "xanxere@bauerexpress.com.br",
+    "source": "santaCatarina.xlsx"
+  }
+]

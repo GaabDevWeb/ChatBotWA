@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "titulo": "Motorista Categoria D",
+    "cidade": "São Paulo - SP",
+    "requisitos": "CNH categoria D, experiência com veículos pesados, disponibilidade para viagens",
+    "link": "https://empresa.com/vagas/motorista-d",
+    "ativa": true,
+    "dataPublicacao": "2025-10-01T20:31:20.922Z"
+  },
+  {
+    "id": 2,
+    "titulo": "Auxiliar de Logística",
+    "cidade": "Rio de Janeiro - RJ",
+    "requisitos": "Ensino médio completo, conhecimento em Excel, experiência em estoque",
+    "link": "https://empresa.com/vagas/auxiliar-logistica",
+    "ativa": true,
+    "dataPublicacao": "2025-10-01T20:31:20.922Z"
+  },
+  {
+    "id": 3,
+    "titulo": "Analista de Transportes",
+    "cidade": "Belo Horizonte - MG",
+    "requisitos": "Superior em Logística ou áreas afins, conhecimento em roteirização, inglês intermediário",
+    "link": "https://empresa.com/vagas/analista-transportes",
+    "ativa": true,
+    "dataPublicacao": "2025-10-01T20:31:20.922Z"
+  },
+  {
+    "id": 4,
+    "titulo": "Operador de Empilhadeira",
+    "cidade": "Curitiba - PR",
+    "requisitos": "Curso de empilhadeira, experiência mínima 1 ano, disponibilidade para turnos",
+    "link": "https://empresa.com/vagas/operador-empilhadeira",
+    "ativa": true,
+    "dataPublicacao": "2025-10-01T20:31:20.922Z"
+  },
+  {
+    "id": 5,
+    "titulo": "Coordenador de Frota",
+    "cidade": "Salvador - BA",
+    "requisitos": "Superior completo, experiência em gestão de frotas, conhecimento em manutenção preventiva",
+    "link": "https://empresa.com/vagas/coordenador-frota",
+    "ativa": true,
+    "dataPublicacao": "2025-10-01T20:31:20.922Z"
+  }
+]

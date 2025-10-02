@@ -5,6 +5,8 @@ const { pluginSystem } = require('./pluginSystem');
 const geminiProvider = require('./providers/geminiProvider');
 const cache = require('./core/cache');
 const retry = require('./core/retry');
+const roteamentoService = require('./services/roteamentoService');
+const clientsRepo = require('./repositories/clientsRepo');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const MAX_RETRIES = parseInt(process.env.OPENAI_MAX_RETRIES || '3', 10);
@@ -51,6 +53,55 @@ async function handleMessage(historico, userMessage, userId = null) {
             return preProcessData.autoResponse;
         }
 
+        // Carrega perfil do cliente do SQLite para anexar contexto de filial
+        let perfilCliente = null;
+        let filialAtual = null;
+        try {
+            if (userId) {
+                perfilCliente = await clientsRepo.buscarCliente(userId);
+                filialAtual = perfilCliente?.filial || null;
+            }
+        } catch (err) {
+            logger.error('Falha ao carregar perfil do cliente do SQLite', { error: err.message, userId });
+        }
+
+        // Tenta resolver filial a partir da mensagem atual (CEP/cidade)
+        try {
+            if (!filialAtual && typeof userMessage === 'string' && userMessage.trim()) {
+                const texto = userMessage.trim();
+                const apenasDigitos = texto.replace(/\D/g, '');
+                let tentativa = null;
+                // Prioriza CEP se houver dígitos suficientes
+                if (apenasDigitos.length >= 3) {
+                    tentativa = roteamentoService.resolverPorCEP(apenasDigitos);
+                }
+                // Se não encontrou por CEP, tenta por cidade/cidades atendidas presentes no texto
+                if (!tentativa) {
+                    const textoNorm = roteamentoService.normalizarCidade(texto);
+                    for (const f of roteamentoService.listarFiliais()) {
+                        const nomesCidades = [f.cidade, ...(Array.isArray(f.cidades_atendidas) ? f.cidades_atendidas : [])]
+                            .filter(Boolean)
+                            .map((c) => roteamentoService.normalizarCidade(c));
+                        if (nomesCidades.some((nome) => textoNorm.includes(nome))) {
+                            tentativa = f;
+                            break;
+                        }
+                    }
+                }
+                if (tentativa) {
+                    filialAtual = tentativa;
+                    try {
+                        await clientsRepo.atualizarFilial(userId, tentativa);
+                        logger.info('Filial associada ao cliente via mensagem (SQLite)', { userId, filial: tentativa?.nome || tentativa?.cidade });
+                    } catch (err2) {
+                        logger.error('Falha ao salvar filial no SQLite', { error: err2.message, userId });
+                    }
+                }
+            }
+        } catch (err) {
+            logger.error('Erro ao tentar resolver filial pela mensagem', { error: err.message, userId });
+        }
+
         // Gera chave de cache simplificada
         const cacheKey = generateCacheKey(historico, userMessage);
         const cached = cache.get(cacheKey);
@@ -79,9 +130,35 @@ const maxTokens = process.env.GEMINI_MAX_TOKENS ? parseInt(process.env.GEMINI_MA
                 const olderHistory = fullMessages.slice(0, Math.max(0, fullMessages.length - maxHistory));
                 const summaryBlock = olderHistory.length ? summarizeHistory(olderHistory) : null;
                 
+                // Constrói mensagens com contexto dinâmico de filial
+                const mensagensSistema = [{ role: 'system', content: treinamento }];
+                if (summaryBlock) mensagensSistema.push({ role: 'system', content: summaryBlock });
+
+                // Se filial já conhecida, anexar contexto claro para orientar respostas
+                if (filialAtual) {
+                    const contatos = [
+                        ...(Array.isArray(filialAtual.telefones) ? filialAtual.telefones : []),
+                    ].filter(Boolean).join(', ');
+                    const cidadesAtendidas = (Array.isArray(filialAtual.cidades_atendidas) ? filialAtual.cidades_atendidas.join(', ') : '');
+                    const contextoFilial = [
+                        `Perfil do cliente: filial ${filialAtual.nome || filialAtual.cidade} (${filialAtual.cidade}/${filialAtual.uf}).`,
+                        filialAtual.endereco ? `Endereço: ${filialAtual.endereco}.` : null,
+                        cidadesAtendidas ? `Cidades atendidas: ${cidadesAtendidas}.` : null,
+                        contatos ? `Telefones: ${contatos}.` : null,
+                        filialAtual.email ? `Email: ${filialAtual.email}.` : null,
+                        'Use este contexto para fornecer informações, contatos e encaminhamentos consistentes da filial.'
+                    ].filter(Boolean).join(' ');
+                    mensagensSistema.push({ role: 'system', content: contextoFilial });
+                } else {
+                    // Senão, instruir a IA a pedir cidade ou CEP (sem scripts rígidos)
+                    mensagensSistema.push({
+                        role: 'system',
+                        content: 'Se o cliente ainda não tiver filial associada, pergunte educadamente pela cidade ou CEP (somente números). Responda em português do Brasil, de forma objetiva e amigável.'
+                    });
+                }
+
                 const messages = [
-                    { role: 'system', content: treinamento },
-                    ...(summaryBlock ? [{ role: 'system', content: summaryBlock }] : []),
+                    ...mensagensSistema,
                     ...limitedHistory.map(item => ({
                         role: item.role,
                         content: limparMensagem(item.mensagem)

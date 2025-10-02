@@ -1,5 +1,5 @@
 // Repositório de Clientes: encapsula acesso ao banco
-const { cadastrarCliente, buscarCliente } = require('../../database');
+const { cadastrarCliente, buscarCliente, atualizarFilial, buscarClientePorId } = require('../../database');
 
 async function getOrCreate(number) {
   let cliente = await buscarCliente(number);
@@ -14,4 +14,6 @@ module.exports = {
   getOrCreate,
   cadastrarCliente,
   buscarCliente,
+  atualizarFilial,
+  buscarClientePorId,
 };

@@ -5,5 +5,7 @@ module.exports = {
     buscarCliente: dbOperations.buscarCliente,
     atualizarHistorico: dbOperations.adicionarMensagem,
     buscarHistorico: dbOperations.buscarHistorico,
-    buscarUltimasMensagens: dbOperations.buscarUltimasMensagens
+    buscarUltimasMensagens: dbOperations.buscarUltimasMensagens,
+    buscarClientePorId: dbOperations.buscarClientePorId,
+    atualizarFilial: dbOperations.atualizarFilial,
 };

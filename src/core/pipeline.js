@@ -3,11 +3,13 @@ const logger = require('../logger');
 const { handleMessage } = require('../openai');
 const historyRepo = require('../repositories/historyRepo');
 const clientsRepo = require('../repositories/clientsRepo');
+const MenuInterceptor = require('../middleware/menuInterceptor');
 
 /**
  * Executa o pipeline de processamento de mensagem de um usuário
  * - Garante cliente
  * - Carrega histórico recente
+ * - Intercepta comandos de menu (se aplicável)
  * - Chama IA (com hooks/plugins internos)
  * - Persiste pergunta e resposta
  * @param {string} userNumber WhatsApp number ex: 555499...@c.us
@@ -23,8 +25,20 @@ async function run(userNumber, rawText) {
   // Depois busca o histórico
   const historico = await historyRepo.getRecent(userNumber, 50);
 
-  // Gera resposta usando motor de IA existente (com hooks internos)
-  const resposta = await handleMessage(historico, text, cliente?.id || null);
+  // Intercepta comandos de menu antes da IA
+  const menuResponse = await MenuInterceptor.process(userNumber, text, historico);
+  
+  let resposta;
+  
+  if (menuResponse) {
+    // Se o interceptor gerou uma resposta, usa ela
+    resposta = menuResponse;
+    logger.info('Resposta gerada pelo MenuInterceptor', { userNumber, hasResponse: !!menuResponse });
+  } else {
+    // Caso contrário, processa normalmente pela IA
+    resposta = await handleMessage(historico, text, cliente?.id || null);
+    logger.info('Resposta gerada pela IA', { userNumber, hasResponse: !!resposta });
+  }
 
   // Persiste pergunta e resposta (não bloquear resposta ao usuário)
   setImmediate(async () => {

@@ -33,6 +33,16 @@ db.serialize(() => {
   // Índices úteis
   db.run(`CREATE INDEX IF NOT EXISTS idx_historico_cliente ON historico(cliente_id)`);
   db.run(`CREATE INDEX IF NOT EXISTS idx_historico_timestamp ON historico(timestamp)`);
+
+  // Migração: adiciona coluna 'filial' para armazenar dados da filial em JSON
+  db.all('PRAGMA table_info(clientes)', (err, rows) => {
+    if (!err && Array.isArray(rows)) {
+      const hasFilial = rows.some((c) => c.name === 'filial');
+      if (!hasFilial) {
+        db.run('ALTER TABLE clientes ADD COLUMN filial TEXT');
+      }
+    }
+  });
 });
 
 function cadastrarCliente(numero) {
@@ -52,9 +62,14 @@ function cadastrarCliente(numero) {
 
 function buscarCliente(numero) {
   return new Promise((resolve, reject) => {
-    db.get('SELECT id, numero FROM clientes WHERE numero = ?', [numero], (err, row) => {
+    db.get('SELECT id, numero, filial FROM clientes WHERE numero = ?', [numero], (err, row) => {
       if (err) return reject(err);
-      resolve(row || null);
+      if (!row) return resolve(null);
+      let filialObj = null;
+      if (row.filial) {
+        try { filialObj = JSON.parse(row.filial); } catch (_) { filialObj = null; }
+      }
+      resolve({ id: row.id, numero: row.numero, filial: filialObj });
     });
   });
 }
@@ -146,10 +161,39 @@ function buscarUltimasMensagens(clienteId, limit = 20) {
   });
 }
 
+function buscarClientePorId(id) {
+  return new Promise((resolve, reject) => {
+    db.get('SELECT id, numero, filial FROM clientes WHERE id = ?', [id], (err, row) => {
+      if (err) return reject(err);
+      if (!row) return resolve(null);
+      let filialObj = null;
+      if (row.filial) {
+        try { filialObj = JSON.parse(row.filial); } catch (_) { filialObj = null; }
+      }
+      resolve({ id: row.id, numero: row.numero, filial: filialObj });
+    });
+  });
+}
+
+function atualizarFilial(identifier, filialObj) {
+  return new Promise((resolve, reject) => {
+    _resolveClienteId(identifier, (err, clienteId) => {
+      if (err) return reject(err);
+      const json = filialObj ? JSON.stringify(filialObj) : null;
+      db.run('UPDATE clientes SET filial = ? WHERE id = ?', [json, clienteId], function (err2) {
+        if (err2) return reject(err2);
+        resolve(true);
+      });
+    });
+  });
+}
+
 module.exports = {
   cadastrarCliente,
   buscarCliente,
   adicionarMensagem,
   buscarHistorico,
   buscarUltimasMensagens,
+  buscarClientePorId,
+  atualizarFilial,
 };
