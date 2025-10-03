@@ -43,6 +43,25 @@ db.serialize(() => {
       }
     }
   });
+
+  // Nova tabela: fornecedores
+  db.run(`CREATE TABLE IF NOT EXISTS fornecedores (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cliente_id INTEGER,
+    protocolo TEXT UNIQUE,
+    razao_social TEXT NOT NULL,
+    cnpj TEXT,
+    categoria TEXT,
+    portfolio_url TEXT,
+    site_link TEXT,
+    cidades_atendidas TEXT,
+    contato TEXT,
+    created_at INTEGER NOT NULL,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+  )`);
+
+  db.run(`CREATE INDEX IF NOT EXISTS idx_fornecedores_protocolo ON fornecedores(protocolo)`);
+  db.run(`CREATE INDEX IF NOT EXISTS idx_fornecedores_cliente ON fornecedores(cliente_id)`);
 });
 
 function cadastrarCliente(numero) {
@@ -190,6 +209,84 @@ function atualizarFilial(identifier, filialObj) {
   });
 }
 
+// --- Fornecedores operations ---
+function cadastrarFornecedor(clienteIdentifier, fornecedor) {
+  return new Promise((resolve, reject) => {
+    _resolveClienteId(clienteIdentifier, (err, clienteId) => {
+      if (err) return reject(err);
+      const {
+        protocolo,
+        razao_social,
+        cnpj,
+        categoria,
+        portfolio_url,
+        site_link,
+        cidades_atendidas,
+        contato,
+        created_at
+      } = fornecedor || {};
+
+      const ts = typeof created_at === 'number' ? created_at : Date.now();
+      db.run(
+        `INSERT INTO fornecedores (
+            cliente_id, protocolo, razao_social, cnpj, categoria,
+            portfolio_url, site_link, cidades_atendidas, contato, created_at
+         ) VALUES (?,?,?,?,?,?,?,?,?,?)`,
+        [
+          clienteId,
+          protocolo || null,
+          razao_social,
+          cnpj || null,
+          categoria || null,
+          portfolio_url || null,
+          site_link || null,
+          cidades_atendidas || null,
+          contato || null,
+          ts
+        ],
+        function (err2) {
+          if (err2) return reject(err2);
+          db.get('SELECT * FROM fornecedores WHERE id = ?', [this.lastID], (err3, row) => {
+            if (err3) return reject(err3);
+            resolve(row);
+          });
+        }
+      );
+    });
+  });
+}
+
+function buscarFornecedorPorProtocolo(protocolo) {
+  return new Promise((resolve, reject) => {
+    db.get('SELECT * FROM fornecedores WHERE protocolo = ?', [protocolo], (err, row) => {
+      if (err) return reject(err);
+      resolve(row || null);
+    });
+  });
+}
+
+function listarFornecedoresPorCliente(clienteIdentifier, page = 1, pageSize = 50) {
+  return new Promise((resolve, reject) => {
+    _resolveClienteId(clienteIdentifier, (err, clienteId) => {
+      if (err) return reject(err);
+      const offset = (page - 1) * pageSize;
+      db.all(
+        'SELECT * FROM fornecedores WHERE cliente_id = ? ORDER BY id DESC LIMIT ? OFFSET ?',
+        [clienteId, pageSize, offset],
+        (err2, rows) => {
+          if (err2) return reject(err2);
+          db.get('SELECT COUNT(*) as total FROM fornecedores WHERE cliente_id = ?', [clienteId], (err3, countRow) => {
+            if (err3) return reject(err3);
+            const total = countRow.total || 0;
+            const totalPages = Math.max(1, Math.ceil(total / pageSize));
+            resolve({ items: rows, pagination: { currentPage: page, pageSize, totalItems: total, totalPages } });
+          });
+        }
+      );
+    });
+  });
+}
+
 module.exports = {
   cadastrarCliente,
   buscarCliente,
@@ -198,4 +295,7 @@ module.exports = {
   buscarUltimasMensagens,
   buscarClientePorId,
   atualizarFilial,
+  cadastrarFornecedor,
+  buscarFornecedorPorProtocolo,
+  listarFornecedoresPorCliente,
 };

@@ -1,24 +1,35 @@
 const logger = require('../logger');
+const { classificar } = require('../services/intentClassifier');
 
 class MenuInterceptor {
     constructor() {
         // Estados dos usuários (em produção, usar Redis ou banco)
         this.userStates = new Map();
         
-        // Palavras-chave para detectar intenções
+        // Modo compatibilidade: ainda guarda keywords, mas prioridade será IA
         this.keywords = {
             rastreamento: [
                 'rastreio', 'rastrear', 'mercadoria', 'encomenda', 'pedido',
                 'nota fiscal', 'nf', 'cnpj', 'status', 'onde está',
-                '📦', '1' // opção 1 do menu
+                '📦', '1'
             ],
             rh: [
                 'rh', 'recursos humanos', 'curriculo', 'currículo', 'cv',
                 'vagas', 'emprego', 'trabalho', 'vaga', 'carreira',
                 'oportunidade', 'contratação', 'seleção', 'recrutamento',
-                '👥', '2' // opção 2 do menu
+                '👥', '2'
+            ],
+            fornecedores: [
+                'fornecedor', 'fornecedores', 'compras', 'suprimentos',
+                'cadastro fornecedor', 'cadastro de fornecedor', 'cadastrar fornecedor',
+                'portfólio', 'portfolio'
             ]
         };
+
+        // Toggle: permite desativar o fallback por palavra‑chave via env
+        // ENABLE_KEYWORD_FALLBACK=true|false (default: true)
+        const flag = (process.env.ENABLE_KEYWORD_FALLBACK || 'true').toLowerCase();
+        this.enableKeywordFallback = flag === 'true';
         
         // Timeout para limpar estados ociosos (15 minutos)
         this.stateTimeout = 15 * 60 * 1000;
@@ -41,14 +52,36 @@ class MenuInterceptor {
                 return await this.continueFlow(userNumber, normalizedMessage, userState);
             }
 
-            // Detecta nova intenção de rastreamento
-            if (this.detectRastreamento(normalizedMessage)) {
-                return await this.startRastreamentoFlow(userNumber);
+            // Classificador de intenção por IA (sem palavras-chave)
+            try {
+                const resultado = await classificar(normalizedMessage);
+                if (resultado && resultado.intent && resultado.intent !== 'none') {
+                    if (resultado.intent === 'rastreamento') {
+                        return await this.startRastreamentoFlow(userNumber, resultado.entities);
+                    }
+                    if (resultado.intent === 'rh') {
+                        return await this.startRHFlow(userNumber, resultado.rh_action);
+                    }
+                    if (resultado.intent === 'fornecedores') {
+                        return await this.startFornecedoresFlow(userNumber, resultado.fornecedores_action);
+                    }
+                }
+            } catch (clsErr) {
+                logger.error('Erro no classificador de intenção', { error: clsErr.message });
             }
 
-            // Detecta nova intenção de RH
-            if (this.detectRH(normalizedMessage)) {
+            // Fallback: keywords (compatibilidade) — controlado por flag
+            if (this.enableKeywordFallback && this.detectRastreamento(normalizedMessage)) {
+                logger.info('Fallback por palavra‑chave ativou rastreamento');
+                return await this.startRastreamentoFlow(userNumber);
+            }
+            if (this.enableKeywordFallback && this.detectRH(normalizedMessage)) {
+                logger.info('Fallback por palavra‑chave ativou RH');
                 return await this.startRHFlow(userNumber);
+            }
+            if (this.enableKeywordFallback && this.detectFornecedores(normalizedMessage)) {
+                logger.info('Fallback por palavra‑chave ativou Fornecedores');
+                return await this.startFornecedoresFlow(userNumber);
             }
 
             // Não interceptou, passa para IA
@@ -83,9 +116,18 @@ class MenuInterceptor {
     }
 
     /**
+     * Detecta intenção de Fornecedores
+     */
+    detectFornecedores(message) {
+        return this.keywords.fornecedores.some(keyword =>
+            message.includes(keyword)
+        );
+    }
+
+    /**
      * Inicia fluxo de rastreamento
      */
-    async startRastreamentoFlow(userNumber) {
+    async startRastreamentoFlow(userNumber, entities) {
         const userState = this.getUserState(userNumber);
         userState.currentFlow = 'rastreamento';
         userState.step = 'cnpj';
@@ -93,6 +135,25 @@ class MenuInterceptor {
         userState.lastActivity = Date.now();
 
         logger.info('Iniciando fluxo de rastreamento', { userNumber });
+
+        // Se IA já extraiu CNPJ/NF, preencher e pular etapas conforme possível
+        const cnpj = entities?.cnpj || null;
+        const nf = entities?.nf || null;
+        if (cnpj && cnpj.length === 14) {
+            userState.data.cnpj = cnpj;
+            userState.step = nf ? 'nf' : 'nf';
+            if (nf) {
+                userState.data.nf = nf;
+                logger.info('Entidades de rastreamento extraídas pela IA', { userNumber, cnpj: cnpj.substring(0,8)+'****', nf });
+                return await this.executeRastreamento(userNumber, userState);
+            }
+            logger.info('CNPJ extraído pela IA, solicitando NF', { userNumber });
+            return `✅ **CNPJ detectado automaticamente**
+
+Agora, informe o **número da Nota Fiscal**:
+
+💡 *Exemplo: 123456*`;
+        }
 
         return `📦 **RASTREAMENTO DE MERCADORIA**
 
@@ -106,7 +167,7 @@ Por favor, informe o **CNPJ** (somente números, sem pontos ou traços):
     /**
      * Inicia fluxo de RH
      */
-    async startRHFlow(userNumber) {
+    async startRHFlow(userNumber, rhAction) {
         const userState = this.getUserState(userNumber);
         userState.currentFlow = 'rh';
         userState.step = 'menu';
@@ -114,6 +175,25 @@ Por favor, informe o **CNPJ** (somente números, sem pontos ou traços):
         userState.lastActivity = Date.now();
 
         logger.info('Iniciando fluxo de RH', { userNumber });
+
+        // Se IA sugeriu ação, redireciona diretamente
+        if (rhAction === 'ver_vagas') {
+            this.clearUserState(userNumber);
+            return await this.listarVagasAbertas();
+        }
+        if (rhAction === 'enviar_curriculo') {
+            userState.step = 'curriculo_lgpd';
+            return `📄 **ENVIO DE CURRÍCULO**
+
+⚖️ **AVISO LGPD - Lei Geral de Proteção de Dados**
+
+Para processar seu currículo, precisamos coletar e armazenar seus dados pessoais (nome, contato, experiências profissionais).
+
+**Você concorda com o processamento dos seus dados pessoais?**
+
+✅ Digite "SIM" para concordar
+❌ Digite "NÃO" para cancelar`;
+        }
 
         return `👥 **RECURSOS HUMANOS**
 
@@ -123,7 +203,26 @@ Bem-vindo ao nosso portal de RH! Como posso ajudá-lo hoje?
 1️⃣ Enviar currículo
 2️⃣ Ver vagas abertas
 
-Digite o número da opção desejada ou a palavra-chave:`;
+            Digite o número da opção desejada ou a palavra-chave:`;
+    }
+
+    /**
+     * Inicia fluxo de cadastro de fornecedores
+     */
+    async startFornecedoresFlow(userNumber, fornecedoresAction) {
+        const userState = this.getUserState(userNumber);
+        userState.currentFlow = 'fornecedores';
+        userState.step = 'razao_social';
+        userState.data = {};
+        userState.lastActivity = Date.now();
+
+        logger.info('Iniciando fluxo de Fornecedores', { userNumber });
+
+        return `🧾 **CADASTRO DE FORNECEDOR**
+
+Vamos registrar seu fornecedor no nosso banco. Alguns dados são opcionais.
+
+Primeiro, informe a **Razão Social** do fornecedor:`;
     }
 
     /**
@@ -138,6 +237,9 @@ Digite o número da opção desejada ou a palavra-chave:`;
 
         if (userState.currentFlow === 'rh') {
             return await this.handleRHFlow(userNumber, message, userState);
+        }
+        if (userState.currentFlow === 'fornecedores') {
+            return await this.handleFornecedoresFlow(userNumber, message, userState);
         }
 
         return null;
@@ -177,6 +279,217 @@ Digite o número da opção desejada ou a palavra-chave:`;
             default:
                 this.clearUserState(userNumber);
                 return null;
+        }
+    }
+
+    /**
+     * Gerencia fluxo de Fornecedores baseado no passo atual
+     */
+    async handleFornecedoresFlow(userNumber, message, userState) {
+        switch (userState.step) {
+            case 'razao_social':
+                return await this.handleFornecedorRazaoSocialStep(userNumber, message, userState);
+            case 'cnpj':
+                return await this.handleFornecedorCnpjStep(userNumber, message, userState);
+            case 'categoria':
+                return await this.handleFornecedorCategoriaStep(userNumber, message, userState);
+            case 'portfolio_url':
+                return await this.handleFornecedorPortfolioStep(userNumber, message, userState);
+            case 'site_link':
+                return await this.handleFornecedorSiteStep(userNumber, message, userState);
+            case 'cidades_atendidas':
+                return await this.handleFornecedorCidadesStep(userNumber, message, userState);
+            case 'contato':
+                return await this.handleFornecedorContatoStep(userNumber, message, userState);
+            case 'confirmar':
+                return await this.handleFornecedorConfirmarStep(userNumber, message, userState);
+            default:
+                this.clearUserState(userNumber);
+                return null;
+        }
+    }
+
+    /**
+     * Coleta razão social (obrigatória)
+     */
+    async handleFornecedorRazaoSocialStep(userNumber, message, userState) {
+        const razao = message.trim();
+        if (!razao || razao.length < 2) {
+            return `❌ **Razão Social inválida**
+
+Por favor, informe a **Razão Social** completa do fornecedor:`;
+        }
+        userState.data.razao_social = razao;
+        userState.step = 'cnpj';
+        return `✅ **Razão Social registrada**
+
+Informe o **CNPJ** (14 dígitos) ou digite "pular" se não tiver:`;
+    }
+
+    /**
+     * Coleta CNPJ (opcional)
+     */
+    async handleFornecedorCnpjStep(userNumber, message, userState) {
+        const normalized = message.toLowerCase().trim();
+        if (normalized === 'pular') {
+            userState.data.cnpj = null;
+            userState.step = 'categoria';
+            return `📂 **Categoria** (opcional)
+
+Ex: Materiais de embalagem, Serviços de TI, Marketing...
+Digite a categoria ou "pular":`;
+        }
+
+        const cnpj = message.replace(/\D/g, '');
+        if (cnpj.length !== 14) {
+            return `❌ **CNPJ inválido**
+
+O CNPJ deve ter exatamente 14 números.
+
+Informe o CNPJ correto ou digite "pular":`;
+        }
+
+        userState.data.cnpj = cnpj;
+        userState.step = 'categoria';
+        return `✅ **CNPJ registrado**
+
+📂 **Categoria** (opcional)
+Digite a categoria ou "pular":`;
+    }
+
+    /**
+     * Coleta Categoria (opcional)
+     */
+    async handleFornecedorCategoriaStep(userNumber, message, userState) {
+        const normalized = message.toLowerCase().trim();
+        if (normalized !== 'pular') {
+            userState.data.categoria = message.trim();
+        }
+        userState.step = 'portfolio_url';
+        return `🌐 **Portfólio/Apresentação** (opcional)
+
+Envie um link de portfólio/apresentação ou digite "pular":`;
+    }
+
+    /**
+     * Coleta Portfolio URL (opcional)
+     */
+    async handleFornecedorPortfolioStep(userNumber, message, userState) {
+        const normalized = message.toLowerCase().trim();
+        if (normalized !== 'pular') {
+            userState.data.portfolio_url = message.trim();
+        }
+        userState.step = 'site_link';
+        return `🔗 **Site do fornecedor** (opcional)
+
+Envie o link do site oficial ou digite "pular":`;
+    }
+
+    /**
+     * Coleta Site Link (opcional)
+     */
+    async handleFornecedorSiteStep(userNumber, message, userState) {
+        const normalized = message.toLowerCase().trim();
+        if (normalized !== 'pular') {
+            userState.data.site_link = message.trim();
+        }
+        userState.step = 'cidades_atendidas';
+        return `🗺️ **Cidades atendidas** (opcional)
+
+Liste cidades separadas por vírgula (Ex: São Paulo, Guarulhos) ou digite "pular":`;
+    }
+
+    /**
+     * Coleta Cidades Atendidas (opcional)
+     */
+    async handleFornecedorCidadesStep(userNumber, message, userState) {
+        const normalized = message.toLowerCase().trim();
+        if (normalized !== 'pular') {
+            userState.data.cidades_atendidas = message.trim();
+        }
+        userState.step = 'contato';
+        return `📞 **Contato** (opcional)
+
+Informe pessoa de contato/telefone/email ou digite "pular":`;
+    }
+
+    /**
+     * Coleta Contato (opcional)
+     */
+    async handleFornecedorContatoStep(userNumber, message, userState) {
+        const normalized = message.toLowerCase().trim();
+        if (normalized !== 'pular') {
+            userState.data.contato = message.trim();
+        }
+        userState.step = 'confirmar';
+
+        const resumo = [
+            `Razão Social: ${userState.data.razao_social}`,
+            `CNPJ: ${userState.data.cnpj || '—'}`,
+            `Categoria: ${userState.data.categoria || '—'}`,
+            `Portfólio: ${userState.data.portfolio_url || '—'}`,
+            `Site: ${userState.data.site_link || '—'}`,
+            `Cidades: ${userState.data.cidades_atendidas || '—'}`,
+            `Contato: ${userState.data.contato || '—'}`
+        ].join('\n');
+
+        return `🧾 **Confirmação do cadastro**
+
+${resumo}
+
+✅ Digite "SIM" para salvar
+✏️ Digite "EDITAR" para reiniciar
+❌ Digite "CANCELAR" para abortar`;
+    }
+
+    /**
+     * Confirma e salva fornecedor
+     */
+    async handleFornecedorConfirmarStep(userNumber, message, userState) {
+        const normalized = message.toLowerCase().trim();
+        if (['cancelar','não','nao','n'].includes(normalized)) {
+            this.clearUserState(userNumber);
+            return `❌ **Cadastro cancelado**
+
+Nenhum dado foi salvo.
+
+🏠 *Digite "menu" para voltar ao início*`;
+        }
+        if (['editar','reiniciar'].includes(normalized)) {
+            userState.data = {};
+            userState.step = 'razao_social';
+            return `✏️ **Vamos começar novamente**
+
+Informe a **Razão Social** do fornecedor:`;
+        }
+        if (!['sim','s','ok','confirmar'].includes(normalized)) {
+            return `⚠️ **Confirmação necessária**
+
+✅ Digite "SIM" para salvar
+✏️ Digite "EDITAR" para reiniciar
+❌ Digite "CANCELAR" para abortar`;
+        }
+
+        try {
+            const { salvarFornecedor } = require('../services/fornecedoresService');
+            const salvo = await salvarFornecedor(userNumber, userState.data);
+            const protocolo = salvo?.protocolo || 'FOR-XXXXXX';
+
+            this.clearUserState(userNumber);
+
+            return `✅ **FORNECEDOR CADASTRADO COM SUCESSO!**
+
+📋 **Protocolo:** ${protocolo}
+
+Use este protocolo para futuras consultas.
+
+🧾 *Para cadastrar outro fornecedor, digite "fornecedor"*`;
+        } catch (error) {
+            logger.error('Erro ao salvar fornecedor', { error: error.message, userNumber });
+            this.clearUserState(userNumber);
+            return `❌ **Erro ao salvar fornecedor**
+
+Tente novamente mais tarde ou fale com um atendente.`;
         }
     }
 

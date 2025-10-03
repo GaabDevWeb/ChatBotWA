@@ -8,4 +8,7 @@ module.exports = {
     buscarUltimasMensagens: dbOperations.buscarUltimasMensagens,
     buscarClientePorId: dbOperations.buscarClientePorId,
     atualizarFilial: dbOperations.atualizarFilial,
+    cadastrarFornecedor: dbOperations.cadastrarFornecedor,
+    buscarFornecedorPorProtocolo: dbOperations.buscarFornecedorPorProtocolo,
+    listarFornecedoresPorCliente: dbOperations.listarFornecedoresPorCliente,
 };
