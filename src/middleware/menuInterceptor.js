@@ -1,5 +1,6 @@
 const logger = require('../logger');
 const { classificar } = require('../services/intentClassifier');
+const roteamentoService = require('../services/roteamentoService');
 
 class MenuInterceptor {
     constructor() {
@@ -23,6 +24,10 @@ class MenuInterceptor {
                 'fornecedor', 'fornecedores', 'compras', 'suprimentos',
                 'cadastro fornecedor', 'cadastro de fornecedor', 'cadastrar fornecedor',
                 'portfólio', 'portfolio'
+            ],
+            filial: [
+                'cidade', 'cep', 'localização', 'região', 'onde', 'local',
+                'endereço', 'filial', 'unidade'
             ]
         };
 
@@ -50,6 +55,37 @@ class MenuInterceptor {
             // Se usuário está em um fluxo ativo, continua o fluxo
             if (userState.currentFlow) {
                 return await this.continueFlow(userNumber, normalizedMessage, userState);
+            }
+
+            // Verifica se usuário precisa identificar filial primeiro
+            if (!userState.filial && !userState.filialRequested) {
+                // Tenta identificar filial automaticamente na mensagem
+                const filialIdentificada = await this.tryIdentifyFilial(message);
+                if (filialIdentificada) {
+                    userState.filial = filialIdentificada;
+                    logger.info('Filial identificada automaticamente', { 
+                        userNumber, 
+                        filial: filialIdentificada.nome 
+                    });
+                    return await this.showMenuWithFilial(userNumber, filialIdentificada);
+                } else {
+                    // Solicita identificação de filial
+                    userState.filialRequested = true;
+                    return await this.requestFilialIdentification(userNumber);
+                }
+            }
+
+            // Se filial foi solicitada mas ainda não identificada, processa resposta
+            if (userState.filialRequested && !userState.filial) {
+                const filial = await this.tryIdentifyFilial(message);
+                if (filial) {
+                    userState.filial = filial;
+                    userState.filialRequested = false;
+                    logger.info('Filial identificada', { userNumber, filial: filial.nome });
+                    return await this.showMenuWithFilial(userNumber, filial);
+                } else {
+                    return await this.handleFilialNotFound(userNumber, message);
+                }
             }
 
             // Classificador de intenção por IA (sem palavras-chave)
@@ -850,10 +886,98 @@ Tente novamente em alguns instantes.
                 currentFlow: null,
                 step: null,
                 data: {},
+                filial: null,
+                filialRequested: false,
                 lastActivity: Date.now()
             });
         }
         return this.userStates.get(userNumber);
+    }
+
+    /**
+     * Tenta identificar filial baseado na mensagem do usuário
+     */
+    async tryIdentifyFilial(message) {
+        try {
+            // Extrai possível cidade e CEP da mensagem
+            const cepMatch = message.match(/\d{5}-?\d{3}/);
+            const cep = cepMatch ? cepMatch[0].replace('-', '') : null;
+            
+            // Usa o serviço de roteamento para identificar filial
+            const filial = roteamentoService.resolverFilial({
+                cidade: message,
+                cep: cep
+            });
+            
+            return filial;
+        } catch (error) {
+            logger.error('Erro ao identificar filial', { error: error.message, message });
+            return null;
+        }
+    }
+
+    /**
+     * Solicita identificação de filial ao usuário
+     */
+    async requestFilialIdentification(userNumber) {
+        return `🚀 **Olá! Sou o Orbit, assistente virtual da Transportadora Bauer Express.**
+
+Para oferecer o melhor atendimento, preciso saber sua localização.
+
+Por favor, me informe:
+📍 **Sua cidade** (ex: Curitiba/PR)
+📮 **Ou seu CEP** (ex: 80010-000)
+
+Digite sua cidade ou CEP:`;
+    }
+
+    /**
+     * Exibe menu principal com informações da filial
+     */
+    async showMenuWithFilial(userNumber, filial) {
+        const telefone = filial.telefones && filial.telefones[0] ? filial.telefones[0] : '(XX) XXXX-XXXX';
+        
+        return `✅ **Perfeito! Sua região é atendida pela Filial ${filial.nome}/${filial.uf}**
+
+📞 **Contato direto:** ${telefone}
+📧 **E-mail:** ${filial.email || 'contato@bauerexpress.com.br'}
+
+**Como posso te ajudar hoje?**
+
+1️⃣ *Rastreio de Mercadoria*
+2️⃣ *Trabalhe Conosco*
+3️⃣ *Cadastrar Fornecedor*
+4️⃣ *Solicitar Cotação*
+5️⃣ *Agendar Coleta*
+6️⃣ *Falar com Atendente*
+
+Digite o número da opção ou a palavra-chave:`;
+    }
+
+    /**
+     * Trata caso onde filial não foi encontrada
+     */
+    async handleFilialNotFound(userNumber, message) {
+        return `❌ **Não consegui identificar sua região**
+
+A localização "${message}" não foi encontrada em nossa base.
+
+**Tente novamente com:**
+📍 Nome completo da cidade + UF (ex: "São Paulo/SP")
+📮 CEP completo (ex: "01310-100")
+🏢 Cidade próxima de uma capital
+
+**Ou digite "atendente" para falar diretamente conosco.**
+
+Digite sua cidade ou CEP:`;
+    }
+
+    /**
+     * Obtém filial do usuário para usar em transferências
+     */
+    getUserFilial(userNumber) {
+        const userState = this.getUserState(userNumber);
+        return userState.filial;
     }
 
     /**
