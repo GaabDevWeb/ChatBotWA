@@ -1,6 +1,7 @@
 const logger = require('../logger');
 const { classificar } = require('../services/intentClassifier');
 const roteamentoService = require('../services/roteamentoService');
+const HandoverService = require('./handoverService');
 
 class MenuInterceptor {
     constructor() {
@@ -12,13 +13,13 @@ class MenuInterceptor {
             rastreamento: [
                 'rastreio', 'rastrear', 'mercadoria', 'encomenda', 'pedido',
                 'nota fiscal', 'nf', 'cnpj', 'status', 'onde está',
-                '📦', '1'
+                '📦'
             ],
             rh: [
                 'rh', 'recursos humanos', 'curriculo', 'currículo', 'cv',
                 'vagas', 'emprego', 'trabalho', 'vaga', 'carreira',
                 'oportunidade', 'contratação', 'seleção', 'recrutamento',
-                '👥', '2'
+                '👥'
             ],
             fornecedores: [
                 'fornecedor', 'fornecedores', 'compras', 'suprimentos',
@@ -32,8 +33,8 @@ class MenuInterceptor {
         };
 
         // Toggle: permite desativar o fallback por palavra‑chave via env
-        // ENABLE_KEYWORD_FALLBACK=true|false (default: true)
-        const flag = (process.env.ENABLE_KEYWORD_FALLBACK || 'true').toLowerCase();
+        // ENABLE_KEYWORD_FALLBACK=true|false (default: false para IA pura)
+        const flag = (process.env.ENABLE_KEYWORD_FALLBACK || 'false').toLowerCase();
         this.enableKeywordFallback = flag === 'true';
         
         // Timeout para limpar estados ociosos (15 minutos)
@@ -88,7 +89,9 @@ class MenuInterceptor {
                 }
             }
 
-            // Classificador de intenção por IA (sem palavras-chave)
+            // IA pura: sem detecções numéricas/palavras; roteamento via classificador
+
+            // Classificador de intenção por IA (IA pura)
             try {
                 const resultado = await classificar(normalizedMessage);
                 if (resultado && resultado.intent && resultado.intent !== 'none') {
@@ -101,24 +104,33 @@ class MenuInterceptor {
                     if (resultado.intent === 'fornecedores') {
                         return await this.startFornecedoresFlow(userNumber, resultado.fornecedores_action);
                     }
+                    if (resultado.intent === 'cotacao') {
+                        const filial = this.getUserFilial(userNumber);
+                        const resposta = HandoverService.gerarMensagemTransferencia('cotacao', filial);
+                        HandoverService.registrarTransferencia(userNumber, 'cotacao', filial);
+                        this.clearUserState(userNumber);
+                        return resposta;
+                    }
+                    if (resultado.intent === 'coleta') {
+                        const filial = this.getUserFilial(userNumber);
+                        const resposta = HandoverService.gerarMensagemTransferencia('coleta', filial);
+                        HandoverService.registrarTransferencia(userNumber, 'coleta', filial);
+                        this.clearUserState(userNumber);
+                        return resposta;
+                    }
+                    if (resultado.intent === 'atendente') {
+                        const filial = this.getUserFilial(userNumber);
+                        const resposta = HandoverService.gerarMensagemTransferencia('atendente', filial);
+                        HandoverService.registrarTransferencia(userNumber, 'atendente', filial);
+                        this.clearUserState(userNumber);
+                        return resposta;
+                    }
                 }
             } catch (clsErr) {
                 logger.error('Erro no classificador de intenção', { error: clsErr.message });
             }
 
-            // Fallback: keywords (compatibilidade) — controlado por flag
-            if (this.enableKeywordFallback && this.detectRastreamento(normalizedMessage)) {
-                logger.info('Fallback por palavra‑chave ativou rastreamento');
-                return await this.startRastreamentoFlow(userNumber);
-            }
-            if (this.enableKeywordFallback && this.detectRH(normalizedMessage)) {
-                logger.info('Fallback por palavra‑chave ativou RH');
-                return await this.startRHFlow(userNumber);
-            }
-            if (this.enableKeywordFallback && this.detectFornecedores(normalizedMessage)) {
-                logger.info('Fallback por palavra‑chave ativou Fornecedores');
-                return await this.startFornecedoresFlow(userNumber);
-            }
+            // IA pura: sem fallback de palavras‑chave
 
             // Não interceptou, passa para IA
             return null;
@@ -235,11 +247,11 @@ Para processar seu currículo, precisamos coletar e armazenar seus dados pessoai
 
 Bem-vindo ao nosso portal de RH! Como posso ajudá-lo hoje?
 
-**Opções disponíveis:**
-1️⃣ Enviar currículo
-2️⃣ Ver vagas abertas
+Exemplos de solicitações:
+• Enviar currículo
+• Ver vagas abertas
 
-            Digite o número da opção desejada ou a palavra-chave:`;
+Escreva em linguagem natural o que deseja fazer.`;
     }
 
     /**
@@ -671,11 +683,12 @@ Precisa de mais alguma coisa?
      */
     async handleRHMenuStep(userNumber, message, userState) {
         const normalizedMessage = message.toLowerCase().trim();
-
-        // Opção 1: Enviar currículo
-        if (normalizedMessage === '1' || normalizedMessage.includes('curriculo') || normalizedMessage.includes('currículo') || normalizedMessage.includes('cv')) {
-            userState.step = 'curriculo_lgpd';
-            return `📄 **ENVIO DE CURRÍCULO**
+        try {
+            const resultado = await classificar(normalizedMessage);
+            if (resultado && resultado.intent === 'rh') {
+                if (resultado.rh_action === 'enviar_curriculo') {
+                    userState.step = 'curriculo_lgpd';
+                    return `📄 **ENVIO DE CURRÍCULO**
 
 ⚖️ **AVISO LGPD - Lei Geral de Proteção de Dados**
 
@@ -690,23 +703,24 @@ Para processar seu currículo, precisamos coletar e armazenar seus dados pessoai
 
 ✅ Digite "SIM" para concordar
 ❌ Digite "NÃO" para cancelar`;
+                }
+                if (resultado.rh_action === 'ver_vagas') {
+                    this.clearUserState(userNumber);
+                    return await this.listarVagasAbertas();
+                }
+                // RH sem ação específica: orientar o usuário
+                return `👥 **RH**
+
+Conte o que deseja fazer em linguagem natural.
+Ex.: "Enviar currículo" ou "Ver vagas abertas".`;
+            }
+        } catch (err) {
+            logger.error('Erro ao classificar intenção dentro do RH', { error: err.message });
         }
 
-        // Opção 2: Ver vagas abertas
-        if (normalizedMessage === '2' || normalizedMessage.includes('vagas') || normalizedMessage.includes('emprego') || normalizedMessage.includes('trabalho')) {
-            this.clearUserState(userNumber);
-            return await this.listarVagasAbertas();
-        }
-
-        // Opção inválida
-        return `❌ **Opção inválida**
-
-Por favor, escolha uma das opções:
-
-1️⃣ Enviar currículo
-2️⃣ Ver vagas abertas
-
-Digite o número da opção ou a palavra-chave:`;
+        // Mensagem fora do escopo de RH: deixar IA geral tratar
+        this.clearUserState(userNumber);
+        return null;
     }
 
     /**
@@ -944,14 +958,14 @@ Digite sua cidade ou CEP:`;
 
 **Como posso te ajudar hoje?**
 
-1️⃣ *Rastreio de Mercadoria*
-2️⃣ *Trabalhe Conosco*
-3️⃣ *Cadastrar Fornecedor*
-4️⃣ *Solicitar Cotação*
-5️⃣ *Agendar Coleta*
-6️⃣ *Falar com Atendente*
+• Rastreio de Mercadoria
+• Trabalhe Conosco
+• Cadastrar Fornecedor
+• Solicitar Cotação
+• Agendar Coleta
+• Falar com Atendente
 
-Digite o número da opção ou a palavra-chave:`;
+Escreva em linguagem natural o que deseja fazer.`;
     }
 
     /**
