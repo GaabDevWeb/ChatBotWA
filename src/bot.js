@@ -15,6 +15,7 @@ const fs = require('fs');
 const { ContactsManager } = require('./contacts');
 const { eventManager } = require('./events');
 const { simularRespostaHumana } = require('./humanizer');
+const { mdToWhatsapp } = require('./formatters/mdToWhatsapp');
 const performanceMonitor = require('./performance');
 const messageQueue = require('./queue');
 const logger = require('./logger');
@@ -196,7 +197,9 @@ function startBot() {
                 from: message.from,
                 hasText: !!message.body
             });
-            const resposta = await pipeline.run(message.from, message.body);
+            let resposta = await pipeline.run(message.from, message.body);
+            // Converter Markdown para formato WhatsApp garantindo legibilidade
+            resposta = mdToWhatsapp(resposta);
             if (!resposta) {
                 await sendMessage(message.from, 'Erro ao processar mensagem. Tente novamente.');
                 return;
